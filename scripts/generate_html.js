@@ -10,6 +10,12 @@ const repos = JSON.parse(fs.readFileSync(reposFile, 'utf8'));
 // Sort repos alphabetically by default within categories
 repos.sort((a, b) => a.name.localeCompare(b.name));
 
+const totalCount = repos.length;
+const privateCount = repos.filter(r => r.isPrivate).length;
+const publicCount = repos.filter(r => !r.isPrivate).length;
+const reactCount = repos.filter(r => r.techStack.frameworks.includes('React')).length;
+const firebaseCount = repos.filter(r => r.techStack.cloud.includes('Firebase')).length;
+
 const htmlContent = `<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -46,14 +52,22 @@ const htmlContent = `<!DOCTYPE html>
       padding: 0;
     }
 
+    html, body {
+      width: 100vw;
+      height: 100vh;
+      max-width: 100vw;
+      max-height: 100vh;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
       font-family: var(--font);
       background-color: var(--bg);
       color: var(--text);
-      min-height: 100vh;
       display: flex;
       flex-direction: column;
-      overflow: hidden;
       user-select: none;
       -webkit-font-smoothing: antialiased;
     }
@@ -77,6 +91,8 @@ const htmlContent = `<!DOCTYPE html>
     /* Header Nav */
     header {
       height: 70px;
+      max-width: 100vw;
+      box-sizing: border-box;
       background: rgba(15, 23, 42, 0.85);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
@@ -85,6 +101,7 @@ const htmlContent = `<!DOCTYPE html>
       align-items: center;
       justify-content: space-between;
       padding: 0 24px;
+      gap: 16px;
       z-index: 40;
       flex-shrink: 0;
     }
@@ -93,6 +110,7 @@ const htmlContent = `<!DOCTYPE html>
       display: flex;
       align-items: center;
       gap: 14px;
+      flex-shrink: 0;
     }
 
     .brand-icon {
@@ -132,6 +150,9 @@ const htmlContent = `<!DOCTYPE html>
       border: 1px solid var(--border);
       font-size: 12px;
       color: var(--text-muted);
+      white-space: nowrap;
+      flex-shrink: 1;
+      overflow: hidden;
     }
 
     .stats-pills span strong {
@@ -534,7 +555,9 @@ const htmlContent = `<!DOCTYPE html>
       border-left: 1px solid var(--border);
       box-shadow: -10px 0 40px rgba(0, 0, 0, 0.6);
       transform: translateX(100%);
-      transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+      transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.28s;
+      visibility: hidden;
+      pointer-events: none;
       z-index: 100;
       display: flex;
       flex-direction: column;
@@ -543,6 +566,8 @@ const htmlContent = `<!DOCTYPE html>
 
     #detail-drawer.open {
       transform: translateX(0);
+      visibility: visible;
+      pointer-events: auto;
     }
 
     .drawer-header {
@@ -777,20 +802,20 @@ const htmlContent = `<!DOCTYPE html>
       </div>
       <div class="brand-text">
         <h1>Sandro Peixoto <span style="font-size:12px; font-weight:500; color:var(--accent); background:rgba(6,182,212,0.1); padding:2px 8px; border-radius:999px; border:1px solid rgba(6,182,212,0.25);">GitHub Ecosystem</span></h1>
-        <p>Mapa mental navegável e stacks dos 114 repositórios</p>
+        <p>Mapa mental navegável e stacks dos ${totalCount} repositórios</p>
       </div>
     </div>
 
     <div class="stats-pills">
-      <span>Total: <strong>\${repos.length} repos</strong></span>
+      <span>Total: <strong>${totalCount} repos</strong></span>
       <span style="opacity:0.3">|</span>
-      <span>🔒 Privados: <strong>\${repos.filter(r => r.isPrivate).length}</strong></span>
+      <span>🔒 Privados: <strong>${privateCount}</strong></span>
       <span style="opacity:0.3">|</span>
-      <span>🌐 Públicos: <strong>\${repos.filter(r => !r.isPrivate).length}</strong></span>
+      <span>🌐 Públicos: <strong>${publicCount}</strong></span>
       <span style="opacity:0.3">|</span>
-      <span>⚛️ React: <strong>\${repos.filter(r => r.techStack.frameworks.includes('React')).length}</strong></span>
+      <span>⚛️ React: <strong>${reactCount}</strong></span>
       <span style="opacity:0.3">|</span>
-      <span>🔥 Firebase: <strong>\${repos.filter(r => r.techStack.cloud.includes('Firebase')).length}</strong></span>
+      <span>🔥 Firebase: <strong>${firebaseCount}</strong></span>
     </div>
 
     <div class="header-actions">
@@ -817,7 +842,7 @@ const htmlContent = `<!DOCTYPE html>
   <div class="filter-bar" id="categoryFilterBar">
     <div class="filter-chip active" data-category="ALL">
       <span>Todos os Projetos</span>
-      <span class="chip-count">\${repos.length}</span>
+      <span class="chip-count">${totalCount}</span>
     </div>
   </div>
 
@@ -1118,7 +1143,7 @@ const htmlContent = `<!DOCTYPE html>
         <circle cx="-90" cy="0" r="20" fill="url(#rootGrad)"/>
         <text x="-90" y="5" text-anchor="middle" font-size="16" fill="#fff" font-weight="bold">SP</text>
         <text x="-56" y="-6" font-size="15" font-weight="700" fill="#ffffff" font-family="Plus Jakarta Sans">Sandro Peixoto</text>
-        <text x="-56" y="16" font-size="12" fill="#06b6d4" font-family="Plus Jakarta Sans" font-weight="600">\${REPOSITORIES.length} Repositórios GitHub</text>
+        <text x="-56" y="16" font-size="12" fill="#06b6d4" font-family="Plus Jakarta Sans" font-weight="600">${totalCount} Repositórios GitHub</text>
       \`;
       nodesG.appendChild(rootG);
 
