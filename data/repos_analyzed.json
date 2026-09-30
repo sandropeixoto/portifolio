@@ -9180,27 +9180,27 @@
   {
     "name": "portifolio",
     "url": "https://github.com/sandropeixoto/portifolio",
-    "isPrivate": true,
+    "isPrivate": false,
     "isFork": false,
     "description": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "readmeSummary": "Aplicação interativa em HTML com **Mapa Mental Navegável** e visualização em grade com a análise profunda de stacks, dependências e arquiteturas de todos os repositórios da conta GitHub `sandropeixoto`. Basta abrir o ...",
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
-    "updatedAt": "2026-09-30T13:03:26Z",
-    "pushedAt": "2026-09-30T13:02:50Z",
+    "updatedAt": "2026-09-30T13:08:01Z",
+    "pushedAt": "2026-09-30T13:03:29Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 218653,
-          "percentage": 76.3
+          "size": 219664,
+          "percentage": 76.4
         },
         {
           "name": "JavaScript",
           "size": 67954,
-          "percentage": 23.7
+          "percentage": 23.6
         }
       ],
       "frameworks": [],
