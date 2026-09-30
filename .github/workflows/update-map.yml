@@ -54,6 +54,7 @@ jobs:
             echo "Nenhuma alteração detectada para commit."
           else
             git commit -m "chore(auto): atualização incremental do portfólio [skip ci]"
+            git pull --rebase origin main
             git push origin HEAD
           fi
 
