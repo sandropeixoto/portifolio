@@ -16,6 +16,7 @@ const htmlContent = `<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mapa Mental - Portfólio de Repositórios | Sandro Peixoto</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -932,6 +933,7 @@ const htmlContent = `<!DOCTYPE html>
   <script>
     // Embedded Repositories Data
     const REPOSITORIES = ${JSON.stringify(repos)};
+    const repos = REPOSITORIES;
 
     // Category styling & icons
     const CATEGORY_META = {
@@ -1116,7 +1118,7 @@ const htmlContent = `<!DOCTYPE html>
         <circle cx="-90" cy="0" r="20" fill="url(#rootGrad)"/>
         <text x="-90" y="5" text-anchor="middle" font-size="16" fill="#fff" font-weight="bold">SP</text>
         <text x="-56" y="-6" font-size="15" font-weight="700" fill="#ffffff" font-family="Plus Jakarta Sans">Sandro Peixoto</text>
-        <text x="-56" y="16" font-size="12" fill="#06b6d4" font-family="Plus Jakarta Sans" font-weight="600">\${repos.length} Repositórios GitHub</text>
+        <text x="-56" y="16" font-size="12" fill="#06b6d4" font-family="Plus Jakarta Sans" font-weight="600">\${REPOSITORIES.length} Repositórios GitHub</text>
       \`;
       nodesG.appendChild(rootG);
 
