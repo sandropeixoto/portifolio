@@ -6359,26 +6359,26 @@
     "readmeSummary": "*** A **Urano Inteligência & Tecnologia** atua na vanguarda da inovação digital, oferecendo soluções de tours virtuais 360º de alto impacto. O software foca em apresentar os espaços de empresas com tecnologia de ponta...",
     "effectiveDescription": "A Urano Inteligência & Tecnologia atua na vanguarda da inovação digital, oferecendo soluções de tours virtuais 360º de alto impacto. O software foca em apresentar os espaços de empresas com tecnologia de ponta. ",
     "createdAt": "2026-04-15T17:10:23Z",
-    "updatedAt": "2026-07-24T12:50:33Z",
-    "pushedAt": "2026-05-17T21:27:03Z",
+    "updatedAt": "2026-11-06T13:21:39Z",
+    "pushedAt": "2026-11-06T13:21:35Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 36783,
-          "percentage": 89.5
+          "size": 40953,
+          "percentage": 90.5
         },
         {
           "name": "JavaScript",
           "size": 2605,
-          "percentage": 6.3
+          "percentage": 5.8
         },
         {
           "name": "CSS",
           "size": 1321,
-          "percentage": 3.2
+          "percentage": 2.9
         },
         {
           "name": "HTML",
@@ -6399,7 +6399,7 @@
       "databases": [],
       "cloud": [],
       "tools": [
-        "Google Gemini SDK"
+        "Google Gemini AI"
       ],
       "keyDependencies": [
         "@google/genai",
@@ -6429,8 +6429,7 @@
         "src",
         "tsconfig.json",
         "vite.config.ts"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -9186,8 +9185,8 @@
     "readmeSummary": "Aplicação interativa em HTML com **Mapa Mental Navegável** e visualização em grade com a análise profunda de stacks, dependências e arquiteturas de todos os repositórios da conta GitHub `sandropeixoto`. Basta abrir o ...",
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
-    "updatedAt": "2026-11-04T13:54:35Z",
-    "pushedAt": "2026-11-04T13:54:31Z",
+    "updatedAt": "2026-11-05T14:10:55Z",
+    "pushedAt": "2026-11-05T14:10:50Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
