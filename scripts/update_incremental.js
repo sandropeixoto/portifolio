@@ -308,10 +308,16 @@ for (let i = 0; i < reposToUpdate.length; i += BATCH_SIZE) {
       timeout: 30000
     });
     const parsed = JSON.parse(output);
+    if (parsed.errors?.length) {
+      throw new Error(parsed.errors.map(error => error.message).join('; '));
+    }
     const data = parsed.data || {};
 
     chunk.forEach((repo, idx) => {
-      const repoData = data[`r${idx}`] || {};
+      const repoData = data[`r${idx}`];
+      if (!repoData) {
+        throw new Error(`O GitHub não retornou dados para ${repo.name}.`);
+      }
       const pkgs = [
         parsePackageJson(repoData.pkg?.text),
         parsePackageJson(repoData.pkgFront?.text),
@@ -358,6 +364,7 @@ for (let i = 0; i < reposToUpdate.length; i += BATCH_SIZE) {
     });
   } catch (err) {
     console.error(`Erro ao processar lote:`, err.message);
+    process.exit(1);
   }
 }
 

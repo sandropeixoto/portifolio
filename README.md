@@ -28,7 +28,12 @@ O ecossistema é mantido atualizado de forma inteligente pelo script `scripts/up
 ### Princípios de Otimização:
 1. **Verificação Delta Rápida:** O script faz apenas 1 requisição leve para verificar a data do último commit (`pushedAt`) de todos os repositórios.
 2. **Atualização Cirúrgica:** Se nada foi alterado, o script encerra em menos de 4 segundos. Se apenas 1 repositório teve push, **apenas esse repositório** é consultado a fundo via GraphQL.
-3. **Regeneração Automática:** Os arquivos `data/repos_analyzed.json` e `index.html` são atualizados e commitados automaticamente pela Action.
+3. **Novos repositórios:** Repositórios que ainda não existem na base são incluídos automaticamente na próxima execução. A varredura agendada ocorre diariamente às 06:00 UTC (03:00 no horário de Brasília).
+4. **Regeneração Automática:** Os arquivos `data/repos_analyzed.json` e `index.html` são atualizados e commitados automaticamente pela Action.
+
+### Acesso aos repositórios
+
+A Action usa o secret `PAT_UPDATE_PORTFOLIO` para listar e analisar os repositórios da conta, inclusive os privados. Configure esse secret nas configurações deste repositório com um Personal Access Token que tenha acesso aos repositórios desejados (token clássico com escopo `repo`, ou token fine-grained com acesso aos repositórios e permissões de leitura de metadados e conteúdo). Para também enviar notificações `repository_dispatch` com um token fine-grained, conceda `Contents: write` no repositório do portfólio. O `GITHUB_TOKEN` padrão da Action só acessa este repositório e não consegue descobrir todos os repositórios privados da conta.
 
 ---
 
@@ -42,8 +47,8 @@ O workflow roda automaticamente todo dia às **06:00 UTC** via GitHub Actions, v
 2. Selecione o workflow **Atualizar Portfólio & Mapa Mental**.
 3. Clique em **Run workflow**. (Você pode deixar o campo vazio para verificar tudo ou informar o nome exato de um repositório).
 
-### 3. Em Tempo Real no Push de Qualquer Outro Repositório
-Para que um projeto atualize o portfólio no momento exato em que você fizer push na branch principal (`main`), adicione o seguinte step no workflow existente daquele projeto:
+### 3. Atualização imediata após push em outro repositório
+O agendamento diário descobre repositórios novos na próxima varredura. Para atualizar logo após um push na branch principal (`main`), adicione o seguinte step no workflow existente daquele projeto:
 
 ```yaml
 - name: 🔔 Notificar Portfólio
@@ -56,7 +61,7 @@ Para que um projeto atualize o portfólio no momento exato em que você fizer pu
     GH_TOKEN: ${{ secrets.PAT_UPDATE_PORTFOLIO }}
 ```
 
-*(Nota: Crie um Personal Access Token (PAT) com escopo `repo` e salve-o como Secret com o nome `PAT_UPDATE_PORTFOLIO`).*
+O mesmo secret `PAT_UPDATE_PORTFOLIO` precisa estar configurado neste repositório e nos projetos que farão a notificação. A notificação por push só funciona nos projetos em que esse step foi instalado; a varredura diária continua cobrindo repositórios sem ele.
 
 ---
 
@@ -71,7 +76,7 @@ portifolio/
 │   ├── update_incremental.js       # Mecanismo de sincronização delta / cirúrgica
 │   └── generate_html.js            # Gerador do mapa mental HTML a partir do dataset
 ├── data/
-│   └── repos_analyzed.json         # Base de dados estruturada com os 114 repositórios
+│   └── repos_analyzed.json         # Base de dados estruturada com os repositórios analisados
 ├── index.html                      # Interface web moderna com o Mapa Mental navegável
 ├── .gitignore
 └── README.md

@@ -38,9 +38,18 @@ jobs:
         with:
           node-version: 22
 
+      - name: Validar token para leitura dos repositórios
+        env:
+          PAT_UPDATE_PORTFOLIO: ${{ secrets.PAT_UPDATE_PORTFOLIO }}
+        run: |
+          if [ -z "$PAT_UPDATE_PORTFOLIO" ]; then
+            echo "::error::Configure o secret PAT_UPDATE_PORTFOLIO com acesso de leitura a todos os repositórios que devem aparecer no portfólio."
+            exit 1
+          fi
+
       - name: Executar Atualização Incremental
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_UPDATE_PORTFOLIO }}
           TARGET_REPO: ${{ github.event.client_payload.repo || github.event.inputs.target_repo }}
         run: |
           node scripts/update_incremental.js
