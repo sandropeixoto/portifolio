@@ -9185,15 +9185,15 @@
     "readmeSummary": "Aplicação interativa em HTML com **Mapa Mental Navegável** e visualização em grade com a análise profunda de stacks, dependências e arquiteturas de todos os repositórios da conta GitHub `sandropeixoto`. Basta abrir o ...",
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
-    "updatedAt": "2026-11-05T14:10:55Z",
-    "pushedAt": "2026-11-05T14:10:50Z",
+    "updatedAt": "2026-11-06T13:46:16Z",
+    "pushedAt": "2026-11-06T13:46:12Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 220025,
+          "size": 220005,
           "percentage": 76.2
         },
         {
