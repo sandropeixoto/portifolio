@@ -252,16 +252,21 @@
     "readmeSummary": "",
     "effectiveDescription": "Site candidata Ursula 4040",
     "createdAt": "2026-09-16T02:20:57Z",
-    "updatedAt": "2026-09-29T19:45:41Z",
-    "pushedAt": "2026-09-29T19:45:37Z",
+    "updatedAt": "2026-11-02T23:21:59Z",
+    "pushedAt": "2026-11-02T23:21:55Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 390246,
-          "percentage": 99.3
+          "size": 393905,
+          "percentage": 97.3
+        },
+        {
+          "name": "Python",
+          "size": 7896,
+          "percentage": 2
         },
         {
           "name": "HTML",
@@ -289,7 +294,7 @@
         "Cloudflare Workers"
       ],
       "tools": [
-        "Google Gemini SDK"
+        "Google Gemini AI"
       ],
       "keyDependencies": [
         "@google/genai",
@@ -313,6 +318,7 @@
         "7 selo ursula.png",
         "8 banner topo.jpg",
         "9 venha conhecer.png",
+        "AGENTS.md",
         "docs",
         "index.html",
         "metadata.json",
@@ -320,12 +326,12 @@
         "package-lock.json",
         "package.json",
         "public",
+        "scripts",
         "src",
         "tsconfig.json",
         "vite.config.ts",
         "wrangler.toml"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -337,15 +343,15 @@
     "readmeSummary": "**Versão:** `0.1.0-MVP` **Órgão Titular:** Secretaria de Estado da Fazenda do Pará (SEFA / PA) **Escopo:** `PCA → Processo de Contratação → Pacote Preparatório / PAE`",
     "effectiveDescription": "Contratações Publicas",
     "createdAt": "2026-09-29T15:05:46Z",
-    "updatedAt": "2026-09-29T17:25:51Z",
-    "pushedAt": "2026-09-29T17:25:39Z",
+    "updatedAt": "2026-10-09T12:09:45Z",
+    "pushedAt": "2026-10-09T12:09:41Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 330805,
+          "size": 528095,
           "percentage": 100
         }
       ],
@@ -356,26 +362,34 @@
       "tools": [],
       "keyDependencies": [],
       "rootFiles": [
+        ".env.example",
         ".gitattributes",
+        ".github",
         ".gitignore",
+        ".htaccess",
+        "AGENTS.md",
+        "Checklist_Fase_Preparatoria_v_14_fev.docx",
         "FUTURAS_MELHORIAS.md",
+        "MANUAL_CONFORMIDADE.md",
         "MER-Contratacoes-esquema-inicial.sql",
         "MER-Contratacoes.md",
+        "Manual-de-Fase-Preparatoria-da-Contratacao-Publica-Revista-e-Ampliada-2-Ed.docx",
         "O_QUE_FOI_FEITO.md",
         "PRD-MER-GestorGov-Contratacoes.pdf",
         "README.md",
+        "SSO_INTEGRATION_GUIDE.md",
         "SUGESTOES.md",
         "api",
         "config",
         "database",
         "index.php",
+        "output",
         "processo.php",
         "public",
         "relatorio.php",
         "src",
         "tests"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -383,45 +397,45 @@
     "url": "https://github.com/sandropeixoto/Captura-OLX",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Sistema automatizado de web scraping de anúncios da OLX com persistência MySQL/SQLite, alertas WhatsApp (UazAPI) e painel web.",
     "readmeSummary": "Sistema automatizado de captura (web scraping) de anúncios da OLX Brasil, persistência direta no **MySQL oficial** (`sspeixot_olx`) com redundância local em **SQLite**, notificações automáticas via **WhatsApp (UAZAPI)...",
-    "effectiveDescription": "Sistema automatizado de captura (web scraping) de anúncios da OLX Brasil, persistência direta no **MySQL oficial** (`sspeixot_olx`) com redundância local em **SQLite**, notificações automáticas via **WhatsApp (UAZAPI)...",
+    "effectiveDescription": "Sistema automatizado de web scraping de anúncios da OLX com persistência MySQL/SQLite, alertas WhatsApp (UazAPI) e painel web.",
     "createdAt": "2026-05-21T11:32:22Z",
-    "updatedAt": "2026-09-29T15:37:03Z",
-    "pushedAt": "2026-09-29T15:33:20Z",
+    "updatedAt": "2026-11-07T11:15:18Z",
+    "pushedAt": "2026-11-07T11:15:14Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
       "primaryLanguage": "Python",
       "languages": [
         {
           "name": "Python",
-          "size": 85418,
-          "percentage": 46.9
+          "size": 152430,
+          "percentage": 44
         },
         {
           "name": "PHP",
-          "size": 52646,
-          "percentage": 28.9
+          "size": 150062,
+          "percentage": 43.3
         },
         {
           "name": "TypeScript",
           "size": 38584,
-          "percentage": 21.2
+          "percentage": 11.1
         },
         {
           "name": "CSS",
           "size": 3651,
-          "percentage": 2
+          "percentage": 1.1
         },
         {
           "name": "Batchfile",
           "size": 1230,
-          "percentage": 0.7
+          "percentage": 0.4
         },
         {
           "name": "JavaScript",
           "size": 591,
-          "percentage": 0.3
+          "percentage": 0.2
         }
       ],
       "frameworks": [],
@@ -444,6 +458,8 @@
       "rootFiles": [
         ".env.example",
         ".gitignore",
+        ".infisical.yaml",
+        "AGENTS.md",
         "Dockerfile.scraper",
         "GEMINI.md",
         "README.md",
@@ -452,11 +468,15 @@
         "appwrite_react_version",
         "capture_olx_ads.py",
         "category_samples.json",
+        "cleanup_database.py",
+        "database_migrations",
         "database_schema.sql",
         "database_schema_mysql.sql",
         "docker-compose.yml",
+        "docs",
         "extract_olx_image.py",
         "pasta1",
+        "populate_benchmarks_and_fix_prices.py",
         "public",
         "requirements.txt",
         "run_capture_direct_url.bat",
@@ -467,10 +487,9 @@
         "run_retry_ai_pending.bat",
         "run_sync.bat",
         "scraper",
-        "sync_to_remote.py"
-      ],
-      "devAssistance": [
-        "Gemini Docs"
+        "scripts",
+        "sync_to_remote.py",
+        "tests"
       ]
     }
   },
@@ -480,29 +499,24 @@
     "isPrivate": true,
     "isFork": false,
     "description": "UXI Research",
-    "readmeSummary": "O UXI é uma plataforma web para configurar pesquisas de opinião, publicar questionários, coletar entrevistas e acompanhar a evolução da amostra em tempo real. O sistema centraliza o desenho metodológico, a gestão de p...",
+    "readmeSummary": "O UXI cria e administra pesquisas de opinião, publica questionários, coleta entrevistas e acompanha amostras e resultados. A produção usa Cloudflare Workers e Appwrite self-hosted. - Administração de pesquisas, pergun...",
     "effectiveDescription": "UXI Research",
     "createdAt": "2026-06-09T13:50:20Z",
-    "updatedAt": "2026-09-25T10:12:08Z",
-    "pushedAt": "2026-09-25T10:12:04Z",
+    "updatedAt": "2026-10-06T01:32:51Z",
+    "pushedAt": "2026-10-06T01:32:47Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 462448,
-          "percentage": 98.6
+          "size": 429328,
+          "percentage": 98.8
         },
         {
           "name": "CSS",
           "size": 4194,
-          "percentage": 0.9
-        },
-        {
-          "name": "Dockerfile",
-          "size": 1323,
-          "percentage": 0.3
+          "percentage": 1
         },
         {
           "name": "HTML",
@@ -512,8 +526,7 @@
       ],
       "frameworks": [
         "React",
-        "Vite",
-        "Express"
+        "Vite"
       ],
       "libraries": [
         "Tailwind CSS",
@@ -522,60 +535,45 @@
       ],
       "databases": [],
       "cloud": [
-        "Firebase",
         "Cloudflare Workers"
       ],
-      "tools": [
-        "Docker",
-        "Google Gemini SDK"
-      ],
+      "tools": [],
       "keyDependencies": [
-        "@google/genai",
         "@tailwindcss/vite",
         "@vitejs/plugin-react",
         "appwrite",
-        "dotenv",
-        "express",
-        "firebase",
         "html2canvas",
         "jspdf",
         "lucide-react",
         "motion",
-        "react"
+        "react",
+        "react-dom",
+        "vite",
+        "@cloudflare/vite-plugin",
+        "@cloudflare/workers-types"
       ],
       "rootFiles": [
         ".dev.vars.example",
-        ".dockerignore",
-        ".env.example",
         ".gitignore",
         "AGENTS.md",
-        "DRAFT_firestore.rules",
-        "Dockerfile",
         "MIGRATION.md",
+        "PERFORMANCE_PLAN.md",
         "README.md",
         "assets",
-        "cloudbuild.yaml",
-        "firebase-applet-config.json",
-        "firebase-blueprint.json",
-        "firebase.json",
-        "firestore.rules",
         "index.html",
-        "metadata.json",
         "package-lock.json",
         "package.json",
         "scripts",
         "security_spec.md",
-        "server.ts",
         "src",
         "tsconfig.json",
         "vite.config.ts",
         "vite.edge.config.ts",
+        "vite.production.config.ts",
         "worker-configuration.d.ts",
         "worker",
-        "wrangler.jsonc"
-      ],
-      "devAssistance": [
-        "Antigravity Agents"
+        "wrangler.jsonc",
+        "wrangler.production.jsonc"
       ]
     }
   },
@@ -588,31 +586,31 @@
     "readmeSummary": "O **Gestor de Pedidos (Fluxo Gestor)** é uma solução enterprise completa para gestão operacional de vendas, acompanhamento visual de esteira de produção (Kanban), roteirização e despacho de entregas, inteligência de f...",
     "effectiveDescription": "O Gestor de Pedidos (Fluxo Gestor) é uma solução enterprise completa para gestão operacional de vendas, acompanhamento visual de esteira de produção (Kanban), roteirização e despacho de entregas, inteligência de frete dinâmico duplo, automação de notificações via WhatsApp, força de vendas externa com portal de representantes comerciais.",
     "createdAt": "2026-08-04T16:30:41Z",
-    "updatedAt": "2026-09-20T12:19:08Z",
-    "pushedAt": "2026-09-20T12:19:04Z",
+    "updatedAt": "2026-11-03T21:50:45Z",
+    "pushedAt": "2026-11-03T21:50:41Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 2203257,
-          "percentage": 91.4
+          "size": 2369711,
+          "percentage": 91.2
         },
         {
           "name": "JavaScript",
-          "size": 160788,
-          "percentage": 6.7
+          "size": 183483,
+          "percentage": 7.1
         },
         {
           "name": "Kotlin",
           "size": 21736,
-          "percentage": 0.9
+          "percentage": 0.8
         },
         {
           "name": "CSS",
           "size": 20610,
-          "percentage": 0.9
+          "percentage": 0.8
         },
         {
           "name": "Hack",
@@ -629,7 +627,9 @@
       "libraries": [],
       "databases": [],
       "cloud": [],
-      "tools": [],
+      "tools": [
+        "WhatsApp API"
+      ],
       "keyDependencies": [],
       "rootFiles": [
         ".context-cache",
@@ -652,14 +652,10 @@
         "orcamento.php",
         "pdv.php",
         "public",
-        "scripts",
         "setup.php",
         "src",
         "uazapi-openapi-spec.yaml",
         "vendizap_cache_api.md"
-      ],
-      "devAssistance": [
-        "Antigravity Agents"
       ]
     }
   },
@@ -802,12 +798,12 @@
     "url": "https://github.com/sandropeixoto/Eventos-SindiClubesPA",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Plataforma web para gestão de inscrições, credenciamento e divulgação de eventos do Sindicato dos Clubes do Pará (SindiClubes-PA).",
     "readmeSummary": "O **Eventos Sindiclubes Pará** é uma plataforma web desenvolvida para otimizar e centralizar a gestão de inscrições e a divulgação de eventos promovidos pelo Sindiclubes. A solução substitui processos manuais (planilh...",
-    "effectiveDescription": "O **Eventos Sindiclubes Pará** é uma plataforma web desenvolvida para otimizar e centralizar a gestão de inscrições e a divulgação de eventos promovidos pelo Sindiclubes. A solução substitui processos manuais (planilh...",
+    "effectiveDescription": "Plataforma web para gestão de inscrições, credenciamento e divulgação de eventos do Sindicato dos Clubes do Pará (SindiClubes-PA).",
     "createdAt": "2026-03-23T20:36:26Z",
-    "updatedAt": "2026-09-19T17:00:35Z",
-    "pushedAt": "2026-09-19T17:00:32Z",
+    "updatedAt": "2026-11-06T23:56:49Z",
+    "pushedAt": "2026-10-31T12:29:45Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "JavaScript",
@@ -819,7 +815,7 @@
         },
         {
           "name": "PHP",
-          "size": 284050,
+          "size": 282651,
           "percentage": 4.6
         },
         {
@@ -856,7 +852,6 @@
         ".claude",
         ".codex",
         ".cursor",
-        ".env",
         ".env.example",
         ".gemini",
         ".gitattributes",
@@ -887,11 +882,6 @@
         "scripts",
         "uploads",
         "wp-plugin"
-      ],
-      "devAssistance": [
-        "Gemini Docs",
-        "Claude Docs",
-        "Antigravity Agents"
       ]
     }
   },
@@ -900,19 +890,19 @@
     "url": "https://github.com/sandropeixoto/PCA",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
-    "readmeSummary": "Este repositório contém a base do sistema de **Plano de Contratações Anual (PCA)** da **Secretaria de Estado da Fazenda do Pará (SEFA-PA)**. Ele serve como documentação de referência para a modernização técnica da pla...",
-    "effectiveDescription": "Este repositório contém a base do sistema de **Plano de Contratações Anual (PCA)** da **Secretaria de Estado da Fazenda do Pará (SEFA-PA)**. Ele serve como documentação de referência para a modernização técnica da pla...",
+    "description": "Aplicação web para coleta, consolidação e revisão do Plano de Contratações Anual (PCA).",
+    "readmeSummary": "Aplicação web em PHP e MySQL para coleta, organização, revisão e exportação das demandas do Plano de Contratações Anual. O fluxo ativo na raiz atende ao PCA 2027; `pca_legado/` preserva páginas do PCA 2026. - PHP proc...",
+    "effectiveDescription": "Aplicação web para coleta, consolidação e revisão do Plano de Contratações Anual (PCA).",
     "createdAt": "2026-06-24T15:02:58Z",
-    "updatedAt": "2026-07-23T23:48:26Z",
-    "pushedAt": "2026-09-19T00:00:17Z",
+    "updatedAt": "2026-11-06T23:56:52Z",
+    "pushedAt": "2026-10-27T13:40:24Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 194200,
+          "size": 601767,
           "percentage": 100
         }
       ],
@@ -926,21 +916,32 @@
         ".agents",
         ".github",
         ".gitignore",
+        ".htaccess",
         "AGENT.md",
+        "AGENTS.md",
         "AIClassifier.php",
+        "GESTORGOV_SSO.md",
+        "PCAAIModelSettings.php",
+        "PCAAIUsageLimiter.php",
         "README.md",
         "admin",
         "api",
+        "auth",
         "config.php",
+        "docs",
+        "env.php",
         "exportar_pncp.php",
         "index.php",
+        "migrations",
         "pca_legado",
+        "pca_planning.php",
         "prompts_ai_studio.md",
         "roadmap_pca_2027.md",
         "schema.sql",
-        "schema_referenced.sql"
-      ],
-      "devAssistance": []
+        "schema_referenced.sql",
+        "security.php",
+        "tests"
+      ]
     }
   },
   {
@@ -948,25 +949,25 @@
     "url": "https://github.com/sandropeixoto/GestorGov",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
-    "readmeSummary": "> **Autenticação atual (P1):** link ou código de seis números no mesmo e-mail, com uso único e validade de 10 minutos. O primeiro login confirmado cria automaticamente a conta local com perfil `Usuário`; cada pessoa p...",
-    "effectiveDescription": "> **Autenticação atual (P1):** link ou código de seis números no mesmo e-mail, com uso único e validade de 10 minutos. O primeiro login confirmado cria automaticamente a conta local com perfil `Usuário`; cada pessoa p...",
+    "description": "Portal institucional de autenticação unificada, controle de acesso baseado em papéis (RBAC) e gestão corporativa para órgãos públicos.",
+    "readmeSummary": "GestorGov é um portal PHP para autenticação institucional por e-mail, acesso a módulos via SSO v2, gerenciamento de contas e cards, perfil e auditoria do portal. - O checkout contém o portal central. O módulo de contr...",
+    "effectiveDescription": "Portal institucional de autenticação unificada, controle de acesso baseado em papéis (RBAC) e gestão corporativa para órgãos públicos.",
     "createdAt": "2026-03-06T14:33:54Z",
-    "updatedAt": "2026-09-18T23:50:50Z",
-    "pushedAt": "2026-09-18T23:50:46Z",
-    "category": "Sistemas de Gestão & Governança",
+    "updatedAt": "2026-11-06T23:56:52Z",
+    "pushedAt": "2026-10-27T13:25:57Z",
+    "category": "Sites Institucionais & Portais",
     "techStack": {
       "primaryLanguage": "JavaScript",
       "languages": [
         {
           "name": "JavaScript",
-          "size": 5782242,
-          "percentage": 91.6
+          "size": 5782285,
+          "percentage": 91.2
         },
         {
           "name": "PHP",
-          "size": 349062,
-          "percentage": 5.5
+          "size": 377939,
+          "percentage": 6
         },
         {
           "name": "Handlebars",
@@ -1012,6 +1013,7 @@
         ".gitattributes",
         ".github",
         ".gitignore",
+        "AGENTS.md",
         "EXECUTAR_NO_FUTURO.md",
         "GEMINI.md",
         "README.md",
@@ -1045,6 +1047,7 @@
         "manage_sso.php",
         "manage_users.php",
         "migrations",
+        "output",
         "package-lock.json",
         "package.json",
         "profile.php",
@@ -1064,11 +1067,10 @@
         "users_module.sql",
         "verify.php",
         "view_logs.php",
-        "walkthrough.md"
-      ],
-      "devAssistance": [
-        "Gemini Docs",
-        "Antigravity Agents"
+        "walkthrough.md",
+        "whatsapp_service.php",
+        "whatsapp_settings.php",
+        "whatsapp_settings_action.php"
       ]
     }
   },
@@ -1081,8 +1083,8 @@
     "readmeSummary": "**Uma plataforma robusta e escalável de gestão de contratos e fornecedores, operando em arquitetura Satélite (Headless-ready) com autenticação SSO delegada e auditoria nativa.** Este sistema foi desenvolvido para orga...",
     "effectiveDescription": "Este sistema foi desenvolvido para organizações que necessitam de uma solução modular, segura e integrada ao Portal GestorGov, com funcionalidades completas de gestão contratual, rastreamento de cronogramas de pagamento e controle de acesso baseado em papéis (RBAC).",
     "createdAt": "2026-03-16T14:51:08Z",
-    "updatedAt": "2026-09-18T22:38:47Z",
-    "pushedAt": "2026-09-18T22:38:44Z",
+    "updatedAt": "2026-11-06T14:25:46Z",
+    "pushedAt": "2026-11-06T14:25:42Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "JavaScript",
@@ -1090,12 +1092,12 @@
         {
           "name": "JavaScript",
           "size": 5785715,
-          "percentage": 84.6
+          "percentage": 80.7
         },
         {
           "name": "PHP",
-          "size": 874722,
-          "percentage": 12.8
+          "size": 1205351,
+          "percentage": 16.8
         },
         {
           "name": "Handlebars",
@@ -1110,12 +1112,12 @@
         {
           "name": "Shell",
           "size": 37666,
-          "percentage": 0.6
+          "percentage": 0.5
         },
         {
           "name": "CSS",
-          "size": 31042,
-          "percentage": 0.5
+          "size": 31491,
+          "percentage": 0.4
         }
       ],
       "frameworks": [],
@@ -1151,12 +1153,14 @@
         "SUGGESTIONS.md",
         "ajax_ai.php",
         "ajax_assistente.php",
+        "ajax_contract_duplicate_check.php",
         "ajax_cronograma.php",
         "ajax_fiscais.php",
         "ajax_naturezas.php",
         "ajax_perfil.php",
         "ajax_pncp_fetch.php",
         "ajax_prestador.php",
+        "ajax_prestador_cnpj.php",
         "ajax_prestador_details.php",
         "assets",
         "assistant_widget.php",
@@ -1174,10 +1178,13 @@
         "contracts_action.php",
         "contratos.php",
         "contratos_anexos_action.php",
+        "contratos_anexos_confirm.php",
         "contratos_export.php",
+        "contratos_pdf.php",
         "coordenacoes.php",
         "coordenacoes_action.php",
         "csrf.php",
+        "diagnostico_ambiente_php.php",
         "diretorias.php",
         "diretorias_action.php",
         "docs",
@@ -1210,11 +1217,6 @@
         "tailwind.config.js",
         "tests",
         "uploads"
-      ],
-      "devAssistance": [
-        "Gemini Docs",
-        "Claude Docs",
-        "Antigravity Agents"
       ]
     }
   },
@@ -1304,35 +1306,35 @@
     "url": "https://github.com/sandropeixoto/Project-WhatsApp-Tools",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Plataforma para gestão centralizada e automação de instâncias WhatsApp via UazAPI, disparos em lote e atendimento inteligente.",
     "readmeSummary": "O **WhatsApp Tools** é uma plataforma corporativa robusta desenvolvida para centralizar a gestão de instâncias de WhatsApp via **UazAPI**. A solução unifica o controle administrativo, o envio programático de mensagens...",
-    "effectiveDescription": "O **WhatsApp Tools** é uma plataforma corporativa robusta desenvolvida para centralizar a gestão de instâncias de WhatsApp via **UazAPI**. A solução unifica o controle administrativo, o envio programático de mensagens...",
+    "effectiveDescription": "Plataforma para gestão centralizada e automação de instâncias WhatsApp via UazAPI, disparos em lote e atendimento inteligente.",
     "createdAt": "2026-02-24T11:12:57Z",
-    "updatedAt": "2026-09-17T22:12:19Z",
-    "pushedAt": "2026-09-17T22:12:15Z",
+    "updatedAt": "2026-11-06T23:56:47Z",
+    "pushedAt": "2026-11-05T10:26:24Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 1391948,
-          "percentage": 93.4
+          "size": 1567696,
+          "percentage": 91.8
         },
         {
           "name": "JavaScript",
-          "size": 59970,
-          "percentage": 4
+          "size": 97605,
+          "percentage": 5.7
         },
         {
           "name": "Hack",
           "size": 30325,
-          "percentage": 2
+          "percentage": 1.8
         },
         {
           "name": "CSS",
-          "size": 8394,
-          "percentage": 0.6
+          "size": 11414,
+          "percentage": 0.7
         },
         {
           "name": "HTML",
@@ -1344,7 +1346,9 @@
       "libraries": [],
       "databases": [],
       "cloud": [],
-      "tools": [],
+      "tools": [
+        "WhatsApp API"
+      ],
       "keyDependencies": [],
       "rootFiles": [
         ".antigravitycli",
@@ -1370,6 +1374,7 @@
         "api_monitor.php",
         "apply_schema.php",
         "assets",
+        "atendimento.php",
         "backfill_logs.php",
         "chat.php",
         "chatbot.php",
@@ -1382,6 +1387,7 @@
         "cron_chat_monitor.php",
         "cron_check_alert.php",
         "cron_check_instances.php",
+        "cron_manager.php",
         "cron_monitor.php",
         "dashboard.php",
         "database",
@@ -1421,10 +1427,6 @@
         "uazapi-openapi-spec.yaml",
         "users.php",
         "webhook.php"
-      ],
-      "devAssistance": [
-        "Claude Docs",
-        "Antigravity Agents"
       ]
     }
   },
@@ -1852,21 +1854,21 @@
     "readmeSummary": "O **Portal de Doações e Arrecadação da Fundação Pestalozzi do Pará** é uma plataforma corporativa FullStack desenvolvida para centralizar, automatizar e auditar todo o ciclo de captação de recursos e arrecadação de do...",
     "effectiveDescription": "Portal de Doações",
     "createdAt": "2026-05-30T11:52:59Z",
-    "updatedAt": "2026-09-16T17:47:35Z",
-    "pushedAt": "2026-09-16T17:47:30Z",
+    "updatedAt": "2026-10-11T23:54:22Z",
+    "pushedAt": "2026-10-14T00:37:04Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 916131,
-          "percentage": 99.6
+          "size": 1012341,
+          "percentage": 99.7
         },
         {
           "name": "HTML",
           "size": 1385,
-          "percentage": 0.2
+          "percentage": 0.1
         },
         {
           "name": "Dockerfile",
@@ -1891,11 +1893,12 @@
       ],
       "databases": [],
       "cloud": [
-        "Firebase"
+        "Firebase",
+        "Cloudflare Workers"
       ],
       "tools": [
         "Docker",
-        "Google Gemini SDK"
+        "Google Gemini AI"
       ],
       "keyDependencies": [
         "@google/genai",
@@ -1929,6 +1932,7 @@
         "firestore.rules",
         "index.html",
         "metadata.json",
+        "migrations",
         "package-lock.json",
         "package.json",
         "public",
@@ -1937,10 +1941,11 @@
         "server.ts",
         "src",
         "tsconfig.json",
-        "vite.config.ts"
-      ],
-      "devAssistance": [
-        "Antigravity Agents"
+        "vite.cloudflare.config.ts",
+        "vite.config.ts",
+        "worker-configuration.d.ts",
+        "worker",
+        "wrangler.jsonc"
       ]
     }
   },
@@ -1954,8 +1959,8 @@
     "effectiveDescription": "Este projeto foi criado para gerenciar de forma justa e automática a escala de responsabilidades, como a compra do café da manhã, entre os membros de uma equipe. O sistema gera uma escala de rodízio, pulando automaticamente fins de semana e feriados, e permitindo o gerenciamento de ausências.",
     "createdAt": "2026-02-09T14:22:25Z",
     "updatedAt": "2026-09-16T16:46:47Z",
-    "pushedAt": "2026-09-16T16:46:43Z",
-    "category": "Inteligência Artificial & Agentes",
+    "pushedAt": "2026-10-13T12:11:23Z",
+    "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "Python",
       "languages": [
@@ -2002,7 +2007,9 @@
       "cloud": [
         "Firebase"
       ],
-      "tools": [],
+      "tools": [
+        "WhatsApp API"
+      ],
       "keyDependencies": [
         "date-fns",
         "firebase",
@@ -2046,11 +2053,6 @@
         "tailwind.config.js",
         "uazapi-openapi-spec.yaml",
         "vite.config.js"
-      ],
-      "devAssistance": [
-        "Gemini Docs",
-        "Claude Docs",
-        "Antigravity Agents"
       ]
     }
   },
@@ -2234,12 +2236,12 @@
     "url": "https://github.com/sandropeixoto/Voto-Pro-Brasil",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Plataforma SaaS multi-tenant para gestão estratégica de campanhas eleitorais, bases de eleitores e inteligência territorial.",
     "readmeSummary": "Plataforma SaaS multi-tenant para gestão estratégica de campanhas eleitorais, bases de eleitores, lideranças, demandas sociais, agenda de campo e inteligência territorial. O sistema foi construído para centralizar dad...",
-    "effectiveDescription": "Plataforma SaaS multi-tenant para gestão estratégica de campanhas eleitorais, bases de eleitores, lideranças, demandas sociais, agenda de campo e inteligência territorial. O sistema foi construído para centralizar dad...",
+    "effectiveDescription": "Plataforma SaaS multi-tenant para gestão estratégica de campanhas eleitorais, bases de eleitores e inteligência territorial.",
     "createdAt": "2026-04-08T16:34:41Z",
-    "updatedAt": "2026-09-12T22:32:11Z",
-    "pushedAt": "2026-09-12T22:32:07Z",
+    "updatedAt": "2026-11-06T23:56:44Z",
+    "pushedAt": "2026-11-06T21:28:17Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "JavaScript",
@@ -2303,10 +2305,6 @@
         "scripts",
         "supabase",
         "web"
-      ],
-      "devAssistance": [
-        "Claude Docs",
-        "Antigravity Agents"
       ]
     }
   },
@@ -2428,13 +2426,13 @@
     "url": "https://github.com/sandropeixoto/Websidian",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Clone web do Obsidian construído com React, Vite e Firebase, com suporte a WikiLinks, grafo visual de notas e markdown.",
     "readmeSummary": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Currently, two official plugins are available: - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/b...",
-    "effectiveDescription": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Currently, two official plugins are available: - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/b...",
+    "effectiveDescription": "Clone web do Obsidian construído com React, Vite e Firebase, com suporte a WikiLinks, grafo visual de notas e markdown.",
     "createdAt": "2026-04-09T21:52:46Z",
-    "updatedAt": "2026-09-11T16:06:16Z",
-    "pushedAt": "2026-09-11T17:49:07Z",
-    "category": "Sites Institucionais & Portais",
+    "updatedAt": "2026-11-06T23:56:54Z",
+    "pushedAt": "2026-09-30T22:45:41Z",
+    "category": "Inteligência Artificial & Agentes",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
@@ -2506,9 +2504,6 @@
         "tsconfig.json",
         "tsconfig.node.json",
         "vite.config.ts"
-      ],
-      "devAssistance": [
-        "Antigravity Agents"
       ]
     }
   },
@@ -2517,58 +2512,61 @@
     "url": "https://github.com/sandropeixoto/Robo-IA-WhatsApp",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Robô inteligente de atendimento via WhatsApp integrado a LLMs e mensageria UazAPI com esteira de avaliação e suporte.",
     "readmeSummary": "",
-    "effectiveDescription": "",
+    "effectiveDescription": "Robô inteligente de atendimento via WhatsApp integrado a LLMs e mensageria UazAPI com esteira de avaliação e suporte.",
     "createdAt": "2026-08-23T11:52:21Z",
-    "updatedAt": "2026-09-06T22:12:52Z",
-    "pushedAt": "2026-09-06T22:12:49Z",
+    "updatedAt": "2026-11-06T23:56:50Z",
+    "pushedAt": "2026-10-27T21:29:32Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 575333,
-          "percentage": 86.2
+          "size": 1223848,
+          "percentage": 82.4
         },
         {
           "name": "Hack",
-          "size": 85741,
-          "percentage": 12.8
+          "size": 254100,
+          "percentage": 17.1
+        },
+        {
+          "name": "CSS",
+          "size": 3677,
+          "percentage": 0.2
         },
         {
           "name": "JavaScript",
           "size": 2635,
-          "percentage": 0.4
-        },
-        {
-          "name": "CSS",
-          "size": 2221,
-          "percentage": 0.3
+          "percentage": 0.2
         },
         {
           "name": "PowerShell",
-          "size": 843,
+          "size": 865,
           "percentage": 0.1
         },
         {
           "name": "Batchfile",
-          "size": 585,
-          "percentage": 0.1
+          "size": 604,
+          "percentage": 0
         }
       ],
       "frameworks": [],
       "libraries": [],
       "databases": [],
       "cloud": [],
-      "tools": [],
+      "tools": [
+        "WhatsApp API"
+      ],
       "keyDependencies": [],
       "rootFiles": [
         ".env.example",
         ".github",
         ".gitignore",
         ".htaccess",
+        "AGENTS.md",
         "bin",
         "config",
         "index.php",
@@ -2580,8 +2578,7 @@
         "tests",
         "uazapi-openapi-spec.yaml",
         "views"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -2861,12 +2858,12 @@
     "url": "https://github.com/sandropeixoto/AquiSePaga-Cloud",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Plataforma web mobile-first para gestão financeira ágil e conciliação de recebimentos em nuvem.",
     "readmeSummary": "**AquiSePaga** é uma plataforma web mobile-first projetada para simplificar a gestão de dívidas e pagamentos entre amigos, familiares ou pequenos prestadores de serviços. Esqueça a complexidade de dar baixa em contas ...",
-    "effectiveDescription": "**AquiSePaga** é uma plataforma web mobile-first projetada para simplificar a gestão de dívidas e pagamentos entre amigos, familiares ou pequenos prestadores de serviços. Esqueça a complexidade de dar baixa em contas ...",
+    "effectiveDescription": "Plataforma web mobile-first para gestão financeira ágil e conciliação de recebimentos em nuvem.",
     "createdAt": "2026-03-13T14:56:33Z",
-    "updatedAt": "2026-09-02T23:25:36Z",
-    "pushedAt": "2026-09-02T23:25:25Z",
+    "updatedAt": "2026-11-06T23:56:53Z",
+    "pushedAt": "2026-10-22T19:34:58Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "JavaScript",
@@ -2955,10 +2952,6 @@
         "tsconfig.json",
         "tsconfig.node.json",
         "vite.config.ts"
-      ],
-      "devAssistance": [
-        "Claude Docs",
-        "Antigravity Agents"
       ]
     }
   },
@@ -4234,8 +4227,8 @@
     "readmeSummary": "Plataforma corporativa de cardápio digital, autoatendimento e gestão operacional em tempo real voltada a estabelecimentos do setor alimentício (restaurantes, lanchonetes, bares, cafeterias e franquias). O **NANO FoodC...",
     "effectiveDescription": "Ponto de venda e cardápio digital",
     "createdAt": "2026-04-29T12:21:20Z",
-    "updatedAt": "2026-08-04T15:50:48Z",
-    "pushedAt": "2026-08-04T15:48:21Z",
+    "updatedAt": "2026-11-02T23:20:24Z",
+    "pushedAt": "2026-11-02T23:20:19Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
@@ -4271,7 +4264,7 @@
         "Firebase"
       ],
       "tools": [
-        "Google Gemini SDK"
+        "Google Gemini AI"
       ],
       "keyDependencies": [
         "@google/genai",
@@ -4290,6 +4283,7 @@
       "rootFiles": [
         ".env.example",
         ".gitignore",
+        "AGENTS.md",
         "README.md",
         "firebase-applet-config.json",
         "firebase-blueprint.json",
@@ -4301,8 +4295,7 @@
         "src",
         "tsconfig.json",
         "vite.config.ts"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -5539,16 +5532,16 @@
     "readmeSummary": "This contains everything you need to run your app locally. View your app in AI Studio: https://ai.studio/apps/73732844-54f7-4c7c-a7d7-1ce944586e22 **Prerequisites:**  Node.js",
     "effectiveDescription": "Arvore Genealógica",
     "createdAt": "2026-04-17T22:04:26Z",
-    "updatedAt": "2026-06-07T01:32:54Z",
-    "pushedAt": "2026-06-07T01:32:50Z",
+    "updatedAt": "2026-10-05T15:18:07Z",
+    "pushedAt": "2026-10-05T15:18:02Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 154975,
-          "percentage": 97
+          "size": 157744,
+          "percentage": 96.8
         },
         {
           "name": "CSS",
@@ -5557,8 +5550,8 @@
         },
         {
           "name": "HTML",
-          "size": 311,
-          "percentage": 0.2
+          "size": 741,
+          "percentage": 0.5
         }
       ],
       "frameworks": [
@@ -5576,7 +5569,7 @@
         "Firebase"
       ],
       "tools": [
-        "Google Gemini SDK"
+        "Google Gemini AI"
       ],
       "keyDependencies": [
         "@base-ui/react",
@@ -5608,8 +5601,7 @@
         "storage.rules",
         "tsconfig.json",
         "vite.config.ts"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -7860,12 +7852,12 @@
     "url": "https://github.com/sandropeixoto/Notivex",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Sistema de rastreamento e gestão de notificações eletrônicas para a SEFA com garantia de entrega oficial e rastreabilidade jurídica.",
     "readmeSummary": "**Notivex** é uma solução premium de rastreamento e gestão de notificações eletrônicas desenvolvida para a **Secretaria da Fazenda (SEFA)**. O sistema garante a entrega oficial de documentos a fornecedores com total r...",
-    "effectiveDescription": "**Notivex** é uma solução premium de rastreamento e gestão de notificações eletrônicas desenvolvida para a **Secretaria da Fazenda (SEFA)**. O sistema garante a entrega oficial de documentos a fornecedores com total r...",
+    "effectiveDescription": "Sistema de rastreamento e gestão de notificações eletrônicas para a SEFA com garantia de entrega oficial e rastreabilidade jurídica.",
     "createdAt": "2026-03-27T13:32:34Z",
-    "updatedAt": "2026-04-16T14:18:44Z",
-    "pushedAt": "2026-04-16T14:18:26Z",
+    "updatedAt": "2026-11-06T23:56:48Z",
+    "pushedAt": "2026-11-02T23:17:18Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "PHP",
@@ -7897,6 +7889,7 @@
         ".gitattributes",
         ".gitignore",
         ".htaccess",
+        "AGENTS.md",
         "CLAUDE.md",
         "DESIGN_SYSTEM.md",
         "QA_FIX_REQUEST.md",
@@ -7910,9 +7903,6 @@
         "index.php",
         "scripts",
         "src"
-      ],
-      "devAssistance": [
-        "Claude Docs"
       ]
     }
   },
@@ -9185,8 +9175,8 @@
     "readmeSummary": "Aplicação interativa em HTML com **Mapa Mental Navegável** e visualização em grade com a análise profunda de stacks, dependências e arquiteturas de todos os repositórios da conta GitHub `sandropeixoto`. Basta abrir o ...",
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
-    "updatedAt": "2026-11-06T13:46:16Z",
-    "pushedAt": "2026-11-06T13:46:12Z",
+    "updatedAt": "2026-11-06T15:05:12Z",
+    "pushedAt": "2026-11-06T15:05:08Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
@@ -9194,12 +9184,12 @@
         {
           "name": "HTML",
           "size": 220005,
-          "percentage": 76.2
+          "percentage": 76.1
         },
         {
           "name": "JavaScript",
-          "size": 68726,
-          "percentage": 23.8
+          "size": 68964,
+          "percentage": 23.9
         }
       ],
       "frameworks": [],
@@ -9211,10 +9201,384 @@
       "rootFiles": [
         ".github",
         ".gitignore",
+        "AGENTS.md",
         "README.md",
         "data",
         "index.html",
         "scripts"
+      ]
+    }
+  },
+  {
+    "name": "PDV-MEI",
+    "url": "https://github.com/sandropeixoto/PDV-MEI",
+    "isPrivate": true,
+    "isFork": false,
+    "description": "PDV e Estoque Comercial",
+    "readmeSummary": "O **PDV-MEI** é uma solução completa de Gestão Comercial, Ponto de Venda (PDV Ágil) e controle financeiro projetada com arquitetura **Multi-tenant (SaaS)** para microempreendedores individuais (MEI), pequenas empresas...",
+    "effectiveDescription": "PDV e Estoque Comercial",
+    "createdAt": "2026-08-10T20:04:07Z",
+    "updatedAt": "2026-11-06T22:52:22Z",
+    "pushedAt": "2026-11-06T21:50:00Z",
+    "category": "Inteligência Artificial & Agentes",
+    "techStack": {
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "size": 522086,
+          "percentage": 99.7
+        },
+        {
+          "name": "CSS",
+          "size": 759,
+          "percentage": 0.1
+        },
+        {
+          "name": "HTML",
+          "size": 711,
+          "percentage": 0.1
+        }
+      ],
+      "frameworks": [
+        "React",
+        "Vite",
+        "Express",
+        "Hono"
+      ],
+      "libraries": [
+        "Tailwind CSS",
+        "Lucide Icons",
+        "Framer Motion"
+      ],
+      "databases": [],
+      "cloud": [
+        "Firebase",
+        "Cloudflare Workers"
+      ],
+      "tools": [
+        "Google Gemini AI"
+      ],
+      "keyDependencies": [
+        "@google/genai",
+        "@tailwindcss/vite",
+        "@vitejs/plugin-react",
+        "dotenv",
+        "express",
+        "firebase",
+        "hono",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "recharts"
+      ],
+      "rootFiles": [
+        ".aistudio",
+        ".env.example",
+        ".firebaserc",
+        ".gitignore",
+        "README.md",
+        "assets",
+        "bun.lock",
+        "firebase-applet-config.json",
+        "firebase-blueprint.json",
+        "firebase.json",
+        "firestore.rules",
+        "index.html",
+        "metadata.json",
+        "migrations",
+        "package.json",
+        "public",
+        "schema.sql",
+        "src",
+        "tsconfig.json",
+        "vite.config.ts",
+        "wrangler.toml"
+      ]
+    }
+  },
+  {
+    "name": "ConectaGT",
+    "url": "https://github.com/sandropeixoto/ConectaGT",
+    "isPrivate": true,
+    "isFork": false,
+    "description": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
+    "readmeSummary": "Sistema para acompanhar grupos de trabalho (GTs), SubGTs, composição, planos, entregas, atualizações, ações, encaminhamentos, dependências, reuniões, decisões e documentos. O primeiro caso de uso é o GT-02 de Mudanças...",
+    "effectiveDescription": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
+    "createdAt": "2026-11-05T15:50:08Z",
+    "updatedAt": "2026-11-06T23:56:47Z",
+    "pushedAt": "2026-11-06T15:35:48Z",
+    "category": "Aplicações Web & SaaS",
+    "techStack": {
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "size": 98130,
+          "percentage": 61.7
+        },
+        {
+          "name": "CSS",
+          "size": 35837,
+          "percentage": 22.5
+        },
+        {
+          "name": "HTML",
+          "size": 25042,
+          "percentage": 15.7
+        }
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "databases": [],
+      "cloud": [
+        "Cloudflare Workers"
+      ],
+      "tools": [],
+      "keyDependencies": [
+        "wrangler"
+      ],
+      "rootFiles": [
+        ".gitignore",
+        ".infisical.yaml",
+        "AGENTS.md",
+        "PLANEJAMENTO.md",
+        "README.md",
+        "docs",
+        "migrations",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "test",
+        "wrangler.jsonc"
+      ]
+    }
+  },
+  {
+    "name": "Site-Tuna",
+    "url": "https://github.com/sandropeixoto/Site-Tuna",
+    "isPrivate": true,
+    "isFork": false,
+    "description": "Site Tuna Luso Brasileira",
+    "readmeSummary": "",
+    "effectiveDescription": "Site Tuna Luso Brasileira",
+    "createdAt": "2026-10-06T12:32:02Z",
+    "updatedAt": "2026-10-31T20:17:27Z",
+    "pushedAt": "2026-10-31T20:17:24Z",
+    "category": "Sites Institucionais & Portais",
+    "techStack": {
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "size": 573199,
+          "percentage": 83.6
+        },
+        {
+          "name": "JavaScript",
+          "size": 67488,
+          "percentage": 9.8
+        },
+        {
+          "name": "Python",
+          "size": 39600,
+          "percentage": 5.8
+        },
+        {
+          "name": "HTML",
+          "size": 3991,
+          "percentage": 0.6
+        },
+        {
+          "name": "CSS",
+          "size": 1776,
+          "percentage": 0.3
+        }
+      ],
+      "frameworks": [
+        "React",
+        "Vite"
+      ],
+      "libraries": [
+        "Tailwind CSS",
+        "Lucide Icons",
+        "Framer Motion"
+      ],
+      "databases": [],
+      "cloud": [
+        "Cloudflare Workers"
+      ],
+      "tools": [],
+      "keyDependencies": [
+        "@tailwindcss/vite",
+        "@vitejs/plugin-react",
+        "dotenv",
+        "lucide-react",
+        "motion",
+        "react",
+        "react-dom",
+        "vite",
+        "esbuild",
+        "tailwindcss",
+        "tsx",
+        "wrangler"
+      ],
+      "rootFiles": [
+        ".dev.vars.example",
+        ".gitignore",
+        "AGENTS.md",
+        "archive",
+        "docs",
+        "index.html",
+        "metadata.json",
+        "migrations",
+        "package-lock.json",
+        "package.json",
+        "public",
+        "scripts",
+        "src",
+        "tsconfig.json",
+        "vite.config.ts",
+        "worker",
+        "wrangler.jsonc"
+      ]
+    }
+  },
+  {
+    "name": "video-toolkit",
+    "url": "https://github.com/sandropeixoto/video-toolkit",
+    "isPrivate": true,
+    "isFork": false,
+    "description": "Ferramentas locais para baixar, analisar, transcrever e editar vídeos",
+    "readmeSummary": "Ambiente local para receber vídeos por arquivo ou link, transcrever falas, pedir análises ao CLI autenticado e fazer edições básicas. Cada solicitação ganha uma pasta própria por data, um `job.md` e uma entrada no índ...",
+    "effectiveDescription": "Ferramentas locais para baixar, analisar, transcrever e editar vídeos",
+    "createdAt": "2026-10-27T15:09:49Z",
+    "updatedAt": "2026-10-27T15:11:12Z",
+    "pushedAt": "2026-10-27T15:11:08Z",
+    "category": "Ferramentas, CLIs & Utilitários",
+    "techStack": {
+      "primaryLanguage": "Python",
+      "languages": [
+        {
+          "name": "Python",
+          "size": 43382,
+          "percentage": 82.8
+        },
+        {
+          "name": "HTML",
+          "size": 8983,
+          "percentage": 17.2
+        }
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "databases": [],
+      "cloud": [],
+      "tools": [],
+      "keyDependencies": [],
+      "rootFiles": [
+        ".env.example",
+        ".gitignore",
+        "AGENTS.md",
+        "README.md",
+        "pyproject.toml",
+        "src",
+        "uv.lock"
+      ]
+    }
+  },
+  {
+    "name": "turminha-dos-sonhos",
+    "url": "https://github.com/sandropeixoto/turminha-dos-sonhos",
+    "isPrivate": true,
+    "isFork": false,
+    "description": "Protótipo Android offline de jogo casual de cuidado, música e amizade",
+    "readmeSummary": "Protótipo Android offline de uma brincadeira colorida de cuidado, música e convivência. A referência de gênero é um jogo de vida virtual em casa compartilhada; a interface e a arte deste projeto foram criadas para est...",
+    "effectiveDescription": "Protótipo Android offline de jogo casual de cuidado, música e amizade",
+    "createdAt": "2026-10-09T18:34:47Z",
+    "updatedAt": "2026-10-09T19:26:27Z",
+    "pushedAt": "2026-10-09T19:26:24Z",
+    "category": "Outros Projetos",
+    "techStack": {
+      "primaryLanguage": "HTML",
+      "languages": [
+        {
+          "name": "HTML",
+          "size": 45725,
+          "percentage": 95.7
+        },
+        {
+          "name": "Java",
+          "size": 2053,
+          "percentage": 4.3
+        }
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "databases": [],
+      "cloud": [],
+      "tools": [],
+      "keyDependencies": [],
+      "rootFiles": [
+        ".gitattributes",
+        ".gitignore",
+        "README.md",
+        "app",
+        "build.gradle",
+        "docs",
+        "gradle.properties",
+        "gradle",
+        "gradlew",
+        "gradlew.bat",
+        "settings.gradle"
+      ]
+    }
+  },
+  {
+    "name": "Site-Legado-Tuna",
+    "url": "https://github.com/sandropeixoto/Site-Legado-Tuna",
+    "isPrivate": true,
+    "isFork": false,
+    "description": "Site Legado Tuna - Captura de Materiais",
+    "readmeSummary": "Este repositório contém o coletor `baixar_legado.py` e a captura organizada do site em `captura_site/`. python3 baixar_legado.py Por padrão, a captura parte de `https://www.tunalusobrasileira.com.br/` e grava em `capt...",
+    "effectiveDescription": "Site Legado Tuna - Captura de Materiais",
+    "createdAt": "2026-10-06T12:29:28Z",
+    "updatedAt": "2026-10-06T12:43:14Z",
+    "pushedAt": "2026-10-06T12:43:01Z",
+    "category": "Sites Institucionais & Portais",
+    "techStack": {
+      "primaryLanguage": "HTML",
+      "languages": [
+        {
+          "name": "HTML",
+          "size": 24828220,
+          "percentage": 99.3
+        },
+        {
+          "name": "CSS",
+          "size": 144779,
+          "percentage": 0.6
+        },
+        {
+          "name": "Python",
+          "size": 38257,
+          "percentage": 0.2
+        }
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "databases": [],
+      "cloud": [],
+      "tools": [],
+      "keyDependencies": [],
+      "rootFiles": [
+        ".gitattributes",
+        "README.md",
+        "baixar_legado.py",
+        "captura_site"
       ]
     }
   }
