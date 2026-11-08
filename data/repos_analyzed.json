@@ -401,41 +401,41 @@
     "readmeSummary": "Sistema automatizado de captura (web scraping) de anúncios da OLX Brasil, persistência direta no **MySQL oficial** (`sspeixot_olx`) com redundância local em **SQLite**, notificações automáticas via **WhatsApp (UAZAPI)...",
     "effectiveDescription": "Sistema automatizado de web scraping de anúncios da OLX com persistência MySQL/SQLite, alertas WhatsApp (UazAPI) e painel web.",
     "createdAt": "2026-05-21T11:32:22Z",
-    "updatedAt": "2026-11-07T11:15:18Z",
-    "pushedAt": "2026-11-07T11:15:14Z",
+    "updatedAt": "2026-11-08T12:37:04Z",
+    "pushedAt": "2026-11-08T12:37:01Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
-      "primaryLanguage": "Python",
+      "primaryLanguage": "PHP",
       "languages": [
         {
-          "name": "Python",
-          "size": 152430,
-          "percentage": 44
+          "name": "PHP",
+          "size": 250940,
+          "percentage": 55.3
         },
         {
-          "name": "PHP",
-          "size": 150062,
-          "percentage": 43.3
+          "name": "Python",
+          "size": 158833,
+          "percentage": 35
         },
         {
           "name": "TypeScript",
           "size": 38584,
-          "percentage": 11.1
+          "percentage": 8.5
         },
         {
           "name": "CSS",
           "size": 3651,
-          "percentage": 1.1
+          "percentage": 0.8
         },
         {
           "name": "Batchfile",
           "size": 1230,
-          "percentage": 0.4
+          "percentage": 0.3
         },
         {
           "name": "JavaScript",
           "size": 591,
-          "percentage": 0.2
+          "percentage": 0.1
         }
       ],
       "frameworks": [],
@@ -457,6 +457,7 @@
       ],
       "rootFiles": [
         ".env.example",
+        ".github",
         ".gitignore",
         ".infisical.yaml",
         "AGENTS.md",
@@ -9175,21 +9176,21 @@
     "readmeSummary": "Aplicação interativa em HTML com **Mapa Mental Navegável** e visualização em grade com a análise profunda de stacks, dependências e arquiteturas de todos os repositórios da conta GitHub `sandropeixoto`. Basta abrir o ...",
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
-    "updatedAt": "2026-11-06T15:05:12Z",
-    "pushedAt": "2026-11-06T15:05:08Z",
+    "updatedAt": "2026-11-07T12:37:01Z",
+    "pushedAt": "2026-11-07T12:36:56Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 220005,
-          "percentage": 76.1
+          "size": 227650,
+          "percentage": 76.7
         },
         {
           "name": "JavaScript",
           "size": 68964,
-          "percentage": 23.9
+          "percentage": 23.3
         }
       ],
       "frameworks": [],
