@@ -401,26 +401,26 @@
     "readmeSummary": "Sistema automatizado de captura (web scraping) de anúncios da OLX Brasil, persistência direta no **MySQL oficial** (`sspeixot_olx`) com redundância local em **SQLite**, notificações automáticas via **WhatsApp (UAZAPI)...",
     "effectiveDescription": "Sistema automatizado de web scraping de anúncios da OLX com persistência MySQL/SQLite, alertas WhatsApp (UazAPI) e painel web.",
     "createdAt": "2026-05-21T11:32:22Z",
-    "updatedAt": "2026-11-08T12:37:04Z",
-    "pushedAt": "2026-11-08T12:37:01Z",
+    "updatedAt": "2026-11-09T14:29:13Z",
+    "pushedAt": "2026-11-09T14:29:08Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 250940,
-          "percentage": 55.3
+          "size": 277892,
+          "percentage": 57.8
         },
         {
           "name": "Python",
-          "size": 158833,
-          "percentage": 35
+          "size": 158931,
+          "percentage": 33.1
         },
         {
           "name": "TypeScript",
           "size": 38584,
-          "percentage": 8.5
+          "percentage": 8
         },
         {
           "name": "CSS",
@@ -1084,8 +1084,8 @@
     "readmeSummary": "**Uma plataforma robusta e escalável de gestão de contratos e fornecedores, operando em arquitetura Satélite (Headless-ready) com autenticação SSO delegada e auditoria nativa.** Este sistema foi desenvolvido para orga...",
     "effectiveDescription": "Este sistema foi desenvolvido para organizações que necessitam de uma solução modular, segura e integrada ao Portal GestorGov, com funcionalidades completas de gestão contratual, rastreamento de cronogramas de pagamento e controle de acesso baseado em papéis (RBAC).",
     "createdAt": "2026-03-16T14:51:08Z",
-    "updatedAt": "2026-11-06T14:25:46Z",
-    "pushedAt": "2026-11-06T14:25:42Z",
+    "updatedAt": "2026-11-09T15:22:18Z",
+    "pushedAt": "2026-11-09T15:22:14Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "JavaScript",
@@ -1097,7 +1097,7 @@
         },
         {
           "name": "PHP",
-          "size": 1205351,
+          "size": 1206043,
           "percentage": 16.8
         },
         {
@@ -1852,18 +1852,18 @@
     "isPrivate": true,
     "isFork": false,
     "description": "Portal de Doações",
-    "readmeSummary": "O **Portal de Doações e Arrecadação da Fundação Pestalozzi do Pará** é uma plataforma corporativa FullStack desenvolvida para centralizar, automatizar e auditar todo o ciclo de captação de recursos e arrecadação de do...",
+    "readmeSummary": "Aplicação da Fundação Pestalozzi do Pará para captação pública e gestão de doações, adesões pela conta de energia, parceiros e conciliação de retornos Equatorial. - A rota inicial apresenta as modalidades de doação. O...",
     "effectiveDescription": "Portal de Doações",
     "createdAt": "2026-05-30T11:52:59Z",
-    "updatedAt": "2026-10-11T23:54:22Z",
-    "pushedAt": "2026-10-14T00:37:04Z",
+    "updatedAt": "2026-11-09T13:39:46Z",
+    "pushedAt": "2026-11-09T13:39:41Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 1012341,
+          "size": 1042284,
           "percentage": 99.7
         },
         {
@@ -1922,6 +1922,7 @@
         "AGENTS.md",
         "Dockerfile",
         "ESPECIFICACOES.md",
+        "PLANO_FUTURO_PERFORMANCE_APPWRITE.md",
         "README.md",
         "assets",
         "bun.lock",
@@ -9176,21 +9177,21 @@
     "readmeSummary": "Aplicação interativa em HTML com **Mapa Mental Navegável** e visualização em grade com a análise profunda de stacks, dependências e arquiteturas de todos os repositórios da conta GitHub `sandropeixoto`. Basta abrir o ...",
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
-    "updatedAt": "2026-11-07T12:37:01Z",
-    "pushedAt": "2026-11-07T12:36:56Z",
+    "updatedAt": "2026-11-08T12:54:22Z",
+    "pushedAt": "2026-11-08T12:54:17Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 227650,
-          "percentage": 76.7
+          "size": 227656,
+          "percentage": 76.8
         },
         {
           "name": "JavaScript",
           "size": 68964,
-          "percentage": 23.3
+          "percentage": 23.2
         }
       ],
       "frameworks": [],
@@ -9308,26 +9309,26 @@
     "readmeSummary": "Sistema para acompanhar grupos de trabalho (GTs), SubGTs, composição, planos, entregas, atualizações, ações, encaminhamentos, dependências, reuniões, decisões e documentos. O primeiro caso de uso é o GT-02 de Mudanças...",
     "effectiveDescription": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
     "createdAt": "2026-11-05T15:50:08Z",
-    "updatedAt": "2026-11-06T23:56:47Z",
-    "pushedAt": "2026-11-06T15:35:48Z",
+    "updatedAt": "2026-11-09T14:08:54Z",
+    "pushedAt": "2026-11-09T14:08:50Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "JavaScript",
       "languages": [
         {
           "name": "JavaScript",
-          "size": 98130,
-          "percentage": 61.7
+          "size": 137559,
+          "percentage": 61.5
         },
         {
           "name": "CSS",
-          "size": 35837,
-          "percentage": 22.5
+          "size": 56281,
+          "percentage": 25.2
         },
         {
           "name": "HTML",
-          "size": 25042,
-          "percentage": 15.7
+          "size": 29659,
+          "percentage": 13.3
         }
       ],
       "frameworks": [],
