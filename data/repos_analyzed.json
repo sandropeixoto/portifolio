@@ -401,26 +401,26 @@
     "readmeSummary": "Sistema automatizado de captura (web scraping) de anúncios da OLX Brasil, persistência direta no **MySQL oficial** (`sspeixot_olx`) com redundância local em **SQLite**, notificações automáticas via **WhatsApp (UAZAPI)...",
     "effectiveDescription": "Sistema automatizado de web scraping de anúncios da OLX com persistência MySQL/SQLite, alertas WhatsApp (UazAPI) e painel web.",
     "createdAt": "2026-05-21T11:32:22Z",
-    "updatedAt": "2026-11-09T14:29:13Z",
-    "pushedAt": "2026-11-09T14:29:08Z",
+    "updatedAt": "2026-11-09T18:15:20Z",
+    "pushedAt": "2026-11-09T18:15:16Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 277892,
-          "percentage": 57.8
+          "size": 282429,
+          "percentage": 58.2
         },
         {
           "name": "Python",
           "size": 158931,
-          "percentage": 33.1
+          "percentage": 32.7
         },
         {
           "name": "TypeScript",
           "size": 38584,
-          "percentage": 8
+          "percentage": 7.9
         },
         {
           "name": "CSS",
@@ -1084,8 +1084,8 @@
     "readmeSummary": "**Uma plataforma robusta e escalável de gestão de contratos e fornecedores, operando em arquitetura Satélite (Headless-ready) com autenticação SSO delegada e auditoria nativa.** Este sistema foi desenvolvido para orga...",
     "effectiveDescription": "Este sistema foi desenvolvido para organizações que necessitam de uma solução modular, segura e integrada ao Portal GestorGov, com funcionalidades completas de gestão contratual, rastreamento de cronogramas de pagamento e controle de acesso baseado em papéis (RBAC).",
     "createdAt": "2026-03-16T14:51:08Z",
-    "updatedAt": "2026-11-09T15:22:18Z",
-    "pushedAt": "2026-11-09T15:22:14Z",
+    "updatedAt": "2026-11-09T17:32:03Z",
+    "pushedAt": "2026-11-09T17:31:58Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "JavaScript",
@@ -1097,8 +1097,8 @@
         },
         {
           "name": "PHP",
-          "size": 1206043,
-          "percentage": 16.8
+          "size": 1209178,
+          "percentage": 16.9
         },
         {
           "name": "Handlebars",
@@ -9177,15 +9177,15 @@
     "readmeSummary": "Aplicação interativa em HTML com **Mapa Mental Navegável** e visualização em grade com a análise profunda de stacks, dependências e arquiteturas de todos os repositórios da conta GitHub `sandropeixoto`. Basta abrir o ...",
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
-    "updatedAt": "2026-11-08T12:54:22Z",
-    "pushedAt": "2026-11-08T12:54:17Z",
+    "updatedAt": "2026-11-09T15:28:14Z",
+    "pushedAt": "2026-11-09T15:28:09Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 227656,
+          "size": 227700,
           "percentage": 76.8
         },
         {
