@@ -1311,26 +1311,26 @@
     "readmeSummary": "O **WhatsApp Tools** é uma plataforma corporativa robusta desenvolvida para centralizar a gestão de instâncias de WhatsApp via **UazAPI**. A solução unifica o controle administrativo, o envio programático de mensagens...",
     "effectiveDescription": "Plataforma para gestão centralizada e automação de instâncias WhatsApp via UazAPI, disparos em lote e atendimento inteligente.",
     "createdAt": "2026-02-24T11:12:57Z",
-    "updatedAt": "2026-11-06T23:56:47Z",
-    "pushedAt": "2026-11-05T10:26:24Z",
+    "updatedAt": "2026-11-11T00:29:54Z",
+    "pushedAt": "2026-11-10T23:47:48Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 1567696,
-          "percentage": 91.8
+          "size": 1599732,
+          "percentage": 92
         },
         {
           "name": "JavaScript",
           "size": 97605,
-          "percentage": 5.7
+          "percentage": 5.6
         },
         {
           "name": "Hack",
           "size": 30325,
-          "percentage": 1.8
+          "percentage": 1.7
         },
         {
           "name": "CSS",
@@ -1398,6 +1398,7 @@
         "gemini_api.php",
         "gestor-pedidos-openapi.yaml",
         "group_leads.php",
+        "group_moderation.php",
         "groups.php",
         "implementation_plan.md",
         "index.php",
@@ -2518,21 +2519,21 @@
     "readmeSummary": "",
     "effectiveDescription": "Robô inteligente de atendimento via WhatsApp integrado a LLMs e mensageria UazAPI com esteira de avaliação e suporte.",
     "createdAt": "2026-08-23T11:52:21Z",
-    "updatedAt": "2026-11-06T23:56:50Z",
-    "pushedAt": "2026-10-27T21:29:32Z",
+    "updatedAt": "2026-11-11T01:10:28Z",
+    "pushedAt": "2026-11-11T00:14:10Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 1223848,
-          "percentage": 82.4
+          "size": 1249820,
+          "percentage": 82.6
         },
         {
           "name": "Hack",
-          "size": 254100,
-          "percentage": 17.1
+          "size": 255721,
+          "percentage": 16.9
         },
         {
           "name": "CSS",
@@ -2787,26 +2788,26 @@
     "readmeSummary": "O Site Institucional da Fundação Pestalozzi do Pará é uma plataforma moderna e acessível, desenvolvida para apresentar a missão, os valores e os serviços pedagógicos da primeira instituição especializada em Educação E...",
     "effectiveDescription": "O Site Institucional da Fundação Pestalozzi do Pará é uma plataforma moderna e acessível, desenvolvida para apresentar a missão, os valores e os serviços pedagógicos da primeira instituição especializada em Educação Especial do Pará.",
     "createdAt": "2026-05-04T17:37:37Z",
-    "updatedAt": "2026-09-03T13:34:48Z",
-    "pushedAt": "2026-09-03T13:27:58Z",
+    "updatedAt": "2026-11-10T15:18:40Z",
+    "pushedAt": "2026-11-10T15:18:30Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 43269,
-          "percentage": 95.5
+          "size": 44485,
+          "percentage": 95.6
         },
         {
           "name": "HTML",
           "size": 1231,
-          "percentage": 2.7
+          "percentage": 2.6
         },
         {
           "name": "CSS",
           "size": 805,
-          "percentage": 1.8
+          "percentage": 1.7
         }
       ],
       "frameworks": [
@@ -2822,7 +2823,7 @@
       "databases": [],
       "cloud": [],
       "tools": [
-        "Google Gemini SDK"
+        "Google Gemini AI"
       ],
       "keyDependencies": [
         "@google/genai",
@@ -2851,8 +2852,7 @@
         "src",
         "tsconfig.json",
         "vite.config.ts"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -9177,15 +9177,15 @@
     "readmeSummary": "Aplicação interativa em HTML com **Mapa Mental Navegável** e visualização em grade com a análise profunda de stacks, dependências e arquiteturas de todos os repositórios da conta GitHub `sandropeixoto`. Basta abrir o ...",
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
-    "updatedAt": "2026-11-09T15:28:14Z",
-    "pushedAt": "2026-11-09T15:28:09Z",
+    "updatedAt": "2026-11-10T14:28:55Z",
+    "pushedAt": "2026-11-10T14:28:50Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 227700,
+          "size": 227702,
           "percentage": 76.8
         },
         {
