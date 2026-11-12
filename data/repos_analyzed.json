@@ -803,8 +803,8 @@
     "readmeSummary": "O **Eventos Sindiclubes Pará** é uma plataforma web desenvolvida para otimizar e centralizar a gestão de inscrições e a divulgação de eventos promovidos pelo Sindiclubes. A solução substitui processos manuais (planilh...",
     "effectiveDescription": "Plataforma web para gestão de inscrições, credenciamento e divulgação de eventos do Sindicato dos Clubes do Pará (SindiClubes-PA).",
     "createdAt": "2026-03-23T20:36:26Z",
-    "updatedAt": "2026-11-06T23:56:49Z",
-    "pushedAt": "2026-10-31T12:29:45Z",
+    "updatedAt": "2026-11-11T16:19:26Z",
+    "pushedAt": "2026-11-11T15:19:51Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "JavaScript",
@@ -812,12 +812,12 @@
         {
           "name": "JavaScript",
           "size": 5743432,
-          "percentage": 92.6
+          "percentage": 92.4
         },
         {
           "name": "PHP",
-          "size": 282651,
-          "percentage": 4.6
+          "size": 297167,
+          "percentage": 4.8
         },
         {
           "name": "Handlebars",
@@ -845,7 +845,10 @@
       "databases": [],
       "cloud": [],
       "tools": [],
-      "keyDependencies": [],
+      "keyDependencies": [
+        "php",
+        "dompdf/dompdf"
+      ],
       "rootFiles": [
         ".agent",
         ".aiox-core",
@@ -873,6 +876,7 @@
         "SUGGESTIONS.md",
         "TECHNICAL_SPEC.md",
         "admin-eventos",
+        "composer.json",
         "db_config.php",
         "docs",
         "eventos.php",
@@ -1312,7 +1316,7 @@
     "effectiveDescription": "Plataforma para gestão centralizada e automação de instâncias WhatsApp via UazAPI, disparos em lote e atendimento inteligente.",
     "createdAt": "2026-02-24T11:12:57Z",
     "updatedAt": "2026-11-11T00:29:54Z",
-    "pushedAt": "2026-11-10T23:47:48Z",
+    "pushedAt": "2026-11-12T13:12:19Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "PHP",
@@ -9177,15 +9181,15 @@
     "readmeSummary": "Aplicação interativa em HTML com **Mapa Mental Navegável** e visualização em grade com a análise profunda de stacks, dependências e arquiteturas de todos os repositórios da conta GitHub `sandropeixoto`. Basta abrir o ...",
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
-    "updatedAt": "2026-11-10T14:28:55Z",
-    "pushedAt": "2026-11-10T14:28:50Z",
+    "updatedAt": "2026-11-11T14:43:02Z",
+    "pushedAt": "2026-11-11T13:42:59Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 227702,
+          "size": 227703,
           "percentage": 76.8
         },
         {
@@ -9310,7 +9314,7 @@
     "effectiveDescription": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
     "createdAt": "2026-11-05T15:50:08Z",
     "updatedAt": "2026-11-09T14:08:54Z",
-    "pushedAt": "2026-11-09T14:08:50Z",
+    "pushedAt": "2026-11-12T13:21:36Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "JavaScript",
@@ -9581,6 +9585,46 @@
         "README.md",
         "baixar_legado.py",
         "captura_site"
+      ]
+    }
+  },
+  {
+    "name": "atomo-quantico-studio",
+    "url": "https://github.com/sandropeixoto/atomo-quantico-studio",
+    "isPrivate": true,
+    "isFork": false,
+    "description": "Estúdio portátil para planejar e montar vídeos do canal Átomo Quântico",
+    "readmeSummary": "Projeto portátil para planejar e montar vídeos do canal com o Codex. O repositório contém código, instruções, histórico editorial e os dois arquivos de identidade autorizados em `identidade/`; as demais mídias e os pr...",
+    "effectiveDescription": "Estúdio portátil para planejar e montar vídeos do canal Átomo Quântico",
+    "createdAt": "2026-11-11T13:50:29Z",
+    "updatedAt": "2026-11-12T11:53:38Z",
+    "pushedAt": "2026-11-12T10:53:34Z",
+    "category": "Backends, APIs & Serviços",
+    "techStack": {
+      "primaryLanguage": "Python",
+      "languages": [
+        {
+          "name": "Python",
+          "size": 4922,
+          "percentage": 100
+        }
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "databases": [],
+      "cloud": [],
+      "tools": [],
+      "keyDependencies": [],
+      "rootFiles": [
+        ".codex",
+        ".gitignore",
+        ".infisical.yaml",
+        "AGENTS.md",
+        "README.md",
+        "exemplos",
+        "historico",
+        "identidade",
+        "scripts"
       ]
     }
   }
