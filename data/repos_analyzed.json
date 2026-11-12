@@ -9181,15 +9181,15 @@
     "readmeSummary": "Aplicação interativa em HTML com **Mapa Mental Navegável** e visualização em grade com a análise profunda de stacks, dependências e arquiteturas de todos os repositórios da conta GitHub `sandropeixoto`. Basta abrir o ...",
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
-    "updatedAt": "2026-11-11T14:43:02Z",
-    "pushedAt": "2026-11-11T13:42:59Z",
+    "updatedAt": "2026-11-12T14:24:25Z",
+    "pushedAt": "2026-11-12T13:24:21Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 227703,
+          "size": 228768,
           "percentage": 76.8
         },
         {
@@ -9313,26 +9313,26 @@
     "readmeSummary": "Sistema para acompanhar grupos de trabalho (GTs), SubGTs, composição, planos, entregas, atualizações, ações, encaminhamentos, dependências, reuniões, decisões e documentos. O primeiro caso de uso é o GT-02 de Mudanças...",
     "effectiveDescription": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
     "createdAt": "2026-11-05T15:50:08Z",
-    "updatedAt": "2026-11-09T14:08:54Z",
-    "pushedAt": "2026-11-12T13:21:36Z",
+    "updatedAt": "2026-11-12T13:41:08Z",
+    "pushedAt": "2026-11-12T14:33:08Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "JavaScript",
       "languages": [
         {
           "name": "JavaScript",
-          "size": 137559,
-          "percentage": 61.5
+          "size": 142294,
+          "percentage": 60.4
         },
         {
           "name": "CSS",
-          "size": 56281,
-          "percentage": 25.2
+          "size": 61606,
+          "percentage": 26.2
         },
         {
           "name": "HTML",
-          "size": 29659,
-          "percentage": 13.3
+          "size": 31493,
+          "percentage": 13.4
         }
       ],
       "frameworks": [],
