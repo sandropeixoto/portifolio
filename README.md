@@ -26,21 +26,21 @@ E acessar: `http://localhost:3333`
 O ecossistema é mantido atualizado de forma inteligente pelo script `scripts/update_incremental.js` e pelo workflow do GitHub Actions (`.github/workflows/update-map.yml`).
 
 ### Princípios de Otimização:
-1. **Verificação Delta Rápida:** O script faz apenas 1 requisição leve para verificar a data do último commit (`pushedAt`) de todos os repositórios.
+1. **Verificação Delta Rápida:** O script faz apenas 1 requisição leve para verificar a data do último commit (`pushedAt`) e metadados de todos os repositórios.
 2. **Atualização Cirúrgica:** Se nada foi alterado, o script encerra em menos de 4 segundos. Se apenas 1 repositório teve push, **apenas esse repositório** é consultado a fundo via GraphQL.
-3. **Novos repositórios:** Repositórios que ainda não existem na base são incluídos automaticamente na próxima execução. A varredura agendada ocorre diariamente às 06:00 UTC (03:00 no horário de Brasília).
+3. **Novos repositórios e limpeza:** Repositórios novos são incluídos automaticamente e repositórios excluídos ou renomeados são removidos da base na próxima execução. A varredura agendada ocorre a cada 6 horas (`23 */6 * * *` UTC).
 4. **Regeneração Automática:** Os arquivos `data/repos_analyzed.json` e `index.html` são atualizados e commitados automaticamente pela Action.
 
 ### Acesso aos repositórios
 
-A Action usa o secret `PAT_UPDATE_PORTFOLIO` para listar e analisar os repositórios da conta, inclusive os privados. Configure esse secret nas configurações deste repositório com um Personal Access Token que tenha acesso aos repositórios desejados (token clássico com escopo `repo`, ou token fine-grained com acesso aos repositórios e permissões de leitura de metadados e conteúdo). Para também enviar notificações `repository_dispatch` com um token fine-grained, conceda `Contents: write` no repositório do portfólio. O `GITHUB_TOKEN` padrão da Action só acessa este repositório e não consegue descobrir todos os repositórios privados da conta.
+A Action usa o secret `PAT_UPDATE_PORTFOLIO` para listar e analisar os repositórios da conta, inclusive os privados. Configure esse secret nas configurações deste repositório com um Personal Access Token que tenha acesso aos repositórios desejados (token clássico com escopo `repo`, ou token fine-grained configurado com **All repositories** e permissões de leitura de metadados e conteúdo). Para também enviar notificações `repository_dispatch` com um token fine-grained, conceda `Contents: write` no repositório do portfólio. O `GITHUB_TOKEN` padrão da Action só acessa este repositório e não consegue descobrir todos os repositórios privados da conta.
 
 ---
 
-## 🔄 Três Formas de Disparar Atualizações
+## 🔄 Formas de Disparar Atualizações
 
 ### 1. Automático por Agendamento (Cron)
-O workflow roda automaticamente todo dia às **06:00 UTC** via GitHub Actions, verificando se há novos commits em qualquer projeto.
+O workflow roda automaticamente a cada **6 horas** (`00:23`, `06:23`, `12:23` e `18:23` UTC) via GitHub Actions, verificando se há novos repositórios, exclusões/renomeações ou novos commits em qualquer projeto.
 
 ### 2. Manual pela Interface do GitHub
 1. Acesse a aba **Actions** neste repositório.

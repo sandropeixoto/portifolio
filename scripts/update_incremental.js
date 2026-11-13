@@ -19,14 +19,30 @@ console.log(`📡 Verificando repositórios remotos para a conta sandropeixoto..
 // 1. Obter lista remota leve (apenas 1 chamada da API)
 let remoteRepos = [];
 try {
-  const cmd = 'gh repo list sandropeixoto --limit 200 --json name,pushedAt,description,url,isPrivate,isFork,primaryLanguage,createdAt,updatedAt';
+  const cmd = 'gh repo list sandropeixoto --limit 1000 --json name,pushedAt,description,url,isPrivate,isFork,primaryLanguage,createdAt,updatedAt';
   remoteRepos = JSON.parse(execSync(cmd, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 }));
 } catch (err) {
   console.error('Falha ao listar repositórios via gh CLI:', err.message);
   process.exit(1);
 }
 
-// 2. Identificar repositórios que precisam de atualização
+// 2. Identificar repositórios removidos/renomeados e os que precisam de atualização
+const remoteNames = new Set(remoteRepos.map(r => r.name));
+const removedRepos = [];
+
+if (!targetRepoFromEnv && remoteRepos.length > 0) {
+  for (const localName of localMap.keys()) {
+    if (!remoteNames.has(localName)) {
+      removedRepos.push(localName);
+      localMap.delete(localName);
+    }
+  }
+}
+
+if (removedRepos.length > 0) {
+  console.log(`🗑️ Repositórios removidos ou renomeados (${removedRepos.length}):`, removedRepos);
+}
+
 let reposToUpdate = [];
 
 if (targetRepoFromEnv) {
@@ -42,16 +58,26 @@ if (targetRepoFromEnv) {
     // Compara timestamp de push
     const remotePush = new Date(remote.pushedAt || 0).getTime();
     const localPush = new Date(local.pushedAt || 0).getTime();
-    return remotePush > localPush;
+    if (remotePush > localPush) return true;
+    // Verifica alterações de metadados mesmo sem novo push
+    if ((remote.description || '') !== (local.description || '')) return true;
+    if (Boolean(remote.isPrivate) !== Boolean(local.isPrivate)) return true;
+    if (Boolean(remote.isFork) !== Boolean(local.isFork)) return true;
+    const remoteLang = remote.primaryLanguage?.name || 'N/A';
+    const localLang = local.techStack?.primaryLanguage || 'N/A';
+    if (remoteLang !== 'N/A' && localLang === 'N/A') return true;
+    return false;
   });
 }
 
-if (reposToUpdate.length === 0) {
+if (reposToUpdate.length === 0 && removedRepos.length === 0) {
   console.log('✅ Nenhum repositório foi alterado desde a última sincronização. Nada a fazer.');
   process.exit(0);
 }
 
-console.log(`⚡ Repositórios que precisam de atualização (${reposToUpdate.length}):`, reposToUpdate.map(r => r.name));
+if (reposToUpdate.length > 0) {
+  console.log(`⚡ Repositórios que precisam de atualização (${reposToUpdate.length}):`, reposToUpdate.map(r => r.name));
+}
 
 // Funções auxiliares de extração e classificação
 function parsePackageJson(text) {
@@ -275,11 +301,7 @@ function categorizeRepo(repo, techStack, effectiveDescription) {
 }
 
 // 3. Processar apenas os repositórios alterados em lotes de 6
-const BATCH_SIZE = 6;
-for (let i = 0; i < reposToUpdate.length; i += BATCH_SIZE) {
-  const chunk = reposToUpdate.slice(i, i + BATCH_SIZE);
-  console.log(`Processando lote ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(reposToUpdate.length / BATCH_SIZE)}...`);
-
+function buildRepoQuery(chunk) {
   const queryParts = chunk.map((repo, idx) => `
     r${idx}: repository(owner: "sandropeixoto", name: "${repo.name}") {
       pkg: object(expression: "HEAD:package.json") { ... on Blob { text } }
@@ -299,73 +321,113 @@ for (let i = 0; i < reposToUpdate.length; i += BATCH_SIZE) {
     }
   `).join('\n');
 
-  const fullQuery = `query { ${queryParts} }`;
+  return `query { ${queryParts} }`;
+}
+
+function applyRepoData(repo, repoData) {
+  if (!repoData) {
+    throw new Error(`O GitHub não retornou dados para ${repo.name}.`);
+  }
+
+  const pkgs = [
+    parsePackageJson(repoData.pkg?.text),
+    parsePackageJson(repoData.pkgFront?.text),
+    parsePackageJson(repoData.pkgBack?.text),
+    parsePackageJson(repoData.pkgFunc?.text)
+  ].filter(Boolean);
+
+  const composers = [
+    parseComposerJson(repoData.composer?.text),
+    parseComposerJson(repoData.composerBack?.text)
+  ].filter(Boolean);
+
+  const reqsLists = [
+    parseRequirements(repoData.reqs?.text),
+    parseRequirements(repoData.reqsBack?.text)
+  ].filter(r => r.length > 0);
+
+  const pubspecText = repoData.pubspec?.text || null;
+  const files = repoData.files;
+  const languagesData = repoData.languages;
+  const readmeSummary = extractReadmeSummary(repoData.readme?.text);
+  const effectiveDescription = repo.description || readmeSummary;
+
+  const techStack = detectTechStack(repo, pkgs, composers, reqsLists, pubspecText, files, languagesData);
+  const category = categorizeRepo(repo, techStack, effectiveDescription);
+
+  const updatedObj = {
+    name: repo.name,
+    url: repo.url,
+    isPrivate: repo.isPrivate,
+    isFork: repo.isFork,
+    description: repo.description || '',
+    readmeSummary,
+    effectiveDescription,
+    createdAt: repo.createdAt,
+    updatedAt: repo.updatedAt,
+    pushedAt: repo.pushedAt,
+    category,
+    techStack
+  };
+
+  localMap.set(repo.name, updatedObj);
+  console.log(`  ✓ Atualizado: ${repo.name} [${category}]`);
+}
+
+function executeChunkQuery(chunk) {
+  const fullQuery = buildRepoQuery(chunk);
+  const output = execSync('gh api graphql --input -', {
+    input: JSON.stringify({ query: fullQuery }),
+    encoding: 'utf8',
+    timeout: 30000
+  });
+  const parsed = JSON.parse(output);
+  if (parsed.errors?.length) {
+    throw new Error(parsed.errors.map(error => error.message).join('; '));
+  }
+  const data = parsed.data || {};
+  chunk.forEach((repo, idx) => {
+    applyRepoData(repo, data[`r${idx}`]);
+  });
+}
+
+let updatedCount = 0;
+let failedRepos = [];
+const BATCH_SIZE = 6;
+
+for (let i = 0; i < reposToUpdate.length; i += BATCH_SIZE) {
+  const chunk = reposToUpdate.slice(i, i + BATCH_SIZE);
+  console.log(`Processando lote ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(reposToUpdate.length / BATCH_SIZE)}...`);
 
   try {
-    const output = execSync('gh api graphql --input -', {
-      input: JSON.stringify({ query: fullQuery }),
-      encoding: 'utf8',
-      timeout: 30000
-    });
-    const parsed = JSON.parse(output);
-    if (parsed.errors?.length) {
-      throw new Error(parsed.errors.map(error => error.message).join('; '));
-    }
-    const data = parsed.data || {};
-
-    chunk.forEach((repo, idx) => {
-      const repoData = data[`r${idx}`];
-      if (!repoData) {
-        throw new Error(`O GitHub não retornou dados para ${repo.name}.`);
-      }
-      const pkgs = [
-        parsePackageJson(repoData.pkg?.text),
-        parsePackageJson(repoData.pkgFront?.text),
-        parsePackageJson(repoData.pkgBack?.text),
-        parsePackageJson(repoData.pkgFunc?.text)
-      ].filter(Boolean);
-
-      const composers = [
-        parseComposerJson(repoData.composer?.text),
-        parseComposerJson(repoData.composerBack?.text)
-      ].filter(Boolean);
-
-      const reqsLists = [
-        parseRequirements(repoData.reqs?.text),
-        parseRequirements(repoData.reqsBack?.text)
-      ].filter(r => r.length > 0);
-
-      const pubspecText = repoData.pubspec?.text || null;
-      const files = repoData.files;
-      const languagesData = repoData.languages;
-      const readmeSummary = extractReadmeSummary(repoData.readme?.text);
-      const effectiveDescription = repo.description || readmeSummary;
-
-      const techStack = detectTechStack(repo, pkgs, composers, reqsLists, pubspecText, files, languagesData);
-      const category = categorizeRepo(repo, techStack, effectiveDescription);
-
-      const updatedObj = {
-        name: repo.name,
-        url: repo.url,
-        isPrivate: repo.isPrivate,
-        isFork: repo.isFork,
-        description: repo.description || '',
-        readmeSummary,
-        effectiveDescription,
-        createdAt: repo.createdAt,
-        updatedAt: repo.updatedAt,
-        pushedAt: repo.pushedAt,
-        category,
-        techStack
-      };
-
-      localMap.set(repo.name, updatedObj);
-      console.log(`  ✓ Atualizado: ${repo.name} [${category}]`);
-    });
+    executeChunkQuery(chunk);
+    updatedCount += chunk.length;
   } catch (err) {
-    console.error(`Erro ao processar lote:`, err.message);
-    process.exit(1);
+    if (chunk.length === 1) {
+      console.error(`Erro ao processar ${chunk[0].name}:`, err.message);
+      failedRepos.push(chunk[0].name);
+    } else {
+      console.warn(`Aviso: falha no lote (${err.message}). Reprocessando repositórios individualmente...`);
+      for (const singleRepo of chunk) {
+        try {
+          executeChunkQuery([singleRepo]);
+          updatedCount += 1;
+        } catch (singleErr) {
+          console.error(`  ✗ Falha ao processar ${singleRepo.name}:`, singleErr.message);
+          failedRepos.push(singleRepo.name);
+        }
+      }
+    }
   }
+}
+
+if (reposToUpdate.length > 0 && updatedCount === 0 && removedRepos.length === 0) {
+  console.error('Nenhum repositório pôde ser atualizado.');
+  process.exit(1);
+}
+
+if (failedRepos.length > 0) {
+  console.warn(`⚠️ Alguns repositórios falharam na atualização (${failedRepos.length}):`, failedRepos);
 }
 
 // 4. Salvar base atualizada
@@ -378,4 +440,5 @@ try {
   execSync(`node "${path.join(__dirname, 'generate_html.js')}"`, { stdio: 'inherit' });
 } catch (err) {
   console.error('Erro ao regerar index.html:', err.message);
+  process.exit(1);
 }

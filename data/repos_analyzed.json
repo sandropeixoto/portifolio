@@ -665,13 +665,13 @@
     "url": "https://github.com/sandropeixoto/atomo-quantico",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Aplicação web imersiva e minimalista focada em produtividade pessoal, foco e bem-estar digital.",
     "readmeSummary": "O **Átomo Quântico** é um santuário digital minimalista e gamificado para o cultivo da gratidão. Inspirado nos princípios da mecânica quântica, o app transforma atos de gratidão em \"Fótons de Energia\", permitindo que ...",
-    "effectiveDescription": "O **Átomo Quântico** é um santuário digital minimalista e gamificado para o cultivo da gratidão. Inspirado nos princípios da mecânica quântica, o app transforma atos de gratidão em \"Fótons de Energia\", permitindo que ...",
+    "effectiveDescription": "Aplicação web imersiva e minimalista focada em produtividade pessoal, foco e bem-estar digital.",
     "createdAt": "2018-09-26T15:03:56Z",
-    "updatedAt": "2026-09-20T03:49:06Z",
+    "updatedAt": "2026-11-06T23:56:55Z",
     "pushedAt": "2026-09-20T03:49:03Z",
-    "category": "Inteligência Artificial & Agentes",
+    "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "JavaScript",
       "languages": [
@@ -787,10 +787,6 @@
         "worker-configuration.d.ts",
         "worker",
         "wrangler.jsonc"
-      ],
-      "devAssistance": [
-        "Gemini Docs",
-        "Antigravity Agents"
       ]
     }
   },
@@ -1441,11 +1437,11 @@
     "url": "https://github.com/sandropeixoto/PluguePlus",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Aplicativo mobile em Flutter para o ecossistema de eletromobilidade, localização e gestão de estações de recarga veicular.",
     "readmeSummary": "Aplicativo multiplataforma para mobilidade elétrica, com feed da comunidade, serviços, pontos de recarga, classificados e compartilhamento de conteúdo. - Flutter/Dart para Android, iOS e web. - Supabase Auth para aute...",
-    "effectiveDescription": "Aplicativo multiplataforma para mobilidade elétrica, com feed da comunidade, serviços, pontos de recarga, classificados e compartilhamento de conteúdo. - Flutter/Dart para Android, iOS e web. - Supabase Auth para aute...",
+    "effectiveDescription": "Aplicativo mobile em Flutter para o ecossistema de eletromobilidade, localização e gestão de estações de recarga veicular.",
     "createdAt": "2026-09-03T15:42:25Z",
-    "updatedAt": "2026-09-16T23:10:23Z",
+    "updatedAt": "2026-11-06T23:56:56Z",
     "pushedAt": "2026-09-16T23:10:19Z",
     "category": "Mobile & Multiplataforma",
     "techStack": {
@@ -1499,8 +1495,7 @@
         "tools",
         "web",
         "workers"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -1508,11 +1503,11 @@
     "url": "https://github.com/sandropeixoto/VotoMetrica",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Plataforma de inteligência político-eleitoral, engenharia de dados e projeção de cenários eleitorais.",
     "readmeSummary": "",
-    "effectiveDescription": "",
+    "effectiveDescription": "Plataforma de inteligência político-eleitoral, engenharia de dados e projeção de cenários eleitorais.",
     "createdAt": "2026-09-12T12:02:57Z",
-    "updatedAt": "2026-09-16T23:10:04Z",
+    "updatedAt": "2026-11-06T23:56:57Z",
     "pushedAt": "2026-09-16T23:10:00Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
@@ -1561,9 +1556,6 @@
         "package.json",
         "scripts",
         "tsconfig.base.json"
-      ],
-      "devAssistance": [
-        "Antigravity Agents"
       ]
     }
   },
@@ -2163,13 +2155,13 @@
     "url": "https://github.com/sandropeixoto/Plugue-Plus",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Plataforma web V2 para o ecossistema de mobilidade elétrica no Brasil com gestão de pontos e redes de recarga.",
     "readmeSummary": "Plataforma brasileira para o ecossistema de mobilidade elétrica (greenfield V2). - **Frontend / PWA:** React 19 / 18, TypeScript (strict), Vite, Tailwind CSS, Lucide React, TanStack Query, React Router v7 / v6, React ...",
-    "effectiveDescription": "Plataforma brasileira para o ecossistema de mobilidade elétrica (greenfield V2). - **Frontend / PWA:** React 19 / 18, TypeScript (strict), Vite, Tailwind CSS, Lucide React, TanStack Query, React Router v7 / v6, React ...",
+    "effectiveDescription": "Plataforma web V2 para o ecossistema de mobilidade elétrica no Brasil com gestão de pontos e redes de recarga.",
     "createdAt": "2026-09-12T02:29:22Z",
-    "updatedAt": "2026-09-15T09:59:18Z",
+    "updatedAt": "2026-11-06T23:56:59Z",
     "pushedAt": "2026-09-15T09:59:14Z",
-    "category": "Aplicações Web & SaaS",
+    "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
@@ -2231,9 +2223,6 @@
         "supabase",
         "worker",
         "wrangler.jsonc"
-      ],
-      "devAssistance": [
-        "Antigravity Agents"
       ]
     }
   },
@@ -3219,94 +3208,6 @@
     }
   },
   {
-    "name": "PDV-Agil-Nano",
-    "url": "https://github.com/sandropeixoto/PDV-Agil-Nano",
-    "isPrivate": true,
-    "isFork": false,
-    "description": "PDV e Estoque Comercial",
-    "readmeSummary": "",
-    "effectiveDescription": "PDV e Estoque Comercial",
-    "createdAt": "2026-08-10T20:04:07Z",
-    "updatedAt": "2026-08-31T21:11:41Z",
-    "pushedAt": "2026-08-31T21:10:28Z",
-    "category": "Inteligência Artificial & Agentes",
-    "techStack": {
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        {
-          "name": "TypeScript",
-          "size": 522227,
-          "percentage": 99.7
-        },
-        {
-          "name": "CSS",
-          "size": 759,
-          "percentage": 0.1
-        },
-        {
-          "name": "HTML",
-          "size": 711,
-          "percentage": 0.1
-        }
-      ],
-      "frameworks": [
-        "React",
-        "Vite",
-        "Express",
-        "Hono"
-      ],
-      "libraries": [
-        "Tailwind CSS",
-        "Lucide Icons",
-        "Framer Motion"
-      ],
-      "databases": [],
-      "cloud": [
-        "Firebase",
-        "Cloudflare Workers"
-      ],
-      "tools": [
-        "Google Gemini SDK"
-      ],
-      "keyDependencies": [
-        "@google/genai",
-        "@tailwindcss/vite",
-        "@vitejs/plugin-react",
-        "dotenv",
-        "express",
-        "firebase",
-        "hono",
-        "lucide-react",
-        "motion",
-        "react",
-        "react-dom",
-        "recharts"
-      ],
-      "rootFiles": [
-        ".env.example",
-        ".firebaserc",
-        ".gitignore",
-        "assets",
-        "bun.lock",
-        "firebase-applet-config.json",
-        "firebase-blueprint.json",
-        "firebase.json",
-        "firestore.rules",
-        "index.html",
-        "metadata.json",
-        "migrations",
-        "package.json",
-        "public",
-        "schema.sql",
-        "src",
-        "tsconfig.json",
-        "vite.config.ts",
-        "wrangler.toml"
-      ],
-      "devAssistance": []
-    }
-  },
-  {
     "name": "Candidato-2026-bordalo13130",
     "url": "https://github.com/sandropeixoto/Candidato-2026-bordalo13130",
     "isPrivate": true,
@@ -3385,13 +3286,13 @@
     "url": "https://github.com/sandropeixoto/nr01",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Módulo de gestão de riscos ocupacionais e conformidade com a Norma Regulamentadora NR-01.",
     "readmeSummary": "Este diretório centraliza as frentes de produto mais promissoras ligadas à NR-01, com repositórios separados por tese de MVP e documentação estratégica comum. - `nr01-consultorias` - `nr01-pgr-pmes`",
-    "effectiveDescription": "Este diretório centraliza as frentes de produto mais promissoras ligadas à NR-01, com repositórios separados por tese de MVP e documentação estratégica comum. - `nr01-consultorias` - `nr01-pgr-pmes`",
+    "effectiveDescription": "Módulo de gestão de riscos ocupacionais e conformidade com a Norma Regulamentadora NR-01.",
     "createdAt": "2026-08-28T23:52:55Z",
-    "updatedAt": "2026-08-28T23:55:24Z",
+    "updatedAt": "2026-11-06T23:57:01Z",
     "pushedAt": "2026-08-28T23:55:15Z",
-    "category": "Aplicações Web & SaaS",
+    "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
@@ -3438,8 +3339,7 @@
         "nr01-pgr-pmes",
         "nr01-planos-acao-sst",
         "nr01-riscos-psicossociais"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -3447,11 +3347,11 @@
     "url": "https://github.com/sandropeixoto/GESTISS-e-TAL",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Solução integrada para gestão clínica, ambulatorial, prontuário eletrônico e controle de atendimentos de saúde.",
     "readmeSummary": "> Solução integrada para Gestão Clínica, Ambulatorial, Prontuário Eletrônico do Cidadão (PEC/SOAP), Telemedicina e Conformidade com o e-SUS / Ministério da Saúde. - [Visão Geral](#-visão-geral) - [Estrutura do Reposit...",
-    "effectiveDescription": "> Solução integrada para Gestão Clínica, Ambulatorial, Prontuário Eletrônico do Cidadão (PEC/SOAP), Telemedicina e Conformidade com o e-SUS / Ministério da Saúde. - [Visão Geral](#-visão-geral) - [Estrutura do Reposit...",
+    "effectiveDescription": "Solução integrada para gestão clínica, ambulatorial, prontuário eletrônico e controle de atendimentos de saúde.",
     "createdAt": "2026-08-25T12:42:17Z",
-    "updatedAt": "2026-08-25T12:48:46Z",
+    "updatedAt": "2026-11-06T23:57:02Z",
     "pushedAt": "2026-08-25T12:45:06Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
@@ -3502,8 +3402,7 @@
         "LEVANTAMENTO_DETALHADO_GESTISS.md",
         "README.md",
         "gestiss_principal.sql"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -3921,11 +3820,11 @@
     "url": "https://github.com/sandropeixoto/VirtualHand",
     "isPrivate": false,
     "isFork": false,
-    "description": "",
+    "description": "VirtualHand OS - Interface desktop de computação espacial com rastreamento biométrico das mãos usando MediaPipe, Three.js e Electron.",
     "readmeSummary": "",
-    "effectiveDescription": "",
+    "effectiveDescription": "VirtualHand OS - Interface desktop de computação espacial com rastreamento biométrico das mãos usando MediaPipe, Three.js e Electron.",
     "createdAt": "2026-07-30T13:59:55Z",
-    "updatedAt": "2026-08-14T13:30:06Z",
+    "updatedAt": "2026-11-06T23:57:03Z",
     "pushedAt": "2026-08-14T13:29:02Z",
     "category": "Ferramentas, CLIs & Utilitários",
     "techStack": {
@@ -3977,8 +3876,7 @@
         "python_backend",
         "src",
         "tests"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -3986,11 +3884,11 @@
     "url": "https://github.com/sandropeixoto/Resultados-Eleicoes",
     "isPrivate": false,
     "isFork": false,
-    "description": "",
+    "description": "Dashboard analítico de apuração e resultados eleitorais com cálculo de quociente eleitoral, HHI e análise de swing votes.",
     "readmeSummary": "",
-    "effectiveDescription": "",
+    "effectiveDescription": "Dashboard analítico de apuração e resultados eleitorais com cálculo de quociente eleitoral, HHI e análise de swing votes.",
     "createdAt": "2026-08-13T17:18:50Z",
-    "updatedAt": "2026-08-14T13:04:28Z",
+    "updatedAt": "2026-11-06T23:57:04Z",
     "pushedAt": "2026-08-14T13:03:13Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
@@ -4041,9 +3939,6 @@
         "php.ini",
         "public",
         "sample_eleicoes.csv"
-      ],
-      "devAssistance": [
-        "Antigravity Agents"
       ]
     }
   },
@@ -4308,11 +4203,11 @@
     "url": "https://github.com/sandropeixoto/NanoVoice",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Suíte de ferramentas local, privada e offline para transcrição, síntese e processamento de áudio com modelos de IA.",
     "readmeSummary": "NanoVoice é uma suite de ferramentas local, privada e offline em Python projetada para a síntese de voz (Text-to-Speech) de alta fidelidade em português brasileiro (pt-BR) e geração automática de apresentações de víde...",
-    "effectiveDescription": "NanoVoice é uma suite de ferramentas local, privada e offline em Python projetada para a síntese de voz (Text-to-Speech) de alta fidelidade em português brasileiro (pt-BR) e geração automática de apresentações de víde...",
+    "effectiveDescription": "Suíte de ferramentas local, privada e offline para transcrição, síntese e processamento de áudio com modelos de IA.",
     "createdAt": "2026-07-23T15:21:02Z",
-    "updatedAt": "2026-07-28T16:51:12Z",
+    "updatedAt": "2026-11-06T23:57:05Z",
     "pushedAt": "2026-07-28T16:46:40Z",
     "category": "Inteligência Artificial & Agentes",
     "techStack": {
@@ -4345,7 +4240,9 @@
       "libraries": [],
       "databases": [],
       "cloud": [],
-      "tools": [],
+      "tools": [
+        "WhatsApp API"
+      ],
       "keyDependencies": [
         "kokoro-onnx",
         "espeakng-loader",
@@ -4385,8 +4282,7 @@
         "setup.bat",
         "uazapi-openapi-spec.yaml",
         "uazapi_config.json"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -4682,13 +4578,13 @@
   {
     "name": "ASPEB---Sales-Platform-Business",
     "url": "https://github.com/sandropeixoto/ASPEB---Sales-Platform-Business",
-    "isPrivate": false,
+    "isPrivate": true,
     "isFork": false,
     "description": "ASPEB - Sales Platform Business",
     "readmeSummary": "O **ASPEB Benefícios** é uma plataforma digital de alta conversão projetada para apresentar, simular e contratar planos de saúde, clube de vantagens e seguros de vida com foco na Região Norte do Brasil. A solução aten...",
     "effectiveDescription": "ASPEB - Sales Platform Business",
     "createdAt": "2026-07-20T11:31:12Z",
-    "updatedAt": "2026-07-20T11:53:45Z",
+    "updatedAt": "2026-10-05T15:07:15Z",
     "pushedAt": "2026-07-20T11:53:05Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
@@ -4723,7 +4619,7 @@
       "databases": [],
       "cloud": [],
       "tools": [
-        "Google Gemini SDK"
+        "Google Gemini AI"
       ],
       "keyDependencies": [
         "@google/genai",
@@ -4751,20 +4647,19 @@
         "src",
         "tsconfig.json",
         "vite.config.ts"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
     "name": "ASPEB---Smart-Family-Shield",
     "url": "https://github.com/sandropeixoto/ASPEB---Smart-Family-Shield",
-    "isPrivate": false,
+    "isPrivate": true,
     "isFork": false,
     "description": "ASPEB - Smart Family Shield",
     "readmeSummary": "O **ASPEB Benefícios** é uma plataforma digital de alta conversão projetada para apresentar, simular e contratar planos de saúde, clube de vantagens e seguros de vida com foco na Região Norte do Brasil. A solução aten...",
     "effectiveDescription": "ASPEB - Smart Family Shield",
     "createdAt": "2026-07-12T20:41:51Z",
-    "updatedAt": "2026-07-13T21:45:37Z",
+    "updatedAt": "2026-10-05T15:07:27Z",
     "pushedAt": "2026-07-13T21:45:29Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
@@ -4799,7 +4694,7 @@
       "databases": [],
       "cloud": [],
       "tools": [
-        "Google Gemini SDK"
+        "Google Gemini AI"
       ],
       "keyDependencies": [
         "@google/genai",
@@ -4827,8 +4722,7 @@
         "src",
         "tsconfig.json",
         "vite.config.ts"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -5127,11 +5021,11 @@
     "url": "https://github.com/sandropeixoto/Boutique-Cafe",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Plataforma de e-commerce D2C (Direct-to-Consumer) com design premium para torrefações e cafés especiais.",
     "readmeSummary": "Plataforma D2C (Direct-to-Consumer) de alta fidelidade visual para venda de cafés especiais, focada em uma experiência premium e personalizada. **URL:** https://boutique-cafe.web.app - **Frontend:** Flutter (Web, Andr...",
-    "effectiveDescription": "Plataforma D2C (Direct-to-Consumer) de alta fidelidade visual para venda de cafés especiais, focada em uma experiência premium e personalizada. **URL:** https://boutique-cafe.web.app - **Frontend:** Flutter (Web, Andr...",
+    "effectiveDescription": "Plataforma de e-commerce D2C (Direct-to-Consumer) com design premium para torrefações e cafés especiais.",
     "createdAt": "2026-03-09T18:24:11Z",
-    "updatedAt": "2026-06-30T21:20:55Z",
+    "updatedAt": "2026-11-06T23:57:06Z",
     "pushedAt": "2026-06-30T21:20:44Z",
     "category": "Mobile & Multiplataforma",
     "techStack": {
@@ -5230,11 +5124,6 @@
         "storage.rules",
         "test",
         "web"
-      ],
-      "devAssistance": [
-        "Gemini Docs",
-        "Claude Docs",
-        "Antigravity Agents"
       ]
     }
   },
@@ -5395,11 +5284,11 @@
     "url": "https://github.com/sandropeixoto/AgentDev",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Ecossistema modular para orquestração, monitoramento e execução de agentes autônomos de desenvolvimento de software.",
     "readmeSummary": "Este é um ecossistema local e modular projetado para monitorar e agir em **Issues** do GitHub de forma ativa em múltiplos repositórios e sem custos fixos, gerenciado por um painel web local em PHP e SQLite. Ele combin...",
-    "effectiveDescription": "Este é um ecossistema local e modular projetado para monitorar e agir em **Issues** do GitHub de forma ativa em múltiplos repositórios e sem custos fixos, gerenciado por um painel web local em PHP e SQLite. Ele combin...",
+    "effectiveDescription": "Ecossistema modular para orquestração, monitoramento e execução de agentes autônomos de desenvolvimento de software.",
     "createdAt": "2026-06-10T16:10:55Z",
-    "updatedAt": "2026-06-10T16:17:39Z",
+    "updatedAt": "2026-11-06T23:57:07Z",
     "pushedAt": "2026-06-10T16:16:41Z",
     "category": "Inteligência Artificial & Agentes",
     "techStack": {
@@ -5423,7 +5312,7 @@
       "databases": [],
       "cloud": [],
       "tools": [
-        "OpenAI SDK"
+        "OpenAI API"
       ],
       "keyDependencies": [
         "flask",
@@ -5445,8 +5334,7 @@
         "simulate_webhook.py",
         "src",
         "tests"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -5614,11 +5502,11 @@
     "url": "https://github.com/sandropeixoto/Ideia2Media",
     "isPrivate": true,
     "isFork": false,
-    "description": ".",
+    "description": "IdeaToMedia Studio - Plataforma de automação e produção de mídia audiovisual a partir de roteiros e conceitos com IA.",
     "readmeSummary": "O **IdeaToMedia Studio** é uma plataforma avançada de automação de conteúdo multimídia desenvolvida para otimizar o ciclo de produção digital. A solução resolve a complexidade da criação de ativos de mídia ao integrar...",
-    "effectiveDescription": ".",
+    "effectiveDescription": "IdeaToMedia Studio - Plataforma de automação e produção de mídia audiovisual a partir de roteiros e conceitos com IA.",
     "createdAt": "2026-03-28T00:45:57Z",
-    "updatedAt": "2026-06-03T14:13:50Z",
+    "updatedAt": "2026-11-06T23:57:08Z",
     "pushedAt": "2026-06-03T14:07:17Z",
     "category": "Inteligência Artificial & Agentes",
     "techStack": {
@@ -5655,7 +5543,7 @@
         "Firebase"
       ],
       "tools": [
-        "Google Gemini SDK"
+        "Google Gemini AI"
       ],
       "keyDependencies": [
         "@google/genai",
@@ -5687,10 +5575,6 @@
         "src",
         "tsconfig.json",
         "vite.config.ts"
-      ],
-      "devAssistance": [
-        "Gemini Docs",
-        "Claude Docs"
       ]
     }
   },
@@ -5699,11 +5583,11 @@
     "url": "https://github.com/sandropeixoto/Ideia2Media-local",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Versão de execução local do IdeaToMedia Studio para renderização e pipeline de produção audiovisual automatizada.",
     "readmeSummary": "O **IdeaToMedia Studio** é uma plataforma de automação de conteúdo multimídia de alto desempenho, projetada para converter conceitos abstratos em produções audiovisuais completas e otimizadas para plataformas digitais...",
-    "effectiveDescription": "O **IdeaToMedia Studio** é uma plataforma de automação de conteúdo multimídia de alto desempenho, projetada para converter conceitos abstratos em produções audiovisuais completas e otimizadas para plataformas digitais...",
+    "effectiveDescription": "Versão de execução local do IdeaToMedia Studio para renderização e pipeline de produção audiovisual automatizada.",
     "createdAt": "2026-03-28T08:46:18Z",
-    "updatedAt": "2026-06-03T14:06:09Z",
+    "updatedAt": "2026-11-06T23:57:09Z",
     "pushedAt": "2026-06-03T14:01:34Z",
     "category": "Inteligência Artificial & Agentes",
     "techStack": {
@@ -5755,7 +5639,7 @@
       ],
       "cloud": [],
       "tools": [
-        "Google Gemini SDK"
+        "Google Gemini AI"
       ],
       "keyDependencies": [
         "@google/genai",
@@ -5790,10 +5674,6 @@
         "src",
         "tsconfig.json",
         "vite.config.ts"
-      ],
-      "devAssistance": [
-        "Gemini Docs",
-        "Claude Docs"
       ]
     }
   },
@@ -6074,11 +5954,11 @@
     "url": "https://github.com/sandropeixoto/Captura",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Plataforma de monitoramento contínuo, captura e indexação de dados e veículos para análise de mercado.",
     "readmeSummary": "Este projeto é uma plataforma completa de monitoramento e venda de alertas para anúncios da OLX Brasil. O sistema evoluiu de um simples scraper para um modelo **SaaS (Software as a Service)**, incluindo página de vend...",
-    "effectiveDescription": "Este projeto é uma plataforma completa de monitoramento e venda de alertas para anúncios da OLX Brasil. O sistema evoluiu de um simples scraper para um modelo **SaaS (Software as a Service)**, incluindo página de vend...",
+    "effectiveDescription": "Plataforma de monitoramento contínuo, captura e indexação de dados e veículos para análise de mercado.",
     "createdAt": "2026-05-20T11:56:30Z",
-    "updatedAt": "2026-05-29T09:09:48Z",
+    "updatedAt": "2026-11-06T23:57:10Z",
     "pushedAt": "2026-05-27T14:12:31Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
@@ -6142,9 +6022,6 @@
         "scraper",
         "setup_appwrite.py",
         "sync_to_remote.py"
-      ],
-      "devAssistance": [
-        "Gemini Docs"
       ]
     }
   },
@@ -6153,13 +6030,13 @@
     "url": "https://github.com/sandropeixoto/Youtube-Channel-to-MP3",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Automação para download e conversão de áudio de canais do YouTube em arquivos MP3 com arquivamento.",
     "readmeSummary": "Download de audio de canais do YouTube para MP3 com envio automatico para Telegram e painel web em PHP. - Gerenciamento de canais no painel web - Sincronizacao automatica de videos novos via YouTube Data API",
-    "effectiveDescription": "Download de audio de canais do YouTube para MP3 com envio automatico para Telegram e painel web em PHP. - Gerenciamento de canais no painel web - Sincronizacao automatica de videos novos via YouTube Data API",
+    "effectiveDescription": "Automação para download e conversão de áudio de canais do YouTube em arquivos MP3 com arquivamento.",
     "createdAt": "2026-03-18T14:06:28Z",
-    "updatedAt": "2026-05-18T17:04:24Z",
+    "updatedAt": "2026-11-06T23:57:11Z",
     "pushedAt": "2026-05-18T17:04:19Z",
-    "category": "Comunicação, Automação & Bots",
+    "category": "Backends, APIs & Serviços",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
@@ -6189,8 +6066,7 @@
         "channel2sqlite.py",
         "php",
         "schema.sql"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -6674,11 +6550,11 @@
     "url": "https://github.com/sandropeixoto/RoletaZap",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Aplicação interativa de gamificação com roleta de prêmios e cupons integrada a campanhas no WhatsApp.",
     "readmeSummary": "",
-    "effectiveDescription": "",
+    "effectiveDescription": "Aplicação interativa de gamificação com roleta de prêmios e cupons integrada a campanhas no WhatsApp.",
     "createdAt": "2026-03-06T18:31:00Z",
-    "updatedAt": "2026-05-16T12:54:12Z",
+    "updatedAt": "2026-11-06T23:57:12Z",
     "pushedAt": "2026-05-16T12:54:09Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
@@ -6745,10 +6621,6 @@
         "firebase.json",
         "frontend",
         "functions"
-      ],
-      "devAssistance": [
-        "Gemini Docs",
-        "Claude Docs"
       ]
     }
   },
@@ -7134,11 +7006,11 @@
     "url": "https://github.com/sandropeixoto/sandropeixoto",
     "isPrivate": false,
     "isFork": false,
-    "description": "",
+    "description": "Repositório de perfil pessoal no GitHub de Sandro Peixoto — Tech Lead, Arquiteto de Soluções de IA e Engenheiro Full Stack.",
     "readmeSummary": "Eu construo ecossistemas digitais de alta performance, unindo inteligência artificial, gamificação e arquiteturas escaláveis. Especialista em transformar fluxos complexos em experiências simples e eficientes. 📍 Pará,...",
-    "effectiveDescription": "Eu construo ecossistemas digitais de alta performance, unindo inteligência artificial, gamificação e arquiteturas escaláveis. Especialista em transformar fluxos complexos em experiências simples e eficientes. 📍 Pará,...",
+    "effectiveDescription": "Repositório de perfil pessoal no GitHub de Sandro Peixoto — Tech Lead, Arquiteto de Soluções de IA e Engenheiro Full Stack.",
     "createdAt": "2026-04-27T12:58:25Z",
-    "updatedAt": "2026-04-27T13:07:40Z",
+    "updatedAt": "2026-11-06T23:57:13Z",
     "pushedAt": "2026-04-27T13:07:35Z",
     "category": "Outros Projetos",
     "techStack": {
@@ -7152,8 +7024,7 @@
       "keyDependencies": [],
       "rootFiles": [
         "README.md"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -7161,11 +7032,11 @@
     "url": "https://github.com/sandropeixoto/Site-Katia-Campos",
     "isPrivate": false,
     "isFork": false,
-    "description": "",
+    "description": "Landing page institucional e de captação para a psicóloga clínica Kátia Campos.",
     "readmeSummary": "Landing page profissional desenvolvida para a psicóloga **Kátia Campos**, especializada em **Terapia Cognitivo-Comportamental (TCC)**. O projeto foca em oferecer uma experiência acolhedora, moderna e informativa para ...",
-    "effectiveDescription": "Landing page profissional desenvolvida para a psicóloga **Kátia Campos**, especializada em **Terapia Cognitivo-Comportamental (TCC)**. O projeto foca em oferecer uma experiência acolhedora, moderna e informativa para ...",
+    "effectiveDescription": "Landing page institucional e de captação para a psicóloga clínica Kátia Campos.",
     "createdAt": "2026-03-23T20:17:13Z",
-    "updatedAt": "2026-04-22T19:50:06Z",
+    "updatedAt": "2026-11-06T23:57:14Z",
     "pushedAt": "2026-04-22T19:50:02Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
@@ -7229,10 +7100,6 @@
         "css",
         "index.html",
         "js"
-      ],
-      "devAssistance": [
-        "Gemini Docs",
-        "Antigravity Agents"
       ]
     }
   },
@@ -7321,11 +7188,11 @@
     "url": "https://github.com/sandropeixoto/Site-FemicroPA",
     "isPrivate": false,
     "isFork": false,
-    "description": "",
+    "description": "Portal institucional da FEMICRO-PA (Federação das Micro e Pequenas Empresas do Estado do Pará).",
     "readmeSummary": "Este é o site institucional da **Femicro-PA** (Federação das Micro e Pequenas Empresas do Pará), desenvolvido para fortalecer a presença digital da federação e facilitar o processo de associação de micro e pequenos em...",
-    "effectiveDescription": "Este é o site institucional da **Femicro-PA** (Federação das Micro e Pequenas Empresas do Pará), desenvolvido para fortalecer a presença digital da federação e facilitar o processo de associação de micro e pequenos em...",
+    "effectiveDescription": "Portal institucional da FEMICRO-PA (Federação das Micro e Pequenas Empresas do Estado do Pará).",
     "createdAt": "2026-03-24T12:52:37Z",
-    "updatedAt": "2026-04-19T19:09:49Z",
+    "updatedAt": "2026-11-06T23:57:15Z",
     "pushedAt": "2026-04-19T19:09:45Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
@@ -7395,9 +7262,6 @@
         "public",
         "src",
         "vite.config.js"
-      ],
-      "devAssistance": [
-        "Gemini Docs"
       ]
     }
   },
@@ -7530,11 +7394,11 @@
     "url": "https://github.com/sandropeixoto/Gestao-de-Estagiarios",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "EstagiárioPlus - Plataforma corporativa para acompanhamento, gestão de contratos e avaliação de estagiários.",
     "readmeSummary": "O **EstagiárioPlus** é uma plataforma corporativa de alto desempenho projetada para gerir o ciclo de vida completo de programas de estágio, garantindo conformidade legal (Lei do Estágio) e eficiência administrativa. O...",
-    "effectiveDescription": "O **EstagiárioPlus** é uma plataforma corporativa de alto desempenho projetada para gerir o ciclo de vida completo de programas de estágio, garantindo conformidade legal (Lei do Estágio) e eficiência administrativa. O...",
+    "effectiveDescription": "EstagiárioPlus - Plataforma corporativa para acompanhamento, gestão de contratos e avaliação de estagiários.",
     "createdAt": "2026-02-18T16:53:12Z",
-    "updatedAt": "2026-04-16T14:18:48Z",
+    "updatedAt": "2026-11-06T23:57:15Z",
     "pushedAt": "2026-04-16T14:18:37Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
@@ -7641,9 +7505,6 @@
         "schema_mysql.sql",
         "schema_pg.sql",
         "src"
-      ],
-      "devAssistance": [
-        "Antigravity Agents"
       ]
     }
   },
@@ -7652,11 +7513,11 @@
     "url": "https://github.com/sandropeixoto/Simon-Says",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Jogo casual da memória estilo Simon Says desenvolvido em Flutter com tema Cyber-Glass e deploy no Firebase.",
     "readmeSummary": "A new Flutter project. This project is a starting point for a Flutter application. A few resources to get you started if this is your first Flutter project:",
-    "effectiveDescription": "A new Flutter project. This project is a starting point for a Flutter application. A few resources to get you started if this is your first Flutter project:",
+    "effectiveDescription": "Jogo casual da memória estilo Simon Says desenvolvido em Flutter com tema Cyber-Glass e deploy no Firebase.",
     "createdAt": "2026-03-14T01:02:51Z",
-    "updatedAt": "2026-04-16T14:18:57Z",
+    "updatedAt": "2026-11-06T23:57:16Z",
     "pushedAt": "2026-04-16T14:18:35Z",
     "category": "Mobile & Multiplataforma",
     "techStack": {
@@ -7734,9 +7595,6 @@
         "test",
         "web",
         "windows"
-      ],
-      "devAssistance": [
-        "Antigravity Agents"
       ]
     }
   },
@@ -7745,11 +7603,11 @@
     "url": "https://github.com/sandropeixoto/Thinking-to-YouTube",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Pipeline automatizado de produção de roteiros e geração de conteúdo em vídeo para YouTube com auxílio de IA.",
     "readmeSummary": "",
-    "effectiveDescription": "",
+    "effectiveDescription": "Pipeline automatizado de produção de roteiros e geração de conteúdo em vídeo para YouTube com auxílio de IA.",
     "createdAt": "2026-03-23T00:14:49Z",
-    "updatedAt": "2026-04-16T14:18:43Z",
+    "updatedAt": "2026-11-06T23:57:17Z",
     "pushedAt": "2026-04-16T14:18:33Z",
     "category": "Inteligência Artificial & Agentes",
     "techStack": {
@@ -7799,7 +7657,7 @@
         "Firebase"
       ],
       "tools": [
-        "Google Gemini SDK"
+        "Google Gemini AI"
       ],
       "keyDependencies": [
         "@google/generative-ai",
@@ -7845,10 +7703,6 @@
         "tsconfig.json",
         "tsconfig.node.json",
         "vite.config.ts"
-      ],
-      "devAssistance": [
-        "Gemini Docs",
-        "Antigravity Agents"
       ]
     }
   },
@@ -7916,13 +7770,13 @@
     "url": "https://github.com/sandropeixoto/Gestor-IA",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Plataforma corporativa inteligente para gestão de tarefas, fluxos operacionais e assistência contextual com IA.",
     "readmeSummary": "O **Gestor IA** é uma plataforma corporativa inteligente de mentoria e automação de relatórios. O sistema utiliza Inteligência Artificial para ajudar colaboradores a estruturarem suas atividades mensais através de um ...",
-    "effectiveDescription": "O **Gestor IA** é uma plataforma corporativa inteligente de mentoria e automação de relatórios. O sistema utiliza Inteligência Artificial para ajudar colaboradores a estruturarem suas atividades mensais através de um ...",
+    "effectiveDescription": "Plataforma corporativa inteligente para gestão de tarefas, fluxos operacionais e assistência contextual com IA.",
     "createdAt": "2026-02-06T14:48:41Z",
-    "updatedAt": "2026-04-16T15:13:45Z",
+    "updatedAt": "2026-11-06T23:57:18Z",
     "pushedAt": "2026-04-16T14:18:23Z",
-    "category": "Inteligência Artificial & Agentes",
+    "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "JavaScript",
       "languages": [
@@ -7999,9 +7853,6 @@
         "index.php",
         "scripts",
         "uploads"
-      ],
-      "devAssistance": [
-        "Antigravity Agents"
       ]
     }
   },
@@ -8094,11 +7945,11 @@
     "url": "https://github.com/sandropeixoto/Desktop-Webcam-Monitor",
     "isPrivate": false,
     "isFork": false,
-    "description": "",
+    "description": "Aplicação desktop para monitoramento contínuo via webcam com detecção de movimento e alertas automáticos.",
     "readmeSummary": "Aplicação de monitoramento automático em Python com detecção de movimento e rostos. - **Detecção de Movimento:** Gatilho automático para gravação. - **Identificação de Rostos:** Reconhecimento via MediaPipe.",
-    "effectiveDescription": "Aplicação de monitoramento automático em Python com detecção de movimento e rostos. - **Detecção de Movimento:** Gatilho automático para gravação. - **Identificação de Rostos:** Reconhecimento via MediaPipe.",
+    "effectiveDescription": "Aplicação desktop para monitoramento contínuo via webcam com detecção de movimento e alertas automáticos.",
     "createdAt": "2026-04-08T16:50:39Z",
-    "updatedAt": "2026-04-15T17:31:25Z",
+    "updatedAt": "2026-11-06T23:57:19Z",
     "pushedAt": "2026-04-15T17:31:21Z",
     "category": "Inteligência Artificial & Agentes",
     "techStack": {
@@ -8170,9 +8021,6 @@
         "main.py",
         "requirements.txt",
         "src"
-      ],
-      "devAssistance": [
-        "Antigravity Agents"
       ]
     }
   },
@@ -8181,11 +8029,11 @@
     "url": "https://github.com/sandropeixoto/Site-Sandro-Peixoto",
     "isPrivate": false,
     "isFork": false,
-    "description": "",
+    "description": "Portfolio pessoal e site institucional de Sandro Peixoto construído com React, TypeScript, Tailwind CSS e Vite.",
     "readmeSummary": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Currently, two official plugins are available: - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/b...",
-    "effectiveDescription": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Currently, two official plugins are available: - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/b...",
+    "effectiveDescription": "Portfolio pessoal e site institucional de Sandro Peixoto construído com React, TypeScript, Tailwind CSS e Vite.",
     "createdAt": "2026-04-09T16:43:12Z",
-    "updatedAt": "2026-04-10T15:22:57Z",
+    "updatedAt": "2026-11-06T23:57:21Z",
     "pushedAt": "2026-04-10T15:22:53Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
@@ -8248,8 +8096,7 @@
         "src",
         "tailwind.config.js",
         "vite.config.js"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -8257,11 +8104,11 @@
     "url": "https://github.com/sandropeixoto/Gestao-de-Viagens-old",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Aplicação legada para solicitação, aprovação e controle de viagens corporativas e diárias.",
     "readmeSummary": "Gestao de Viagens is a web application that facilitates the management of travel plans and itineraries. It allows users to create, view, and edit trips seamlessly, ensuring an organized travel experience. - Frontend: ...",
-    "effectiveDescription": "Gestao de Viagens is a web application that facilitates the management of travel plans and itineraries. It allows users to create, view, and edit trips seamlessly, ensuring an organized travel experience. - Frontend: ...",
+    "effectiveDescription": "Aplicação legada para solicitação, aprovação e controle de viagens corporativas e diárias.",
     "createdAt": "2026-02-22T11:09:07Z",
-    "updatedAt": "2026-05-17T18:50:39Z",
+    "updatedAt": "2026-11-06T23:57:22Z",
     "pushedAt": "2026-04-10T11:38:18Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
@@ -8351,9 +8198,6 @@
         "tsconfig.json",
         "tsconfig.node.json",
         "vite.config.ts"
-      ],
-      "devAssistance": [
-        "Gemini Docs"
       ]
     }
   },
@@ -8466,11 +8310,11 @@
     "url": "https://github.com/sandropeixoto/site-premium-enhancer",
     "isPrivate": false,
     "isFork": false,
-    "description": "",
+    "description": "Skill personalizada para agentes de IA focada em auditoria, refatoração de UX/UI e polimento visual de aplicações web.",
     "readmeSummary": "Uma skill personalizada para o **Gemini CLI** focada em transformar sites comuns em interfaces **Premium**, seguindo o padrão **Site-Visual-Moderno**. - **Auditoria Automática:** Executa um script Python que analisa a...",
-    "effectiveDescription": "Uma skill personalizada para o **Gemini CLI** focada em transformar sites comuns em interfaces **Premium**, seguindo o padrão **Site-Visual-Moderno**. - **Auditoria Automática:** Executa um script Python que analisa a...",
+    "effectiveDescription": "Skill personalizada para agentes de IA focada em auditoria, refatoração de UX/UI e polimento visual de aplicações web.",
     "createdAt": "2026-03-26T16:18:35Z",
-    "updatedAt": "2026-03-26T16:21:10Z",
+    "updatedAt": "2026-11-06T23:57:23Z",
     "pushedAt": "2026-03-26T16:18:37Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
@@ -8496,8 +8340,7 @@
         "animation-presets.md",
         "premium-logic.md",
         "scripts"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -8505,11 +8348,11 @@
     "url": "https://github.com/sandropeixoto/Ghost-Employer",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Script de automação e rotinas com navegação headless para interações contínuas e execução de tarefas web.",
     "readmeSummary": "",
-    "effectiveDescription": "",
+    "effectiveDescription": "Script de automação e rotinas com navegação headless para interações contínuas e execução de tarefas web.",
     "createdAt": "2026-03-25T14:53:55Z",
-    "updatedAt": "2026-03-26T14:20:24Z",
+    "updatedAt": "2026-11-06T23:57:24Z",
     "pushedAt": "2026-03-26T14:20:19Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
@@ -8551,7 +8394,7 @@
       "databases": [],
       "cloud": [],
       "tools": [
-        "Google Gemini SDK"
+        "Google Gemini AI"
       ],
       "keyDependencies": [
         "@opencode-ai/sdk",
@@ -8585,9 +8428,6 @@
         "poc_error.png",
         "routine.js",
         "zen_models.json"
-      ],
-      "devAssistance": [
-        "Antigravity Agents"
       ]
     }
   },
@@ -8596,11 +8436,11 @@
     "url": "https://github.com/sandropeixoto/InstaBot",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Bot de automação para monitoramento e engajamento programático em postagens do Instagram.",
     "readmeSummary": "",
-    "effectiveDescription": "",
+    "effectiveDescription": "Bot de automação para monitoramento e engajamento programático em postagens do Instagram.",
     "createdAt": "2026-03-18T15:32:29Z",
-    "updatedAt": "2026-03-18T15:41:02Z",
+    "updatedAt": "2026-11-06T23:57:25Z",
     "pushedAt": "2026-03-18T15:40:58Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
@@ -8642,8 +8482,7 @@
         ".gitattributes",
         "meatualize-bot",
         "session-ses_2fea.md"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -8651,11 +8490,11 @@
     "url": "https://github.com/sandropeixoto/MeAtualize",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Leitor e agregador de feeds RSS de notícias com backend em PHP e persistência leve em SQLite.",
     "readmeSummary": "",
-    "effectiveDescription": "",
+    "effectiveDescription": "Leitor e agregador de feeds RSS de notícias com backend em PHP e persistência leve em SQLite.",
     "createdAt": "2026-03-18T15:15:04Z",
-    "updatedAt": "2026-03-18T15:15:16Z",
+    "updatedAt": "2026-11-06T23:57:26Z",
     "pushedAt": "2026-03-18T15:15:07Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
@@ -8716,8 +8555,7 @@
         "js",
         "router.php",
         "src"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -8725,11 +8563,11 @@
     "url": "https://github.com/sandropeixoto/Intencao-de-Remocao",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Sistema de manifestação de intenção de remoção e lotação interna de servidores para a SEFA/PA.",
     "readmeSummary": "Este é um sistema web simples para que servidores da Secretaria da Fazenda do Pará (SEFA/PA) possam registrar suas intenções de remoção para outras lotações. *   PHP 8+ *   MySQL",
-    "effectiveDescription": "Este é um sistema web simples para que servidores da Secretaria da Fazenda do Pará (SEFA/PA) possam registrar suas intenções de remoção para outras lotações. *   PHP 8+ *   MySQL",
+    "effectiveDescription": "Sistema de manifestação de intenção de remoção e lotação interna de servidores para a SEFA/PA.",
     "createdAt": "2026-01-15T11:14:47Z",
-    "updatedAt": "2026-04-16T15:13:42Z",
+    "updatedAt": "2026-11-06T23:57:27Z",
     "pushedAt": "2026-03-13T12:33:35Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
@@ -8786,8 +8624,7 @@
         "public",
         "schema.sql",
         "src"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -8795,11 +8632,11 @@
     "url": "https://github.com/sandropeixoto/Coffee-Concierge",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Aplicativo mobile de autoatendimento e pedidos de cafés especiais com envio de comandas via WhatsApp.",
     "readmeSummary": "A new Flutter project. This project is a starting point for a Flutter application. A few resources to get you started if this is your first Flutter project:",
-    "effectiveDescription": "A new Flutter project. This project is a starting point for a Flutter application. A few resources to get you started if this is your first Flutter project:",
+    "effectiveDescription": "Aplicativo mobile de autoatendimento e pedidos de cafés especiais com envio de comandas via WhatsApp.",
     "createdAt": "2026-03-08T10:07:14Z",
-    "updatedAt": "2026-03-08T12:17:22Z",
+    "updatedAt": "2026-11-06T23:57:28Z",
     "pushedAt": "2026-03-08T12:17:19Z",
     "category": "Mobile & Multiplataforma",
     "techStack": {
@@ -8868,8 +8705,7 @@
         "test",
         "web",
         "windows"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -8877,11 +8713,11 @@
     "url": "https://github.com/sandropeixoto/Assistente-Persistente",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "Assistente virtual com memória persistente de conversas, base de conhecimento local e integração com LLMs.",
     "readmeSummary": "Assistente Persistente ====================== Uma base simples para um chatbot com memória persistente em PHP puro, SQLite e JavaScript.",
-    "effectiveDescription": "Assistente Persistente ====================== Uma base simples para um chatbot com memória persistente em PHP puro, SQLite e JavaScript.",
+    "effectiveDescription": "Assistente virtual com memória persistente de conversas, base de conhecimento local e integração com LLMs.",
     "createdAt": "2026-01-29T13:59:04Z",
-    "updatedAt": "2026-05-27T16:45:37Z",
+    "updatedAt": "2026-11-06T23:57:29Z",
     "pushedAt": "2026-02-06T16:05:03Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
@@ -8920,8 +8756,7 @@
         "login.php",
         "schema.sql",
         "tools.php"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -8929,11 +8764,11 @@
     "url": "https://github.com/sandropeixoto/Simples-Analise-Ticker",
     "isPrivate": false,
     "isFork": false,
-    "description": "",
+    "description": "Script em Python com yfinance e pandas para análise financeira histórica e cálculo de indicadores de ações da B3.",
     "readmeSummary": "pip install yfinance pandas",
-    "effectiveDescription": "pip install yfinance pandas",
+    "effectiveDescription": "Script em Python com yfinance e pandas para análise financeira histórica e cálculo de indicadores de ações da B3.",
     "createdAt": "2026-02-05T16:03:36Z",
-    "updatedAt": "2026-02-05T16:29:40Z",
+    "updatedAt": "2026-11-06T23:57:30Z",
     "pushedAt": "2026-02-05T16:29:35Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
@@ -8955,8 +8790,7 @@
         ".gitattributes",
         "README.md",
         "calcula.py"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -8964,11 +8798,11 @@
     "url": "https://github.com/sandropeixoto/pay-to-reach-mvp",
     "isPrivate": false,
     "isFork": false,
-    "description": "",
+    "description": "MVP de SocialFi com integração Web3 (Ethers.js) para monetização e remuneração por engajamento e alcance.",
     "readmeSummary": "",
-    "effectiveDescription": "",
+    "effectiveDescription": "MVP de SocialFi com integração Web3 (Ethers.js) para monetização e remuneração por engajamento e alcance.",
     "createdAt": "2026-01-26T15:13:14Z",
-    "updatedAt": "2026-01-26T19:47:41Z",
+    "updatedAt": "2026-11-06T23:57:31Z",
     "pushedAt": "2026-01-26T19:47:14Z",
     "category": "Outros Projetos",
     "techStack": {
@@ -8990,8 +8824,7 @@
         ".gitattributes",
         "README.md",
         "index.html"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -9050,13 +8883,13 @@
     "url": "https://github.com/sandropeixoto/crm_inovare",
     "isPrivate": true,
     "isFork": false,
-    "description": "",
+    "description": "CRM corporativo em PHP 8.1 voltado para gestão de relacionamento com clientes, funil de vendas e oportunidades.",
     "readmeSummary": "CRM Inovare e uma aplicacao web em PHP 8.1 voltada para equipes comerciais da Inovare Solucoes em Saude organizarem clientes, propostas e entregas contratuais. O sistema combina autenticacao com papeis, dashboard exec...",
-    "effectiveDescription": "CRM Inovare e uma aplicacao web em PHP 8.1 voltada para equipes comerciais da Inovare Solucoes em Saude organizarem clientes, propostas e entregas contratuais. O sistema combina autenticacao com papeis, dashboard exec...",
+    "effectiveDescription": "CRM corporativo em PHP 8.1 voltado para gestão de relacionamento com clientes, funil de vendas e oportunidades.",
     "createdAt": "2025-10-07T20:09:15Z",
-    "updatedAt": "2026-05-27T16:46:46Z",
+    "updatedAt": "2026-11-06T23:57:32Z",
     "pushedAt": "2025-11-25T18:44:55Z",
-    "category": "Backends, APIs & Serviços",
+    "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
@@ -9096,8 +8929,7 @@
         "public",
         "replit.md",
         "tests"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -9105,11 +8937,11 @@
     "url": "https://github.com/sandropeixoto/image-duplicate-finder",
     "isPrivate": false,
     "isFork": false,
-    "description": "",
+    "description": "Script em Python para varredura e identificação de imagens duplicadas ou similares via hash perceptual.",
     "readmeSummary": "Este projeto é um script em Python que permite encontrar imagens duplicadas ou semelhantes em uma pasta. Ele utiliza a biblioteca `imagehash` para calcular o hash perceptual das imagens e identificar arquivos duplicad...",
-    "effectiveDescription": "Este projeto é um script em Python que permite encontrar imagens duplicadas ou semelhantes em uma pasta. Ele utiliza a biblioteca `imagehash` para calcular o hash perceptual das imagens e identificar arquivos duplicad...",
+    "effectiveDescription": "Script em Python para varredura e identificação de imagens duplicadas ou similares via hash perceptual.",
     "createdAt": "2024-10-17T12:43:26Z",
-    "updatedAt": "2024-10-17T12:56:58Z",
+    "updatedAt": "2026-11-06T23:57:33Z",
     "pushedAt": "2024-10-17T12:56:54Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
@@ -9131,8 +8963,7 @@
         "LICENSE.md",
         "README.md",
         "image-duplicate-finder.py"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -9140,11 +8971,11 @@
     "url": "https://github.com/sandropeixoto/ts-to-mp3-converter",
     "isPrivate": false,
     "isFork": false,
-    "description": "",
+    "description": "Utilitário em Python para conversão em lote de arquivos de vídeo .ts (Transport Stream) para áudio .mp3 via ffmpeg.",
     "readmeSummary": "A Python script to convert `.ts` video files to `.mp3` audio files, while preserving the original folder structure. The script also adds ID3 tags to the resulting MP3 files, setting the author, album, and title inform...",
-    "effectiveDescription": "A Python script to convert `.ts` video files to `.mp3` audio files, while preserving the original folder structure. The script also adds ID3 tags to the resulting MP3 files, setting the author, album, and title inform...",
+    "effectiveDescription": "Utilitário em Python para conversão em lote de arquivos de vídeo .ts (Transport Stream) para áudio .mp3 via ffmpeg.",
     "createdAt": "2024-10-17T12:33:54Z",
-    "updatedAt": "2024-10-17T12:38:09Z",
+    "updatedAt": "2026-11-06T23:57:34Z",
     "pushedAt": "2024-10-17T12:38:05Z",
     "category": "Ferramentas, CLIs & Utilitários",
     "techStack": {
@@ -9167,8 +8998,7 @@
         "LICENSE.md",
         "README.md",
         "converter.py"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -9181,7 +9011,7 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-12T14:46:36Z",
+    "pushedAt": "2026-11-13T14:04:59Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",

@@ -1,9 +1,9 @@
 name: Atualizar Portfólio & Mapa Mental
 
 on:
-  # 1. Agendamento automático diário (06:00 UTC)
+  # 1. Agendamento automático a cada 6 horas em minuto fora de pico (00:23, 06:23, 12:23, 18:23 UTC)
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '23 */6 * * *'
 
   # 2. Execução manual pela interface do GitHub (Actions -> Run workflow)
   workflow_dispatch:
@@ -16,6 +16,15 @@ on:
   # 3. Notificação externa disparada por push em outros repositórios
   repository_dispatch:
     types: [repo_updated]
+
+  # 4. Atualização automática ao alterar scripts, dados ou workflow na branch main
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'data/**'
+      - 'index.html'
+      - '.github/workflows/update-map.yml'
 
 permissions:
   contents: write
@@ -69,19 +78,19 @@ jobs:
 
       # Opcional: Se o GitHub Pages estiver configurado como "GitHub Actions" nas configurações do repositório
       - name: Setup Pages
-        if: always()
+        if: success()
         uses: actions/configure-pages@v5
         continue-on-error: true
 
       - name: Upload Pages Artifact
-        if: always()
+        if: success()
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
         continue-on-error: true
 
       - name: Deploy to GitHub Pages
-        if: always()
+        if: success()
         id: deployment
         uses: actions/deploy-pages@v4
         continue-on-error: true
