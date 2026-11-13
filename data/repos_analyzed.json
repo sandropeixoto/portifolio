@@ -1569,30 +1569,30 @@
     "effectiveDescription": "Conjunto de ferramentas e scripts em Python para automação, monitoramento e extração de dados via Telegram API.",
     "createdAt": "2026-03-18T13:30:28Z",
     "updatedAt": "2026-11-06T23:56:58Z",
-    "pushedAt": "2026-11-13T11:02:52Z",
+    "pushedAt": "2026-11-13T19:05:05Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
       "primaryLanguage": "Python",
       "languages": [
         {
           "name": "Python",
-          "size": 283008,
-          "percentage": 64.7
+          "size": 297479,
+          "percentage": 58.1
         },
         {
           "name": "PHP",
-          "size": 130455,
-          "percentage": 29.8
+          "size": 188921,
+          "percentage": 36.9
         },
         {
           "name": "HTML",
-          "size": 22572,
-          "percentage": 5.2
+          "size": 24341,
+          "percentage": 4.8
         },
         {
           "name": "Shell",
           "size": 1663,
-          "percentage": 0.4
+          "percentage": 0.3
         }
       ],
       "frameworks": [],
@@ -9011,20 +9011,20 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-13T14:11:06Z",
+    "pushedAt": "2026-11-13T14:11:18Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 228768,
-          "percentage": 76.8
+          "size": 228942,
+          "percentage": 76.4
         },
         {
           "name": "JavaScript",
-          "size": 68964,
-          "percentage": 23.2
+          "size": 70916,
+          "percentage": 23.6
         }
       ],
       "frameworks": [],
@@ -9143,25 +9143,25 @@
     "effectiveDescription": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
     "createdAt": "2026-11-05T15:50:08Z",
     "updatedAt": "2026-11-12T16:11:14Z",
-    "pushedAt": "2026-11-12T15:12:05Z",
+    "pushedAt": "2026-11-13T14:48:39Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "JavaScript",
       "languages": [
         {
           "name": "JavaScript",
-          "size": 146171,
-          "percentage": 60.1
+          "size": 146328,
+          "percentage": 59.9
         },
         {
           "name": "CSS",
-          "size": 65238,
-          "percentage": 26.8
+          "size": 65624,
+          "percentage": 26.9
         },
         {
           "name": "HTML",
-          "size": 31885,
-          "percentage": 13.1
+          "size": 32156,
+          "percentage": 13.2
         }
       ],
       "frameworks": [],
