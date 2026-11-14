@@ -402,7 +402,7 @@
     "effectiveDescription": "Sistema automatizado de web scraping de anúncios da OLX com persistência MySQL/SQLite, alertas WhatsApp (UazAPI) e painel web.",
     "createdAt": "2026-05-21T11:32:22Z",
     "updatedAt": "2026-11-09T18:15:20Z",
-    "pushedAt": "2026-11-14T12:06:20Z",
+    "pushedAt": "2026-11-14T22:28:40Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
       "primaryLanguage": "PHP",
@@ -9011,20 +9011,20 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-14T06:42:46Z",
+    "pushedAt": "2026-11-14T18:17:18Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 228942,
-          "percentage": 76.4
+          "size": 228940,
+          "percentage": 76.3
         },
         {
           "name": "JavaScript",
           "size": 70916,
-          "percentage": 23.6
+          "percentage": 23.7
         }
       ],
       "frameworks": [],
