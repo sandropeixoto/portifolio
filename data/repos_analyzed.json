@@ -402,35 +402,35 @@
     "effectiveDescription": "Sistema automatizado de web scraping de anúncios da OLX com persistência MySQL/SQLite, alertas WhatsApp (UazAPI) e painel web.",
     "createdAt": "2026-05-21T11:32:22Z",
     "updatedAt": "2026-11-09T18:15:20Z",
-    "pushedAt": "2026-11-09T18:15:16Z",
+    "pushedAt": "2026-11-14T02:45:04Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 282429,
+          "size": 294986,
           "percentage": 58.2
         },
         {
           "name": "Python",
-          "size": 158931,
-          "percentage": 32.7
+          "size": 167419,
+          "percentage": 33.1
         },
         {
           "name": "TypeScript",
           "size": 38584,
-          "percentage": 7.9
+          "percentage": 7.6
         },
         {
           "name": "CSS",
           "size": 3651,
-          "percentage": 0.8
+          "percentage": 0.7
         },
         {
           "name": "Batchfile",
           "size": 1230,
-          "percentage": 0.3
+          "percentage": 0.2
         },
         {
           "name": "JavaScript",
@@ -588,7 +588,7 @@
     "effectiveDescription": "O Gestor de Pedidos (Fluxo Gestor) é uma solução enterprise completa para gestão operacional de vendas, acompanhamento visual de esteira de produção (Kanban), roteirização e despacho de entregas, inteligência de frete dinâmico duplo, automação de notificações via WhatsApp, força de vendas externa com portal de representantes comerciais.",
     "createdAt": "2026-08-04T16:30:41Z",
     "updatedAt": "2026-11-03T21:50:45Z",
-    "pushedAt": "2026-11-03T21:50:41Z",
+    "pushedAt": "2026-11-14T01:45:55Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "PHP",
@@ -9011,7 +9011,7 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-13T14:11:18Z",
+    "pushedAt": "2026-11-13T23:41:52Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
