@@ -588,20 +588,20 @@
     "effectiveDescription": "O Gestor de Pedidos (Fluxo Gestor) é uma solução enterprise completa para gestão operacional de vendas, acompanhamento visual de esteira de produção (Kanban), roteirização e despacho de entregas, inteligência de frete dinâmico duplo, automação de notificações via WhatsApp, força de vendas externa com portal de representantes comerciais.",
     "createdAt": "2026-08-04T16:30:41Z",
     "updatedAt": "2026-11-03T21:50:45Z",
-    "pushedAt": "2026-11-14T01:45:55Z",
+    "pushedAt": "2026-11-17T11:40:53Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 2369711,
-          "percentage": 91.2
+          "size": 2429088,
+          "percentage": 90.5
         },
         {
           "name": "JavaScript",
-          "size": 183483,
-          "percentage": 7.1
+          "size": 209883,
+          "percentage": 7.8
         },
         {
           "name": "Kotlin",
@@ -9011,14 +9011,14 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-16T22:18:52Z",
+    "pushedAt": "2026-11-17T08:07:06Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 228940,
+          "size": 228931,
           "percentage": 76.3
         },
         {
@@ -9143,25 +9143,25 @@
     "effectiveDescription": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
     "createdAt": "2026-11-05T15:50:08Z",
     "updatedAt": "2026-11-12T16:11:14Z",
-    "pushedAt": "2026-11-17T01:10:44Z",
+    "pushedAt": "2026-11-17T15:53:35Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "JavaScript",
       "languages": [
         {
           "name": "JavaScript",
-          "size": 366341,
-          "percentage": 75.8
+          "size": 373085,
+          "percentage": 75.9
         },
         {
           "name": "CSS",
-          "size": 79859,
+          "size": 80919,
           "percentage": 16.5
         },
         {
           "name": "HTML",
-          "size": 36899,
-          "percentage": 7.6
+          "size": 37694,
+          "percentage": 7.7
         }
       ],
       "frameworks": [],
@@ -9202,25 +9202,25 @@
     "effectiveDescription": "Site Tuna Luso Brasileira",
     "createdAt": "2026-10-06T12:32:02Z",
     "updatedAt": "2026-10-31T20:17:27Z",
-    "pushedAt": "2026-11-16T21:48:38Z",
+    "pushedAt": "2026-11-17T21:03:55Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 585869,
-          "percentage": 83.8
+          "size": 599258,
+          "percentage": 84.2
         },
         {
           "name": "JavaScript",
           "size": 67488,
-          "percentage": 9.7
+          "percentage": 9.5
         },
         {
           "name": "Python",
           "size": 39600,
-          "percentage": 5.7
+          "percentage": 5.6
         },
         {
           "name": "HTML",
@@ -9230,7 +9230,7 @@
         {
           "name": "CSS",
           "size": 1776,
-          "percentage": 0.3
+          "percentage": 0.2
         }
       ],
       "frameworks": [
