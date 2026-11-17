@@ -9011,7 +9011,7 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-16T06:47:33Z",
+    "pushedAt": "2026-11-16T22:18:52Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
@@ -9139,28 +9139,28 @@
     "isPrivate": true,
     "isFork": false,
     "description": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
-    "readmeSummary": "Sistema para acompanhar grupos de trabalho (GTs), SubGTs, composição, planos, entregas, atualizações, ações, encaminhamentos, dependências, reuniões, decisões e documentos. O primeiro caso de uso é o GT-02 de Mudanças...",
+    "readmeSummary": "**Metodologia de Monitoramento dos Grupos de Trabalho do COMSEFAZ.** Domínio institucional definido: [integracomsefaz.com.br](https://integracomsefaz.com.br). O Integra COMSEFAZ reúne o acompanhamento de GTs e SubGTs,...",
     "effectiveDescription": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
     "createdAt": "2026-11-05T15:50:08Z",
     "updatedAt": "2026-11-12T16:11:14Z",
-    "pushedAt": "2026-11-16T18:17:24Z",
+    "pushedAt": "2026-11-17T01:10:44Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "JavaScript",
       "languages": [
         {
           "name": "JavaScript",
-          "size": 358972,
-          "percentage": 75.7
+          "size": 366341,
+          "percentage": 75.8
         },
         {
           "name": "CSS",
-          "size": 79325,
-          "percentage": 16.7
+          "size": 79859,
+          "percentage": 16.5
         },
         {
           "name": "HTML",
-          "size": 36180,
+          "size": 36899,
           "percentage": 7.6
         }
       ],
@@ -9427,7 +9427,7 @@
     "effectiveDescription": "Estúdio portátil para planejar e montar vídeos do canal Átomo Quântico",
     "createdAt": "2026-11-11T13:50:29Z",
     "updatedAt": "2026-11-12T11:53:38Z",
-    "pushedAt": "2026-11-12T10:53:34Z",
+    "pushedAt": "2026-11-17T01:51:51Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
       "primaryLanguage": "Python",
