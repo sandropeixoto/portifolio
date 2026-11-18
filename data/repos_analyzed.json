@@ -9011,7 +9011,7 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-17T08:07:06Z",
+    "pushedAt": "2026-11-17T21:04:41Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
@@ -9202,25 +9202,25 @@
     "effectiveDescription": "Site Tuna Luso Brasileira",
     "createdAt": "2026-10-06T12:32:02Z",
     "updatedAt": "2026-10-31T20:17:27Z",
-    "pushedAt": "2026-11-17T21:03:55Z",
+    "pushedAt": "2026-11-17T21:35:56Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 599258,
-          "percentage": 84.2
+          "size": 606315,
+          "percentage": 84.3
         },
         {
           "name": "JavaScript",
           "size": 67488,
-          "percentage": 9.5
+          "percentage": 9.4
         },
         {
           "name": "Python",
           "size": 39600,
-          "percentage": 5.6
+          "percentage": 5.5
         },
         {
           "name": "HTML",
