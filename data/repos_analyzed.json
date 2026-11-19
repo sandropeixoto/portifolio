@@ -9011,20 +9011,20 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-18T07:42:04Z",
+    "pushedAt": "2026-11-18T20:42:07Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 228931,
-          "percentage": 76.3
+          "size": 231670,
+          "percentage": 76.6
         },
         {
           "name": "JavaScript",
           "size": 70916,
-          "percentage": 23.7
+          "percentage": 23.4
         }
       ],
       "frameworks": [],
@@ -9143,25 +9143,25 @@
     "effectiveDescription": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
     "createdAt": "2026-11-05T15:50:08Z",
     "updatedAt": "2026-11-12T16:11:14Z",
-    "pushedAt": "2026-11-17T15:53:35Z",
+    "pushedAt": "2026-11-18T23:49:10Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "JavaScript",
       "languages": [
         {
           "name": "JavaScript",
-          "size": 373085,
-          "percentage": 75.9
+          "size": 381124,
+          "percentage": 76.1
         },
         {
           "name": "CSS",
-          "size": 80919,
-          "percentage": 16.5
+          "size": 81609,
+          "percentage": 16.3
         },
         {
           "name": "HTML",
-          "size": 37694,
-          "percentage": 7.7
+          "size": 37880,
+          "percentage": 7.6
         }
       ],
       "frameworks": [],
@@ -9463,65 +9463,73 @@
     "isPrivate": true,
     "isFork": false,
     "description": "Conecta ADVB: projeto do formulário de benefícios e oportunidades entre empresas associadas",
-    "readmeSummary": "**Documento de projeto para orientar a futura implementação web** **Versão:** 1.1 — 18/11/2026 **Base:** PDF “Conecta ADVB — Rede de Benefícios & Parcerias”",
+    "readmeSummary": "**Documento do produto e da implantação** **Versão:** 1.2 — 18/11/2026 **Base:** PDF “Conecta ADVB — Rede de Benefícios & Parcerias”",
     "effectiveDescription": "Conecta ADVB: projeto do formulário de benefícios e oportunidades entre empresas associadas",
     "createdAt": "2026-11-18T18:50:06Z",
     "updatedAt": "2026-11-18T19:01:18Z",
-    "pushedAt": "2026-11-18T19:01:14Z",
+    "pushedAt": "2026-11-18T23:22:32Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 195527,
-          "percentage": 99
-        },
-        {
-          "name": "HTML",
-          "size": 1328,
-          "percentage": 0.7
+          "size": 224762,
+          "percentage": 98.7
         },
         {
           "name": "CSS",
-          "size": 656,
-          "percentage": 0.3
+          "size": 1741,
+          "percentage": 0.8
+        },
+        {
+          "name": "HTML",
+          "size": 1330,
+          "percentage": 0.6
         }
       ],
       "frameworks": [
         "React",
-        "Vite",
-        "Express"
+        "Vite"
       ],
       "libraries": [
         "Tailwind CSS",
         "Lucide Icons"
       ],
       "databases": [],
-      "cloud": [],
+      "cloud": [
+        "Cloudflare Workers"
+      ],
       "tools": [],
       "keyDependencies": [
         "@tailwindcss/vite",
-        "@vitejs/plugin-react",
-        "express",
         "lucide-react",
         "react",
         "react-dom",
         "tailwindcss",
-        "tsx",
-        "vite"
+        "vite",
+        "@cloudflare/workers-types",
+        "@vitejs/plugin-react",
+        "wrangler"
       ],
       "rootFiles": [
-        ".env.example",
+        ".dev.vars.example",
+        ".gitignore",
+        "AGENTS.md",
         "README.md",
-        "bun.lock",
+        "dist",
+        "favicon.ico",
         "index.html",
         "metadata.json",
+        "migrations",
+        "package-lock.json",
         "package.json",
-        "server.ts",
+        "public",
         "src",
         "tsconfig.json",
-        "vite.config.ts"
+        "vite.config.ts",
+        "worker",
+        "wrangler.jsonc"
       ]
     }
   },
@@ -9531,18 +9539,18 @@
     "isPrivate": true,
     "isFork": false,
     "description": "",
-    "readmeSummary": "Pacote de produto e arquitetura para substituir a planilha mestra por um protótipo web multiusuário, em português, com React, Vite, Cloudflare Workers, D1 e R2. - `PRD.md`: problema, público, escopo, requisitos e crit...",
-    "effectiveDescription": "Pacote de produto e arquitetura para substituir a planilha mestra por um protótipo web multiusuário, em português, com React, Vite, Cloudflare Workers, D1 e R2. - `PRD.md`: problema, público, escopo, requisitos e crit...",
+    "readmeSummary": "Aplicação web multiusuário para cadastros de risco, ações e documentos do Comitê de Crise. O frontend React/Vite e a API Hono rodam no mesmo Cloudflare Worker; os dados persistem no D1, e anexos privados ficam no R2. ...",
+    "effectiveDescription": "Aplicação web multiusuário para cadastros de risco, ações e documentos do Comitê de Crise. O frontend React/Vite e a API Hono rodam no mesmo Cloudflare Worker; os dados persistem no D1, e anexos privados ficam no R2. ...",
     "createdAt": "2026-11-18T15:05:31Z",
     "updatedAt": "2026-11-18T18:40:18Z",
-    "pushedAt": "2026-11-18T18:40:14Z",
+    "pushedAt": "2026-11-19T00:20:59Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 318659,
+          "size": 299773,
           "percentage": 99.3
         },
         {
@@ -9553,37 +9561,40 @@
         {
           "name": "CSS",
           "size": 779,
-          "percentage": 0.2
+          "percentage": 0.3
         }
       ],
       "frameworks": [
         "React",
         "Vite",
-        "Express"
+        "Hono"
       ],
       "libraries": [
         "Tailwind CSS",
         "Lucide Icons"
       ],
       "databases": [],
-      "cloud": [],
+      "cloud": [
+        "Cloudflare Workers"
+      ],
       "tools": [],
       "keyDependencies": [
-        "cookie-parser",
-        "express",
+        "hono",
+        "jose",
         "lucide-react",
-        "multer",
         "react",
         "react-dom",
-        "zod",
+        "@cloudflare/vite-plugin",
         "@tailwindcss/vite",
         "@vitejs/plugin-react",
         "tailwindcss",
-        "tsx",
-        "vite"
+        "vite",
+        "wrangler"
       ],
       "rootFiles": [
-        ".env.example",
+        ".dev.vars.example",
+        ".gitignore",
+        "AGENTS.md",
         "ARCHITECTURE_API.md",
         "BACKLOG.md",
         "MER.md",
@@ -9592,12 +9603,14 @@
         "index.html",
         "metadata.json",
         "migrations",
+        "package-lock.json",
         "package.json",
-        "server.ts",
-        "server",
         "src",
         "tsconfig.json",
-        "vite.config.ts"
+        "vite.config.ts",
+        "worker-configuration.d.ts",
+        "worker",
+        "wrangler.jsonc"
       ]
     }
   }
