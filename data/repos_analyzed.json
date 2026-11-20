@@ -9013,20 +9013,20 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-19T07:38:16Z",
+    "pushedAt": "2026-11-19T20:47:52Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 231886,
-          "percentage": 76.6
+          "size": 232971,
+          "percentage": 76.7
         },
         {
           "name": "JavaScript",
           "size": 70916,
-          "percentage": 23.4
+          "percentage": 23.3
         }
       ],
       "frameworks": [],
