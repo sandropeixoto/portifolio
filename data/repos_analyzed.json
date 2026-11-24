@@ -1852,7 +1852,7 @@
     "effectiveDescription": "Portal de Doações",
     "createdAt": "2026-05-30T11:52:59Z",
     "updatedAt": "2026-11-09T13:39:46Z",
-    "pushedAt": "2026-11-16T14:47:39Z",
+    "pushedAt": "2026-11-23T22:06:22Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
@@ -3126,40 +3126,40 @@
     "isPrivate": true,
     "isFork": false,
     "description": "Pega Cota",
-    "readmeSummary": "O **PegaCota** é uma solução completa de marketplace e governança imobiliária voltada ao mercado secundário de multipropriedades (*timeshare* e frações imobiliárias em resorts de alto padrão). A plataforma conecta pro...",
+    "readmeSummary": "Aplicação web para organizar locações de semanas e compra e venda de frações de multipropriedade. A V1 preserva a vitrine do protótipo e acrescenta uma API no Cloudflare Workers, persistência em D1 e arquivos em R2. O...",
     "effectiveDescription": "Pega Cota",
     "createdAt": "2026-07-03T13:42:23Z",
     "updatedAt": "2026-08-31T22:02:59Z",
-    "pushedAt": "2026-08-31T21:56:09Z",
+    "pushedAt": "2026-11-23T23:09:35Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 319614,
-          "percentage": 99.1
+          "size": 437399,
+          "percentage": 96.6
+        },
+        {
+          "name": "JavaScript",
+          "size": 12737,
+          "percentage": 2.8
         },
         {
           "name": "CSS",
-          "size": 1812,
-          "percentage": 0.6
-        },
-        {
-          "name": "Dockerfile",
-          "size": 693,
-          "percentage": 0.2
+          "size": 1715,
+          "percentage": 0.4
         },
         {
           "name": "HTML",
-          "size": 311,
-          "percentage": 0.1
+          "size": 833,
+          "percentage": 0.2
         }
       ],
       "frameworks": [
         "React",
         "Vite",
-        "Express"
+        "Hono"
       ],
       "libraries": [
         "Tailwind CSS",
@@ -3168,45 +3168,41 @@
       ],
       "databases": [],
       "cloud": [
-        "Firebase"
+        "Cloudflare Workers"
       ],
-      "tools": [
-        "Docker",
-        "Google Gemini SDK"
-      ],
+      "tools": [],
       "keyDependencies": [
-        "@google/genai",
-        "@tailwindcss/vite",
-        "@vitejs/plugin-react",
-        "dotenv",
-        "express",
-        "firebase",
+        "hono",
         "lucide-react",
         "motion",
         "react",
         "react-dom",
-        "vite",
-        "esbuild"
+        "@cloudflare/vite-plugin",
+        "@tailwindcss/vite",
+        "@vitejs/plugin-react",
+        "@cloudflare/workers-types",
+        "esbuild",
+        "tailwindcss",
+        "tsx"
       ],
       "rootFiles": [
-        ".dockerignore",
-        ".env.example",
+        ".dev.vars.example",
         ".gitignore",
-        "Dockerfile",
         "README.md",
-        "assets",
-        "firebase-applet-config.json",
-        "firestore.rules",
+        "docs",
         "index.html",
         "metadata.json",
-        "nginx.conf",
+        "migrations",
         "package-lock.json",
         "package.json",
+        "scripts",
         "src",
         "tsconfig.json",
-        "vite.config.ts"
-      ],
-      "devAssistance": []
+        "tsconfig.worker.json",
+        "vite.config.ts",
+        "worker",
+        "wrangler.jsonc"
+      ]
     }
   },
   {
@@ -9013,7 +9009,7 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-22T19:50:11Z",
+    "pushedAt": "2026-11-23T07:52:39Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
@@ -9145,7 +9141,7 @@
     "effectiveDescription": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
     "createdAt": "2026-11-05T15:50:08Z",
     "updatedAt": "2026-11-12T16:11:14Z",
-    "pushedAt": "2026-11-19T16:02:38Z",
+    "pushedAt": "2026-11-23T21:48:43Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "JavaScript",
@@ -9210,20 +9206,20 @@
     "effectiveDescription": "Site Tuna Luso Brasileira",
     "createdAt": "2026-10-06T12:32:02Z",
     "updatedAt": "2026-10-31T20:17:27Z",
-    "pushedAt": "2026-11-18T14:25:02Z",
+    "pushedAt": "2026-11-23T20:43:31Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 614315,
-          "percentage": 84.5
+          "size": 621148,
+          "percentage": 84.6
         },
         {
           "name": "JavaScript",
           "size": 67488,
-          "percentage": 9.3
+          "percentage": 9.2
         },
         {
           "name": "Python",
@@ -9435,7 +9431,7 @@
     "effectiveDescription": "Estúdio portátil para planejar e montar vídeos do canal Átomo Quântico",
     "createdAt": "2026-11-11T13:50:29Z",
     "updatedAt": "2026-11-12T11:53:38Z",
-    "pushedAt": "2026-11-19T16:32:55Z",
+    "pushedAt": "2026-11-23T23:28:40Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
       "primaryLanguage": "Python",
@@ -9628,11 +9624,11 @@
     "isPrivate": true,
     "isFork": false,
     "description": "Guia Turistico do Pará",
-    "readmeSummary": "",
+    "readmeSummary": "O **GuiaPA.com.br** é um portal turístico editorial e interativo dedicado às praias, ilhas, cultura e hospitalidade do Estado do Pará. A plataforma estreia com um guia completo da **Ilha de Cotijuba** (`cotijuba.guiap...",
     "effectiveDescription": "Guia Turistico do Pará",
     "createdAt": "2026-11-19T15:27:12Z",
     "updatedAt": "2026-11-19T15:27:34Z",
-    "pushedAt": "2026-11-19T15:27:30Z",
+    "pushedAt": "2026-11-23T12:55:51Z",
     "category": "Inteligência Artificial & Agentes",
     "techStack": {
       "primaryLanguage": "TypeScript",
@@ -9685,6 +9681,8 @@
       "rootFiles": [
         ".env.example",
         ".gitignore",
+        "README.md",
+        "docs",
         "index.html",
         "metadata.json",
         "package.json",
