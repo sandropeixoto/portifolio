@@ -3130,25 +3130,25 @@
     "effectiveDescription": "Pega Cota",
     "createdAt": "2026-07-03T13:42:23Z",
     "updatedAt": "2026-08-31T22:02:59Z",
-    "pushedAt": "2026-11-23T23:09:35Z",
+    "pushedAt": "2026-11-24T22:11:04Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 437399,
-          "percentage": 96.6
+          "size": 526174,
+          "percentage": 97.2
         },
         {
           "name": "JavaScript",
           "size": 12737,
-          "percentage": 2.8
+          "percentage": 2.4
         },
         {
           "name": "CSS",
           "size": 1715,
-          "percentage": 0.4
+          "percentage": 0.3
         },
         {
           "name": "HTML",
@@ -9009,7 +9009,7 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-24T00:02:43Z",
+    "pushedAt": "2026-11-24T10:05:12Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
@@ -9141,25 +9141,25 @@
     "effectiveDescription": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
     "createdAt": "2026-11-05T15:50:08Z",
     "updatedAt": "2026-11-12T16:11:14Z",
-    "pushedAt": "2026-11-23T21:48:43Z",
+    "pushedAt": "2026-11-24T17:56:54Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "JavaScript",
       "languages": [
         {
           "name": "JavaScript",
-          "size": 381124,
-          "percentage": 74.7
+          "size": 389895,
+          "percentage": 74.4
         },
         {
           "name": "CSS",
-          "size": 81609,
-          "percentage": 16
+          "size": 84560,
+          "percentage": 16.1
         },
         {
           "name": "HTML",
-          "size": 37880,
-          "percentage": 7.4
+          "size": 39503,
+          "percentage": 7.5
         },
         {
           "name": "TypeScript",
@@ -9206,20 +9206,20 @@
     "effectiveDescription": "Site Tuna Luso Brasileira",
     "createdAt": "2026-10-06T12:32:02Z",
     "updatedAt": "2026-10-31T20:17:27Z",
-    "pushedAt": "2026-11-23T20:43:31Z",
+    "pushedAt": "2026-11-24T17:55:14Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 621148,
-          "percentage": 84.6
+          "size": 626714,
+          "percentage": 84.7
         },
         {
           "name": "JavaScript",
           "size": 67488,
-          "percentage": 9.2
+          "percentage": 9.1
         },
         {
           "name": "Python",
@@ -9431,7 +9431,7 @@
     "effectiveDescription": "Estúdio portátil para planejar e montar vídeos do canal Átomo Quântico",
     "createdAt": "2026-11-11T13:50:29Z",
     "updatedAt": "2026-11-12T11:53:38Z",
-    "pushedAt": "2026-11-24T00:10:11Z",
+    "pushedAt": "2026-11-24T15:20:37Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
       "primaryLanguage": "Python",
@@ -9686,6 +9686,82 @@
         "index.html",
         "metadata.json",
         "package.json",
+        "src",
+        "tsconfig.json",
+        "vite.config.ts"
+      ]
+    }
+  },
+  {
+    "name": "Caixinha",
+    "url": "https://github.com/sandropeixoto/Caixinha",
+    "isPrivate": true,
+    "isFork": false,
+    "description": "",
+    "readmeSummary": "",
+    "effectiveDescription": "",
+    "createdAt": "2026-11-24T15:45:13Z",
+    "updatedAt": "2026-11-24T16:17:46Z",
+    "pushedAt": "2026-11-24T16:17:40Z",
+    "category": "Aplicações Web & SaaS",
+    "techStack": {
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "size": 332324,
+          "percentage": 99.1
+        },
+        {
+          "name": "HTML",
+          "size": 1535,
+          "percentage": 0.5
+        },
+        {
+          "name": "JavaScript",
+          "size": 783,
+          "percentage": 0.2
+        },
+        {
+          "name": "CSS",
+          "size": 774,
+          "percentage": 0.2
+        }
+      ],
+      "frameworks": [
+        "React",
+        "Vite"
+      ],
+      "libraries": [
+        "Tailwind CSS",
+        "Lucide Icons"
+      ],
+      "databases": [],
+      "cloud": [],
+      "tools": [],
+      "keyDependencies": [
+        "lucide-react",
+        "react",
+        "react-dom",
+        "zod",
+        "zustand",
+        "@eslint/js",
+        "@tailwindcss/vite",
+        "@vitejs/plugin-react",
+        "eslint-plugin-react-hooks",
+        "eslint-plugin-react-refresh",
+        "globals",
+        "tailwindcss"
+      ],
+      "rootFiles": [
+        ".env.example",
+        ".gitattributes",
+        "docs",
+        "eslint.config.js",
+        "index.html",
+        "metadata.json",
+        "package.json",
+        "public",
         "src",
         "tsconfig.json",
         "vite.config.ts"
