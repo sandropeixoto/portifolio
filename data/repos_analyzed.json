@@ -402,30 +402,30 @@
     "effectiveDescription": "Sistema automatizado de web scraping de anúncios da OLX com persistência MySQL/SQLite, alertas WhatsApp (UazAPI) e painel web.",
     "createdAt": "2026-05-21T11:32:22Z",
     "updatedAt": "2026-11-09T18:15:20Z",
-    "pushedAt": "2026-11-23T01:12:49Z",
+    "pushedAt": "2026-11-25T21:41:19Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 313413,
-          "percentage": 58.8
+          "size": 392906,
+          "percentage": 63.7
         },
         {
           "name": "Python",
-          "size": 175749,
-          "percentage": 33
+          "size": 179364,
+          "percentage": 29.1
         },
         {
           "name": "TypeScript",
           "size": 38584,
-          "percentage": 7.2
+          "percentage": 6.3
         },
         {
           "name": "CSS",
           "size": 3651,
-          "percentage": 0.7
+          "percentage": 0.6
         },
         {
           "name": "Batchfile",
@@ -461,6 +461,7 @@
         ".gitignore",
         ".infisical.yaml",
         "AGENTS.md",
+        "CLAUDE.md",
         "Dockerfile.scraper",
         "GEMINI.md",
         "README.md",
@@ -588,7 +589,7 @@
     "effectiveDescription": "O Gestor de Pedidos (Fluxo Gestor) é uma solução enterprise completa para gestão operacional de vendas, acompanhamento visual de esteira de produção (Kanban), roteirização e despacho de entregas, inteligência de frete dinâmico duplo, automação de notificações via WhatsApp, força de vendas externa com portal de representantes comerciais.",
     "createdAt": "2026-08-04T16:30:41Z",
     "updatedAt": "2026-11-03T21:50:45Z",
-    "pushedAt": "2026-11-19T12:21:02Z",
+    "pushedAt": "2026-11-25T21:48:57Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "PHP",
@@ -641,7 +642,9 @@
         "AUDITORIA_PREVENTIVA.md",
         "AUDITORIA_PREVENTIVA_CODEX.md",
         "AUDITORIA_TECNICA_2026-09-05.md",
+        "CLAUDE.md",
         "DESIGN_SYSTEM.md",
+        "GEMINI.md",
         "PROJECT_STATE.md",
         "README.md",
         "SUGGESTIONS.md",
@@ -649,6 +652,7 @@
         "android-app",
         "config",
         "database",
+        "docs",
         "index.php",
         "orcamento.php",
         "pdv.php",
@@ -1852,7 +1856,7 @@
     "effectiveDescription": "Portal de Doações",
     "createdAt": "2026-05-30T11:52:59Z",
     "updatedAt": "2026-11-09T13:39:46Z",
-    "pushedAt": "2026-11-23T22:06:22Z",
+    "pushedAt": "2026-11-25T21:17:04Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
@@ -2236,7 +2240,7 @@
     "effectiveDescription": "Plataforma SaaS multi-tenant para gestão estratégica de campanhas eleitorais, bases de eleitores e inteligência territorial.",
     "createdAt": "2026-04-08T16:34:41Z",
     "updatedAt": "2026-11-06T23:56:44Z",
-    "pushedAt": "2026-11-19T14:57:39Z",
+    "pushedAt": "2026-11-25T21:49:01Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "JavaScript",
@@ -2292,6 +2296,7 @@
         "DESIGN.md",
         "DOCS",
         "Dockerfile",
+        "GEMINI.md",
         "Makefile",
         "README.md",
         "SUGGESTIONS.md",
@@ -2514,7 +2519,7 @@
     "effectiveDescription": "Robô inteligente de atendimento via WhatsApp integrado a LLMs e mensageria UazAPI com esteira de avaliação e suporte.",
     "createdAt": "2026-08-23T11:52:21Z",
     "updatedAt": "2026-11-11T01:10:28Z",
-    "pushedAt": "2026-11-11T00:14:10Z",
+    "pushedAt": "2026-11-25T21:49:40Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
       "primaryLanguage": "PHP",
@@ -3130,20 +3135,20 @@
     "effectiveDescription": "Pega Cota",
     "createdAt": "2026-07-03T13:42:23Z",
     "updatedAt": "2026-08-31T22:02:59Z",
-    "pushedAt": "2026-11-24T22:11:04Z",
+    "pushedAt": "2026-11-25T21:48:03Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 526174,
-          "percentage": 97.2
+          "size": 558545,
+          "percentage": 97.3
         },
         {
           "name": "JavaScript",
           "size": 12737,
-          "percentage": 2.4
+          "percentage": 2.2
         },
         {
           "name": "CSS",
@@ -3153,7 +3158,7 @@
         {
           "name": "HTML",
           "size": 833,
-          "percentage": 0.2
+          "percentage": 0.1
         }
       ],
       "frameworks": [
@@ -3172,6 +3177,7 @@
       ],
       "tools": [],
       "keyDependencies": [
+        "@tanstack/react-query",
         "hono",
         "lucide-react",
         "motion",
@@ -3182,12 +3188,15 @@
         "@vitejs/plugin-react",
         "@cloudflare/workers-types",
         "esbuild",
-        "tailwindcss",
-        "tsx"
+        "tailwindcss"
       ],
       "rootFiles": [
         ".dev.vars.example",
+        ".github",
         ".gitignore",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "GEMINI.md",
         "README.md",
         "docs",
         "index.html",
@@ -3195,6 +3204,7 @@
         "migrations",
         "package-lock.json",
         "package.json",
+        "public",
         "scripts",
         "src",
         "tsconfig.json",
@@ -9009,7 +9019,7 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-24T22:35:46Z",
+    "pushedAt": "2026-11-25T08:50:37Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
@@ -9141,7 +9151,7 @@
     "effectiveDescription": "Plataforma web no Cloudflare Workers para acompanhamento de grupos de trabalho (GTs), subgrupos, entregas e reuniões.",
     "createdAt": "2026-11-05T15:50:08Z",
     "updatedAt": "2026-11-12T16:11:14Z",
-    "pushedAt": "2026-11-24T17:56:54Z",
+    "pushedAt": "2026-11-25T21:48:37Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "JavaScript",
@@ -9178,9 +9188,12 @@
         "wrangler"
       ],
       "rootFiles": [
+        ".github",
         ".gitignore",
         ".infisical.yaml",
         "AGENTS.md",
+        "CLAUDE.md",
+        "GEMINI.md",
         "PLANEJAMENTO.md",
         "README.md",
         "docs",
@@ -9206,25 +9219,25 @@
     "effectiveDescription": "Site Tuna Luso Brasileira",
     "createdAt": "2026-10-06T12:32:02Z",
     "updatedAt": "2026-10-31T20:17:27Z",
-    "pushedAt": "2026-11-24T17:55:14Z",
+    "pushedAt": "2026-11-25T21:48:57Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 626714,
-          "percentage": 84.7
+          "size": 641410,
+          "percentage": 85
         },
         {
           "name": "JavaScript",
           "size": 67488,
-          "percentage": 9.1
+          "percentage": 8.9
         },
         {
           "name": "Python",
           "size": 39600,
-          "percentage": 5.4
+          "percentage": 5.3
         },
         {
           "name": "HTML",
@@ -9267,8 +9280,11 @@
       ],
       "rootFiles": [
         ".dev.vars.example",
+        ".github",
         ".gitignore",
         "AGENTS.md",
+        "CLAUDE.md",
+        "GEMINI.md",
         "archive",
         "docs",
         "index.html",
@@ -9427,11 +9443,11 @@
     "isPrivate": true,
     "isFork": false,
     "description": "Estúdio portátil para planejar e montar vídeos do canal Átomo Quântico",
-    "readmeSummary": "Projeto portátil para planejar e montar vídeos do canal com o Codex. O repositório contém código, instruções, histórico editorial e os dois arquivos de identidade autorizados em `identidade/`; as demais mídias e os pr...",
+    "readmeSummary": "Projeto portátil para pesquisa, planejamento, montagem e registro editorial de vídeos, Shorts e Reels do canal **Átomo Quântico**. O repositório versiona código, instruções, histórico editorial e os dois arquivos de i...",
     "effectiveDescription": "Estúdio portátil para planejar e montar vídeos do canal Átomo Quântico",
     "createdAt": "2026-11-11T13:50:29Z",
     "updatedAt": "2026-11-12T11:53:38Z",
-    "pushedAt": "2026-11-24T23:35:22Z",
+    "pushedAt": "2026-11-25T21:30:11Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
       "primaryLanguage": "Python",
@@ -9449,15 +9465,16 @@
       "tools": [],
       "keyDependencies": [],
       "rootFiles": [
-        ".codex",
         ".gitignore",
         ".infisical.yaml",
         "AGENTS.md",
+        "GUIA-PRODUCAO.md",
         "README.md",
         "exemplos",
         "historico",
         "identidade",
-        "scripts"
+        "scripts",
+        "tests"
       ]
     }
   },
@@ -9702,29 +9719,29 @@
     "effectiveDescription": "",
     "createdAt": "2026-11-24T15:45:13Z",
     "updatedAt": "2026-11-24T16:17:46Z",
-    "pushedAt": "2026-11-24T16:17:40Z",
+    "pushedAt": "2026-11-25T11:41:46Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 332324,
+          "size": 472339,
           "percentage": 99.1
         },
         {
+          "name": "CSS",
+          "size": 1893,
+          "percentage": 0.4
+        },
+        {
           "name": "HTML",
-          "size": 1535,
-          "percentage": 0.5
+          "size": 1528,
+          "percentage": 0.3
         },
         {
           "name": "JavaScript",
           "size": 783,
-          "percentage": 0.2
-        },
-        {
-          "name": "CSS",
-          "size": 774,
           "percentage": 0.2
         }
       ],
@@ -9734,28 +9751,30 @@
       ],
       "libraries": [
         "Tailwind CSS",
-        "Lucide Icons"
+        "Lucide Icons",
+        "Framer Motion"
       ],
       "databases": [],
       "cloud": [],
       "tools": [],
       "keyDependencies": [
+        "framer-motion",
         "lucide-react",
         "react",
         "react-dom",
+        "recharts",
         "zod",
         "zustand",
         "@eslint/js",
         "@tailwindcss/vite",
         "@vitejs/plugin-react",
         "eslint-plugin-react-hooks",
-        "eslint-plugin-react-refresh",
-        "globals",
-        "tailwindcss"
+        "eslint-plugin-react-refresh"
       ],
       "rootFiles": [
         ".env.example",
         ".gitattributes",
+        "bun.lock",
         "docs",
         "eslint.config.js",
         "index.html",
@@ -9765,6 +9784,69 @@
         "src",
         "tsconfig.json",
         "vite.config.ts"
+      ]
+    }
+  },
+  {
+    "name": "Joao-Lourenco-Legado",
+    "url": "https://github.com/sandropeixoto/Joao-Lourenco-Legado",
+    "isPrivate": true,
+    "isFork": false,
+    "description": "Acervo legado de desenvolvimento mobile (2017-2021): Fuel Go, Fideliza Mais, BLH App, Cloud Functions, prototipos Adobe XD, keystores e documentacao.",
+    "readmeSummary": "Repositório privado de preservação do acervo histórico de desenvolvimento mobile, backend e web (2017–2021), reunindo aplicativos Flutter, backend Node.js/Express, Cloud Functions (Firebase), painel web React, protóti...",
+    "effectiveDescription": "Acervo legado de desenvolvimento mobile (2017-2021): Fuel Go, Fideliza Mais, BLH App, Cloud Functions, prototipos Adobe XD, keystores e documentacao.",
+    "createdAt": "2026-11-25T12:11:32Z",
+    "updatedAt": "2026-11-25T12:12:16Z",
+    "pushedAt": "2026-11-25T12:31:56Z",
+    "category": "Mobile & Multiplataforma",
+    "techStack": {
+      "primaryLanguage": "Dart",
+      "languages": [
+        {
+          "name": "Dart",
+          "size": 685664,
+          "percentage": 82.3
+        },
+        {
+          "name": "JavaScript",
+          "size": 125167,
+          "percentage": 15
+        },
+        {
+          "name": "Objective-C",
+          "size": 9720,
+          "percentage": 1.2
+        },
+        {
+          "name": "Java",
+          "size": 7301,
+          "percentage": 0.9
+        },
+        {
+          "name": "Swift",
+          "size": 3588,
+          "percentage": 0.4
+        },
+        {
+          "name": "Shell",
+          "size": 1898,
+          "percentage": 0.2
+        }
+      ],
+      "frameworks": [],
+      "libraries": [],
+      "databases": [],
+      "cloud": [],
+      "tools": [],
+      "keyDependencies": [],
+      "rootFiles": [
+        "AGENTS.md",
+        "DOCS",
+        "Flutter",
+        "Protótipos XD",
+        "README.md",
+        "keys",
+        "splash.png"
       ]
     }
   }
