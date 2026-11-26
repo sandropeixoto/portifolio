@@ -402,25 +402,30 @@
     "effectiveDescription": "Sistema automatizado de web scraping de anúncios da OLX com persistência MySQL/SQLite, alertas WhatsApp (UazAPI) e painel web.",
     "createdAt": "2026-05-21T11:32:22Z",
     "updatedAt": "2026-11-09T18:15:20Z",
-    "pushedAt": "2026-11-25T21:41:19Z",
+    "pushedAt": "2026-11-26T16:21:57Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 392906,
-          "percentage": 63.7
+          "size": 392503,
+          "percentage": 63.1
         },
         {
           "name": "Python",
           "size": 179364,
-          "percentage": 29.1
+          "percentage": 28.8
         },
         {
           "name": "TypeScript",
           "size": 38584,
-          "percentage": 6.3
+          "percentage": 6.2
+        },
+        {
+          "name": "Hack",
+          "size": 6990,
+          "percentage": 1.1
         },
         {
           "name": "CSS",
@@ -431,11 +436,6 @@
           "name": "Batchfile",
           "size": 1230,
           "percentage": 0.2
-        },
-        {
-          "name": "JavaScript",
-          "size": 591,
-          "percentage": 0.1
         }
       ],
       "frameworks": [],
@@ -593,7 +593,7 @@
     "effectiveDescription": "O Gestor de Pedidos (Fluxo Gestor) é uma solução enterprise completa para gestão operacional de vendas, acompanhamento visual de esteira de produção (Kanban), roteirização e despacho de entregas, inteligência de frete dinâmico duplo, automação de notificações via WhatsApp, força de vendas externa com portal de representantes comerciais.",
     "createdAt": "2026-08-04T16:30:41Z",
     "updatedAt": "2026-11-03T21:50:45Z",
-    "pushedAt": "2026-11-25T21:48:57Z",
+    "pushedAt": "2026-11-26T21:04:51Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "PHP",
@@ -1860,20 +1860,20 @@
     "effectiveDescription": "Portal de Doações",
     "createdAt": "2026-05-30T11:52:59Z",
     "updatedAt": "2026-11-09T13:39:46Z",
-    "pushedAt": "2026-11-26T08:32:41Z",
+    "pushedAt": "2026-11-26T08:44:47Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 1005826,
-          "percentage": 98.2
+          "size": 1017316,
+          "percentage": 97.8
         },
         {
           "name": "JavaScript",
-          "size": 13213,
-          "percentage": 1.3
+          "size": 17842,
+          "percentage": 1.7
         },
         {
           "name": "CSS",
@@ -4524,36 +4524,26 @@
     "readmeSummary": "O **CardFlow** é uma solução inteligente de gestão e otimização financeira focada em cartões de crédito. O objetivo principal do sistema é analisar de forma dinâmica os ciclos de faturamento (melhor dia de compra e di...",
     "effectiveDescription": "Gestão inteligente de cartões de crédito com foco em melhor dia de compra e alertas de vencimento.",
     "createdAt": "2026-02-11T00:45:46Z",
-    "updatedAt": "2026-07-21T19:10:55Z",
-    "pushedAt": "2026-07-21T19:07:50Z",
+    "updatedAt": "2026-11-26T10:29:25Z",
+    "pushedAt": "2026-11-26T09:29:19Z",
     "category": "Mobile & Multiplataforma",
     "techStack": {
-      "primaryLanguage": "JavaScript",
+      "primaryLanguage": "Dart",
       "languages": [
         {
-          "name": "JavaScript",
-          "size": 8627143,
-          "percentage": 95.8
-        },
-        {
-          "name": "Makefile",
-          "size": 231619,
-          "percentage": 2.6
-        },
-        {
           "name": "Dart",
-          "size": 137496,
-          "percentage": 1.5
+          "size": 133637,
+          "percentage": 96.9
         },
         {
           "name": "HTML",
-          "size": 5519,
-          "percentage": 0.1
+          "size": 2768,
+          "percentage": 2
         },
         {
           "name": "Nix",
           "size": 1543,
-          "percentage": 0
+          "percentage": 1.1
         }
       ],
       "frameworks": [
@@ -4564,23 +4554,24 @@
       "cloud": [
         "Firebase"
       ],
-      "tools": [],
+      "tools": [
+        "WhatsApp API"
+      ],
       "keyDependencies": [],
       "rootFiles": [
-        ".DS_Store",
-        ".dart_tool",
         ".firebaserc",
-        ".flutter-plugins-dependencies",
+        ".github",
         ".gitignore",
-        ".idea",
         ".idx",
         ".metadata",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "GEMINI.md",
         "README.md",
         "SUGGESTIONS.md",
         "analysis_options.yaml",
         "assets",
-        "build",
-        "card_flow.iml",
+        "docs",
         "firebase.json",
         "lib",
         "lista.txt",
@@ -4588,8 +4579,7 @@
         "pubspec.yaml",
         "uazapi-openapi-spec.yaml",
         "web"
-      ],
-      "devAssistance": []
+      ]
     }
   },
   {
@@ -9028,14 +9018,14 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-25T21:49:55Z",
+    "pushedAt": "2026-11-26T08:36:31Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 235852,
+          "size": 235946,
           "percentage": 76.9
         },
         {
