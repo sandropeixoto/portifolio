@@ -505,7 +505,7 @@
     "effectiveDescription": "UXI Research",
     "createdAt": "2026-06-09T13:50:20Z",
     "updatedAt": "2026-10-06T01:32:51Z",
-    "pushedAt": "2026-10-06T01:32:47Z",
+    "pushedAt": "2026-11-25T21:53:02Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
@@ -556,12 +556,16 @@
       ],
       "rootFiles": [
         ".dev.vars.example",
+        ".github",
         ".gitignore",
         "AGENTS.md",
+        "CLAUDE.md",
+        "GEMINI.md",
         "MIGRATION.md",
         "PERFORMANCE_PLAN.md",
         "README.md",
         "assets",
+        "docs",
         "index.html",
         "package-lock.json",
         "package.json",
@@ -1089,7 +1093,7 @@
     "effectiveDescription": "Este sistema foi desenvolvido para organizações que necessitam de uma solução modular, segura e integrada ao Portal GestorGov, com funcionalidades completas de gestão contratual, rastreamento de cronogramas de pagamento e controle de acesso baseado em papéis (RBAC).",
     "createdAt": "2026-03-16T14:51:08Z",
     "updatedAt": "2026-11-09T17:32:03Z",
-    "pushedAt": "2026-11-09T17:31:58Z",
+    "pushedAt": "2026-11-25T21:50:33Z",
     "category": "Sistemas de Gestão & Governança",
     "techStack": {
       "primaryLanguage": "JavaScript",
@@ -1856,24 +1860,29 @@
     "effectiveDescription": "Portal de Doações",
     "createdAt": "2026-05-30T11:52:59Z",
     "updatedAt": "2026-11-09T13:39:46Z",
-    "pushedAt": "2026-11-25T21:17:04Z",
+    "pushedAt": "2026-11-26T08:32:41Z",
     "category": "Aplicações Web & SaaS",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 1044229,
-          "percentage": 99.7
+          "size": 1005826,
+          "percentage": 98.2
+        },
+        {
+          "name": "JavaScript",
+          "size": 13213,
+          "percentage": 1.3
+        },
+        {
+          "name": "CSS",
+          "size": 2292,
+          "percentage": 0.2
         },
         {
           "name": "HTML",
           "size": 1385,
-          "percentage": 0.1
-        },
-        {
-          "name": "CSS",
-          "size": 1183,
           "percentage": 0.1
         },
         {
@@ -9019,20 +9028,20 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-25T08:50:37Z",
+    "pushedAt": "2026-11-25T21:49:55Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 234229,
-          "percentage": 76.8
+          "size": 235852,
+          "percentage": 76.9
         },
         {
           "name": "JavaScript",
           "size": 70916,
-          "percentage": 23.2
+          "percentage": 23.1
         }
       ],
       "frameworks": [],
@@ -9447,14 +9456,14 @@
     "effectiveDescription": "Estúdio portátil para planejar e montar vídeos do canal Átomo Quântico",
     "createdAt": "2026-11-11T13:50:29Z",
     "updatedAt": "2026-11-12T11:53:38Z",
-    "pushedAt": "2026-11-25T21:30:11Z",
+    "pushedAt": "2026-11-25T23:55:32Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
       "primaryLanguage": "Python",
       "languages": [
         {
           "name": "Python",
-          "size": 4922,
+          "size": 25689,
           "percentage": 100
         }
       ],
