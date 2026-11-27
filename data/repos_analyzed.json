@@ -4526,7 +4526,7 @@
     "effectiveDescription": "Gestão inteligente de cartões de crédito com foco em melhor dia de compra e alertas de vencimento.",
     "createdAt": "2026-02-11T00:45:46Z",
     "updatedAt": "2026-11-26T10:29:25Z",
-    "pushedAt": "2026-11-26T09:29:19Z",
+    "pushedAt": "2026-11-27T11:00:08Z",
     "category": "Mobile & Multiplataforma",
     "techStack": {
       "primaryLanguage": "Dart",
@@ -9019,14 +9019,14 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-26T21:43:01Z",
+    "pushedAt": "2026-11-27T08:48:04Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 235789,
+          "size": 235816,
           "percentage": 76.9
         },
         {
@@ -9219,15 +9219,15 @@
     "effectiveDescription": "Site Tuna Luso Brasileira",
     "createdAt": "2026-10-06T12:32:02Z",
     "updatedAt": "2026-10-31T20:17:27Z",
-    "pushedAt": "2026-11-25T21:48:57Z",
+    "pushedAt": "2026-11-27T15:24:50Z",
     "category": "Sites Institucionais & Portais",
     "techStack": {
       "primaryLanguage": "TypeScript",
       "languages": [
         {
           "name": "TypeScript",
-          "size": 641410,
-          "percentage": 85
+          "size": 648626,
+          "percentage": 85.2
         },
         {
           "name": "JavaScript",
@@ -9237,7 +9237,7 @@
         {
           "name": "Python",
           "size": 39600,
-          "percentage": 5.3
+          "percentage": 5.2
         },
         {
           "name": "HTML",
@@ -9447,7 +9447,7 @@
     "effectiveDescription": "Estúdio portátil para planejar e montar vídeos do canal Átomo Quântico",
     "createdAt": "2026-11-11T13:50:29Z",
     "updatedAt": "2026-11-12T11:53:38Z",
-    "pushedAt": "2026-11-25T23:55:32Z",
+    "pushedAt": "2026-11-27T20:35:06Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
       "primaryLanguage": "Python",
