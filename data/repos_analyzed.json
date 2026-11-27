@@ -402,40 +402,40 @@
     "effectiveDescription": "Sistema automatizado de web scraping de anúncios da OLX com persistência MySQL/SQLite, alertas WhatsApp (UazAPI) e painel web.",
     "createdAt": "2026-05-21T11:32:22Z",
     "updatedAt": "2026-11-09T18:15:20Z",
-    "pushedAt": "2026-11-26T16:21:57Z",
+    "pushedAt": "2026-11-27T02:45:05Z",
     "category": "Comunicação, Automação & Bots",
     "techStack": {
       "primaryLanguage": "PHP",
       "languages": [
         {
           "name": "PHP",
-          "size": 392503,
-          "percentage": 63.1
+          "size": 407096,
+          "percentage": 57.5
         },
         {
           "name": "Python",
-          "size": 179364,
-          "percentage": 28.8
+          "size": 249382,
+          "percentage": 35.2
         },
         {
           "name": "TypeScript",
           "size": 38584,
-          "percentage": 6.2
+          "percentage": 5.5
         },
         {
           "name": "Hack",
           "size": 6990,
-          "percentage": 1.1
+          "percentage": 1
         },
         {
           "name": "CSS",
           "size": 3651,
-          "percentage": 0.6
+          "percentage": 0.5
         },
         {
           "name": "Batchfile",
-          "size": 1230,
-          "percentage": 0.2
+          "size": 1817,
+          "percentage": 0.3
         }
       ],
       "frameworks": [],
@@ -486,6 +486,7 @@
         "run_capture_listing_preview.bat",
         "run_capture_manual.bat",
         "run_capture_watch_15min.bat",
+        "run_capture_watch_180s.bat",
         "run_retry_ai_pending.bat",
         "run_sync.bat",
         "scraper",
@@ -9018,14 +9019,14 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-26T08:36:31Z",
+    "pushedAt": "2026-11-26T21:43:01Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 235946,
+          "size": 235789,
           "percentage": 76.9
         },
         {
