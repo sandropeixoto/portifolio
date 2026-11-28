@@ -9019,14 +9019,14 @@
     "effectiveDescription": "Mapa mental e portfólio de repositórios do ecossistema GitHub - Sandro Peixoto",
     "createdAt": "2026-09-30T13:02:28Z",
     "updatedAt": "2026-11-12T15:46:40Z",
-    "pushedAt": "2026-11-27T08:48:04Z",
+    "pushedAt": "2026-11-27T21:27:30Z",
     "category": "Outros Projetos",
     "techStack": {
       "primaryLanguage": "HTML",
       "languages": [
         {
           "name": "HTML",
-          "size": 235816,
+          "size": 235818,
           "percentage": 76.9
         },
         {
@@ -9447,14 +9447,14 @@
     "effectiveDescription": "Estúdio portátil para planejar e montar vídeos do canal Átomo Quântico",
     "createdAt": "2026-11-11T13:50:29Z",
     "updatedAt": "2026-11-12T11:53:38Z",
-    "pushedAt": "2026-11-27T20:35:06Z",
+    "pushedAt": "2026-11-28T02:59:26Z",
     "category": "Backends, APIs & Serviços",
     "techStack": {
       "primaryLanguage": "Python",
       "languages": [
         {
           "name": "Python",
-          "size": 25689,
+          "size": 37422,
           "percentage": 100
         }
       ],
@@ -9468,6 +9468,7 @@
         ".gitignore",
         ".infisical.yaml",
         "AGENTS.md",
+        "CADERNO-IDEIAS.md",
         "GUIA-PRODUCAO.md",
         "README.md",
         "exemplos",
